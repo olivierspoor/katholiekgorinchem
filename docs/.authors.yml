@@ -27,3 +27,10 @@ authors:
     avatar: ../../../assets/authors/redactie_icon.png
     # slug: url           # Author profile slug
     # url: url            # Author website URL
+
+  vdakker:
+    name: Yvonne van den Akker-Savelsbergh
+    description: Parochiaan
+    avatar: ../../../assets/authors/redactie_icon.png
+    # slug: url           # Author profile slug
+    # url: url            # Author website URL
