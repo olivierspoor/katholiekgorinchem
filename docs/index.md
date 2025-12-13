@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; url=/berichten/" />
+<meta http-equiv="refresh" content="0; url=/berichten/index.html" />
