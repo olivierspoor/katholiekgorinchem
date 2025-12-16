@@ -1,6 +1,14 @@
+p {
+  font-size: 0.9em;
+}
+
 div {
   text-align: justify;
   text-justify: inter-word;
+}
+
+.md-profile__description {
+  text-align: start;
 }
 
 nav {
