@@ -3,7 +3,6 @@ draft: false
 date: 2025-12-07
 categories:
   - Uit het bisdom
-  - Aankondigingen
 authors:
   - bestuur
 hide:

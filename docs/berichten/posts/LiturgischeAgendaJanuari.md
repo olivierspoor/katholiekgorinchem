@@ -4,7 +4,6 @@ date: 2025-12-19
 pin: false
 categories:
   - Van het parochiebestuur
-  - Aankondigingen
 authors:
   - bestuur
 hide:
