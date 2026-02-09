@@ -23,6 +23,7 @@ use_directory_urls: false
 nav:
   - Berichten:
     - berichten/index.md
+  - Liturgische Agenda: liturgischeagenda.md
   - Artikelen:
     - artikelen/index.md
   - In Memoriam: inmemoriam.md
