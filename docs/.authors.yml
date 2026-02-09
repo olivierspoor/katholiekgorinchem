@@ -34,3 +34,10 @@ authors:
     avatar: https://katholiekgorinchem.nl/assets/authors/yvonne.jpeg
     # slug: url           # Author profile slug
     # url: url            # Author website URL
+
+  bisdom:
+    name: Bisdom Rotterdam
+    description: De Kerk van Rotterdam is een netwerk van liefde tot opbouw van een beschaving van liefde. Het bisdom wordt geleid door bisschop Van den Hende
+    avatar: https://katholiekgorinchem.nl/assets/authors/bisdomrotterdam.jpg
+    # slug: url           # Author profile slug
+    # url: url            # Author website URL
