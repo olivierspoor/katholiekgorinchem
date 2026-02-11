@@ -1,5 +1,5 @@
 site_name: HH. Martelaren van Gorcum
-theme: 
+theme:
   name: material
   language: nl
   palette:
@@ -7,12 +7,12 @@ theme:
     accent: red
   features:
     - navigation.tabs
-  #   - toc.integrate 
+  #   - toc.integrate
     - navigation.footer
   font:
     text: Roboto
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: assets/martelarenlogo.png
+  favicon: assets/martelarenlogo.png
   icon:
     admonition:
       note: fontawesome/solid/music
@@ -21,6 +21,8 @@ site_url: ""
 use_directory_urls: false
 
 nav:
+  - Home: index.md
+
   - Berichten:
     - berichten/index.md
   - Liturgische Agenda: liturgischeagenda.md
@@ -45,6 +47,9 @@ copyright: Parochie van de Heilige Martelaren van Gorcum â€¢ Wijnkoperstraat 4 â
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/custom.js
 
 markdown_extensions:
   - pymdownx.caret
