@@ -117,32 +117,29 @@ const seasonRanges = [
 
 
 // Determine today's season
-function parseDateLocal(dateString) {
-  const [y,m,d] = dateString.split("-");
-  return new Date(y, m-1, d);
-}
-
 function getTodaySeason() {
   const today = new Date();
-  today.setHours(0,0,0,0);
-
-  console.log("📅 Vandaag:", formatDate(today));
+  console.log("[Season] Today:", today.toISOString());
 
   for (const range of seasonRanges) {
-    const start = parseDateLocal(range.start);
-    const end = parseDateLocal(range.end);
+    const start = new Date(range.start);
+    const end = new Date(range.end);
+
+    console.log(
+      `[Season] Checking range ${range.season}:`,
+      "start =", start.toISOString(),
+      "end =", end.toISOString()
+    );
 
     if (today >= start && today <= end) {
-      console.log(`🕊️ Liturgisch seizoen: ${range.season}`);
-      console.log(`📆 Periode: ${range.start} → ${range.end}`);
+      console.log(`[Season] Match found: ${range.season}`);
       return range.season;
     }
   }
 
-  console.warn("⚠️ Geen liturgisch seizoen gevonden voor vandaag");
+  console.log("[Season] No matching season found");
   return null;
 }
-
 
 
 // Set colors automatically
