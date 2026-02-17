@@ -11,47 +11,55 @@ hide:
 <div id="latest-posts">Loading...</div>
 
 <script>
-fetch('berichten/index.html')
-  .then(response => response.text())
-  .then(html => {
+(async function() {
+  try {
+    const resp = await fetch('berichten/index.html');
+    const html = await resp.text();
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, 'text/html');
-    
-    // Get all posts
-    const posts = Array.from(doc.querySelectorAll('.md-post')).slice(0, 3); // first 3 posts
-    
-    if (posts.length > 0) {
-      const container = document.getElementById('latest-posts');
-      container.innerHTML = ''; // clear loading
-      
-      posts.forEach(post => {
-        const titleLink = post.querySelector('h2 a') || post.querySelector('.md-post__title a');
-        const excerpt = post.querySelector('.md-post__excerpt') || post.querySelector('p');
-        const excerptText = excerpt ? excerpt.textContent.substring(0, 150) + '...' : '';
-        
-        if (titleLink) {
-          container.innerHTML += `
-            <a href="/berichten/${titleLink.getAttribute('href')}" class="latest-post-link" style="display: block; text-decoration: none; color: inherit; margin-bottom: 1.5rem;">
-              <h3>${titleLink.textContent}</h3>
-              <p>${excerptText}</p>
-              <p class="button"><strong>Lees verder →</strong></p>
-            </a>
-          `;
-        }
-      });
-    } else {
-      document.getElementById('latest-posts').innerHTML = '<p>Geen berichten gevonden</p>';
+
+    // Pak de eerste 3 artikelen in de volgorde zoals op berichten/index.html
+    const posts = Array.from(doc.querySelectorAll('article.md-post')).slice(0, 3);
+    const container = document.getElementById('latest-posts');
+    if (!container) return;
+    container.innerHTML = '';
+
+    if (posts.length === 0) {
+      container.textContent = 'Geen berichten gevonden';
+      return;
     }
-  })
-  .catch(err => {
-    document.getElementById('latest-posts').innerHTML = '<p>Fout bij laden berichten</p>';
+
+    posts.forEach(post => {
+      // Clone de volledige article node zodat titel, image en meta behouden blijven
+      const cloned = post.cloneNode(true);
+
+      // Pas relatieve links aan zodat ze naar /berichten/<slug>.html wijzen
+      cloned.querySelectorAll('a').forEach(a => {
+        const href = a.getAttribute('href') || '';
+        // Laat absolute links, anchor-links en mailto/ tel door
+        if (/^(https?:|mailto:|tel:|#)/i.test(href)) return;
+        // Als het al begint met /berichten laat het zoals het is
+        if (href.startsWith('/berichten')) return;
+        // Normaliseer en prefix naar /berichten/
+        const clean = href.replace(/^\.?\/+/, '');
+        a.setAttribute('href', '/berichten/' + clean);
+      });
+
+      // Verwijder eventuele scripts uit de gekloonde inhoud, voor de veiligheid
+      cloned.querySelectorAll('script').forEach(s => s.remove());
+
+      // Voeg de gekloonde article toe aan de container
+      container.appendChild(cloned);
+    });
+  } catch (err) {
     console.error(err);
-  });
+    const container = document.getElementById('latest-posts');
+    if (container) container.textContent = 'Fout bij laden berichten';
+  }
+})();
 </script>
 
-
-[Alle berichten](berichten/index.md)
-
+<a href="/berichten/index.html" class="button" >Alle berichten</a>
 ---
 
 ## Over ons
@@ -59,6 +67,6 @@ fetch('berichten/index.html')
 <p style="text-align: justify;">De parochie van Gorinchem heeft de <a href="/artikelen/de-martelaren-van-gorcum.html">Heilige Martelaren van Gorcum</a> als patronen. Zij vormt met de parochie de <a href="http://heiligedrieeenheid.eu" target="_blank" rel="noopener">Heilige Drie-eenheid</a> de federatie het <a href="/overons.html#het-driestromenland">Driestromenland</a>. Beide parochies behoren tot het <a href="https://www.bisdomrotterdam.nl/">bisdom Rotterdam</a>.</p>
 <span class="divider"></span>
 <p>De parochie wil de missie tot uitvoer brengen. In woord en daad wil zij Christus verkondigen in deze maatschappij. Het is en blijft de droom van de Kerk dat steeds meer mensen Christus leren kennen als fundament in hun leven. Het ideaal van het pastoraal team is dat parochies gelovige, liefdevolle en geëngageerde gemeenschappen zijn.</p>
-    <p><a href="overons.html" class="button">Lees verder →</a></p>
+    <p><a href="overons.html" class="button">Doorgaan met lezen →</a></p>
 
 </div>
