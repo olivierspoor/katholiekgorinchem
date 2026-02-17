@@ -3,6 +3,7 @@ title: Home
 hide:
   - navigation
   - footer
+  - toc
 ---
 # Welkom bij de parochie van de Heilige Martelaren van Gorcum
 
