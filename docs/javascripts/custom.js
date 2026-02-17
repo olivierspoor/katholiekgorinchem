@@ -126,16 +126,23 @@ function getTodaySeason() {
   const today = new Date();
   today.setHours(0,0,0,0);
 
+  console.log("📅 Vandaag:", formatDate(today));
+
   for (const range of seasonRanges) {
     const start = parseDateLocal(range.start);
     const end = parseDateLocal(range.end);
 
     if (today >= start && today <= end) {
+      console.log(`🕊️ Liturgisch seizoen: ${range.season}`);
+      console.log(`📆 Periode: ${range.start} → ${range.end}`);
       return range.season;
     }
   }
+
+  console.warn("⚠️ Geen liturgisch seizoen gevonden voor vandaag");
   return null;
 }
+
 
 
 // Set colors automatically
