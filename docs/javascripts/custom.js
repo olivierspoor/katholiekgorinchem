@@ -124,6 +124,7 @@ function getTodaySeason() {
   for (const range of seasonRanges) {
     const start = new Date(range.start);
     const end = new Date(range.end);
+    end.setHours(23, 59, 59, 999);
 
     console.log(
       `[Season] Checking range ${range.season}:`,
