@@ -175,6 +175,7 @@ li.md-meta__item{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   pointer-events: none; /* Keeps it as info only; remove this if you want it clickable */
   text-align: center; /* This is usually best for badges/buttons */
+  margin: 4px;
 }
 
 .grid-sections {
