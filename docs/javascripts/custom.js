@@ -23,9 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
 function setLiturgicalColors(season) {
   const colors = liturgicalColors[season];
   if (!colors) return;
-  document.body.style.setProperty('--primary-color', colors.primary);
-  document.body.style.setProperty('--secondary-color', colors.secondary);
-  document.body.style.setProperty('--text-color', colors.text);
+document.documentElement.style.setProperty('--primary-color', colors.primary);
+document.documentElement.style.setProperty('--secondary-color', colors.secondary);
+document.documentElement.style.setProperty('--text-color', colors.text);
 }
 
 // Your colors map
