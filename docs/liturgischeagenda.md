@@ -18,7 +18,7 @@ Feest  | Datum                  | Tijd   |
 Aswoensdag  | woensdag 18 februari        | 19u00  | 
 Palmzondag | zondag 29 maart | 11u00 |
 Kruisweg (Goede vrijdag) | vrijdag 3 april | 15u00 |
-Kruisverering (Goede vrijdag) | vrijdag 3 april | 119u00 |
+Kruisverering (Goede vrijdag) | vrijdag 3 april | 19u00 |
 Paaswake | zaterdag 4 april | 21u00 |
 Paaszondag | zondag 5 april | 11u00 |
 
