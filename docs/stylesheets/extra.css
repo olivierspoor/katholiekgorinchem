@@ -16,6 +16,9 @@
 .md-header {
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
 }
+.md-nav__title{
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
 .md-tabs {
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
 }
@@ -175,6 +178,7 @@ span.blockspam {
     display: -webkit-inline-box;
   }
 }
+
 .koren-card {
   padding: 1.2rem;
   border-radius: 12px;
