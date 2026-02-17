@@ -9,57 +9,62 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  function updateNextMass() {
-    const display = document.getElementById('hero-badge-container');
+    function updateNextMass() {
+        // 1. Try to find the element
+        const display = document.getElementById('next-mass-display');
 
-    if (!display) {
-        return;
-    }
+        // 2. THE GUARD: If 'display' is null, stop the script immediately
+        if (!display) {
+            return;
+        }
+        const now = new Date();
 
-    const now = new Date();
+        // --- 1. SPECIAL OVERRIDES ---
+        // We add an 'hour' property so the script knows when to "expire" the notice.
+        const specialMasses = {
+            // '2026-02-17': { text: 'vandaag (dinsdag) om 20:00', hour: 21 }, // Expire at 20:00
+            '2026-02-18': { text: 'Eerstvolgende mis: Aswoensdag: Eucharistieviering om 19:00', hour: 11 },
+        };
 
-    const specialMasses = {
-        // NOTE: Changed 'hour' to 20 so it shows until 8:00 PM on Wednesday!
-        '2026-02-18': { text: 'Eerstvolgende mis: Aswoensdag: Eucharistieviering om 19:00', hour: 20 },
-    };
+        let foundMass = "";
 
-    let foundMass = "";
+        // --- 2. THE SCANNER (Check next 7 days) ---
+        for (let i = 0; i < 7; i++) {
+            let checkDate = new Date(now);
+            checkDate.setDate(now.getDate() + i);
 
-    for (let i = 0; i < 7; i++) {
-        let checkDate = new Date(now);
-        checkDate.setDate(now.getDate() + i);
+            const dateKey = checkDate.toISOString().split('T')[0];
+            const dayOfWeek = checkDate.getDay();
+            const isToday = (i === 0);
 
-        const dateKey = checkDate.toISOString().split('T')[0];
-        const dayOfWeek = checkDate.getDay();
-        const isToday = (i === 0);
+            // A. CHECK SPECIAL DATES FIRST
+            if (specialMasses[dateKey]) {
+                const special = specialMasses[dateKey];
+                // If it's today, only show it if the "expiry hour" hasn't passed yet
+                if (!isToday || (isToday && now.getHours() < special.hour)) {
+                    foundMass = special.text;
+                    break;
+                }
+            }
 
-        if (specialMasses[dateKey]) {
-            const special = specialMasses[dateKey];
-            if (!isToday || (isToday && now.getHours() < special.hour)) {
-                foundMass = special.text;
-                break;
+            // B. CHECK REGULAR WEDNESDAY
+            if (dayOfWeek === 3) {
+                if (!isToday || (isToday && now.getHours() < 11)) {
+                    foundMass = "woensdag om 10:00";
+                    break;
+                }
+            }
+
+            // C. CHECK REGULAR SUNDAY
+            if (dayOfWeek === 0) {
+                if (!isToday || (isToday && now.getHours() < 12)) {
+                    foundMass = "zondag om 11:00";
+                    break;
+                }
             }
         }
-
-        if (dayOfWeek === 3) {
-            if (!isToday || (isToday && now.getHours() < 11)) {
-                foundMass = "Eerstvolgende mis: woensdag om 10:00";
-                break;
-            }
-        }
-
-        if (dayOfWeek === 0) {
-            if (!isToday || (isToday && now.getHours() < 12)) {
-                foundMass = "Eerstvolgende mis: zondag om 11:00";
-                break;
-            }
-        }
-    }
-
     display.innerText = foundMass;
   }
-
-  // This must be INSIDE the DOMContentLoaded block
   updateNextMass();
 });
 
