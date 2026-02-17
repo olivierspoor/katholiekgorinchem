@@ -117,17 +117,26 @@ const seasonRanges = [
 
 
 // Determine today's season
+function parseDateLocal(dateString) {
+  const [y,m,d] = dateString.split("-");
+  return new Date(y, m-1, d);
+}
+
 function getTodaySeason() {
   const today = new Date();
+  today.setHours(0,0,0,0);
+
   for (const range of seasonRanges) {
-    const start = new Date(range.start);
-    const end = new Date(range.end);
+    const start = parseDateLocal(range.start);
+    const end = parseDateLocal(range.end);
+
     if (today >= start && today <= end) {
       return range.season;
     }
   }
   return null;
 }
+
 
 // Set colors automatically
 const todaySeason = getTodaySeason();
