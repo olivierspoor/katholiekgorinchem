@@ -31,8 +31,12 @@
 
 p {
   font-size: 0.9em;
+  text-align: left;
 }
+span{
+  text-align: left;
 
+}
 div {
   text-align: justify;
   text-justify: inter-word;
@@ -120,6 +124,7 @@ li.md-meta__item{
   color: var(--text-color)!important;
   padding: 10px 20px;
   border-radius: 8px;
+  font-size: 15px;
   text-decoration: none;
   transition: background-color 0.3s;
 }
@@ -131,14 +136,45 @@ li.md-meta__item{
   background-color: var(--secondary-color);
 }
 
-#welkom-bij-de-parochie-van-de-heilige-martelaren-van-gorcum {
+.hero-banner {
+  /* Background styling */
   background-image: url('/assets/banner/winter.jpeg');
   background-size: cover;
   background-position: center;
-  padding: 155px 20px;
   border-radius: 12px;
-  color: white;
+
+  /* Layout styling */
+  position: relative; /* This "anchors" the button inside this box */
+  padding: 155px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-title {
+  margin: 0;
+  color: white!important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: 2.5rem; /* Adjust as needed */
+}
+
+.hero-badge {
+  /* Positioning it in the bottom right */
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+  /* Making it look like a button/badge */
+  background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+  color: #333;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  pointer-events: none; /* Keeps it as info only; remove this if you want it clickable */
+  text-align: center; /* This is usually best for badges/buttons */
 }
 
 .grid-sections {
@@ -150,6 +186,12 @@ li.md-meta__item{
 @media (max-width: 768px) {
   .grid-sections {
     grid-template-columns: 1fr;
+  }
+  .hero-badge {
+  right: unset;
+  }
+  .hero-banner {
+    padding: 95px 20px;
   }
 }
 .grid-item {

@@ -5,7 +5,13 @@ hide:
   - footer
   - toc
 ---
-# Welkom bij de parochie van de Heilige Martelaren van Gorcum
+<div class="hero-banner">
+  <h1 class="hero-title">Welkom bij de parochie van de Heilige Martelaren van Gorcum</h1>
+  
+  <div class="hero-badge">
+    <span id="next-mass-display">...laden...</span>
+  </div>
+</div>
 
 ## Laatste berichten
 <div id="latest-posts">Loading...</div>
