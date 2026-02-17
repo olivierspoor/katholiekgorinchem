@@ -206,8 +206,8 @@ span.blockspam {
   border-bottom: none;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .desktop-spacer {
     display: none;
   }
-}
+} */
