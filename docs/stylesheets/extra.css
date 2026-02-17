@@ -78,7 +78,7 @@ span.blockspam {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.md-typeset ul {
+li.md-meta__item{
   list-style-type: none;
 }
 .divider {
