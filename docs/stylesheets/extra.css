@@ -185,6 +185,11 @@ span.blockspam {
   background: var(--md-default-bg-color);
   box-shadow: var(--md-shadow-z2);
 }
+@media screen and (max-width: 768px) {
+  .koren-card {
+    padding: 0.6rem;
+  }
+}
 .koren-card h3 {
   margin-top: 0;
 }
