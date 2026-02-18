@@ -17,7 +17,7 @@ theme:
     admonition:
       note: fontawesome/solid/music
 
-site_url: ""
+site_url: "https://katholiekgorinchem.nl"
 use_directory_urls: false
 
 nav:
