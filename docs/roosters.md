@@ -7,53 +7,164 @@ hide:
 
 # Roosters
 
-Datum | Bijzonderheden | Lectoren | Misdienaars | Kosters | Koor | Koffie & Thee
-------|----------------|----------|-------------|---------|------|---------------
-zondag 1 maart||||||
-zondag 8 maart|||||Tutti|
-zondag 15 maart||||||
-zondag 22 maart||||||
-zondag 29 maart|||||Intermezzo|
-vrijdag 3 april|||||Tutti|
-zaterdag 4 april|||||Intermezzo|
-zondag 5 april|||||Tutti|
-zondag 12 april||||||
-zondag 19 april||||||
-zondag 26 april||||||
-zondag 3 mei||||||
-zondag 10 mei|||||Tutti|
-zondag 17 mei||||||
-zondag 24 mei|||||Intermezzo|
-zondag 31 mei||||||
-zondag 7 juni||||||
-zondag 14 juni|||||Tutti|
-zondag 21 juni||||||
-zondag 28 juni|||||Intermezzo|
-zondag 5 juli|||||Tutti|
-zondag 12 juli||||||
-zondag 19 juli||||||
-zondag 26 juli||||||
-zondag 2 augustus||||||
-zondag 9 augustus||||||
-zondag 16 augustus||||||
-zondag 23 augustus||||||
-zondag 30 augustus||||||
-zondag 6 september||||||
-zondag 13 september|||||Tutti|
-zondag 20 september||||||
-zondag 27 september|||||Intermezzo|
-zondag 4 oktober||||||
-zondag 11 oktober|||||Tutti|
-zondag 18 oktober||||||
-zondag 25 oktober|||||Intermezzo|
-zondag 1 november||||||
-zondag 8 november|||||Tutti|
-zondag 15 november||||||
-zondag 22 november|||||Intermezzo|
-zondag 29 november||||||
-zondag 6 december||||||
-zondag 13 december|||||Tutti|
-zondag 20 december||||||
-donderdag 24 december|||||Intermezzo|
-vrijdag 25 december|||||Tutti|
-zondag 27 december||||||
+<div class="schedule-board">
+
+  <!-- MARCH -->
+  <div class="schedule-month">
+    <h2 class="month-title">Maart 2026</h2>
+
+    <div class="schedule-table">
+
+      <div class="schedule-row schedule-head">
+        <div>Datum</div>
+        <div>Bijzonderheden</div>
+        <div>Lectoren</div>
+        <div>Misdienaars</div>
+        <div>Kosters</div>
+        <div>Koor</div>
+        <div>Koffie & Thee</div>
+      </div>
+
+      <div class="schedule-row purple">
+        <div>zondag 1 maart 2026 <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren">K. Orfaly</div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row purple" data-date="2026-03-08">
+        <div>zondag 8 maart 2026 <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren">H.Klaver</div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Koor">Tutti</div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row rose" data-date="2026-03-15">
+        <div>Zondag 15 maart <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren">A. Bakker</div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Koor">Tutti</div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row purple" data-date="2026-03-22">
+        <div>Zondag 22 maart <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren">H.Gruiters</div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row red" data-date="2026-03-29">
+        <div>Zondag 29 maart <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Palmzondag</div>
+        <div data-label="Lectoren">H.Klaver</div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Koor">Intermezzo</div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- APRIL -->
+  <div class="schedule-month">
+    <h2 class="month-title">April 2026</h2>
+
+    <div class="schedule-table">
+
+      <div class="schedule-row schedule-head">
+        <div>Datum</div>
+        <div>Bijzonderheden</div>
+        <div>Lectoren</div>
+        <div>Misdienaars</div>
+        <div>Kosters</div>
+        <div>Koor</div>
+        <div>Koffie & Thee</div>
+      </div>
+
+      <div class="schedule-row red" data-date="2026-04-03">
+        <div>Vrijdag 3 april <span class='desktop-break'></span>15:00</div>
+        <div data-label="Bijzonderheden">Kruisweg<br>(Goede vrijdag)</div>
+        <div data-label="Lectoren"></div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row red" data-date="2026-04-03">
+        <div>Vrijdag 3 april <span class='desktop-break'></span>19:00</div>
+        <div data-label="Bijzonderheden">Kruisverering<br>(Goede vrijdag)</div>
+        <div data-label="Lectoren">H. Gruiters</div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Koor">Tutti</div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row white" data-date="2026-04-04">
+        <div>Zaterdag 4 april <span class='desktop-break'></span>21:00</div>
+        <div data-label="Bijzonderheden">Paaswake<br>Bisschop Van den Hende</div>
+        <div data-label="Lectoren"></div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Koor">Intermezzo</div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row white" data-date="2026-04-05">
+        <div>Zondag 5 april <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Paaszondag</div>
+        <div data-label="Lectoren">A. Bakker</div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Koor">Tutti</div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row white" data-date="2026-04-12">
+        <div>Zondag 12 april <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren">H. Klaver</div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row white" data-date="2026-04-19">
+        <div>Zondag 19 april <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren">A. Bakker</div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row white" data-date="2026-04-26">
+        <div>Zondag 26 april <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren">H. Gruiters</div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+    </div>
+  </div>
+
+</div>

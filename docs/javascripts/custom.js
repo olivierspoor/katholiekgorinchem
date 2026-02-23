@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const specialMasses = {
             // FIXED: Changed hour to 20 (8 PM) so it doesn't expire at 11:00 AM
-            '2026-02-18': { text: 'Eerstvolgende mis: Aswoensdag: Eucharistieviering om 19:00', hour: 20 },
+            '2026-02-18': { text: "Eerstvolgende mis: Aswoensdag:<span class='mobile-break'></span>Eucharistieviering om 19:00", hour: 20 },
         };
 
         let foundMass = "";
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // B. CHECK REGULAR WEDNESDAY
             if (dayOfWeek === 3) {
                 if (!isToday || (isToday && now.getHours() < 11)) {
-                    foundMass = "Eerstvolgende mis: woensdag om 10:00";
+                    foundMass = "Eerstvolgende mis:<span class='mobile-break'></span>woensdag om 10:00";
                     console.log("  - Found Regular Wednesday. Status: ACTIVE");
                     break;
                 }
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // C. CHECK REGULAR SUNDAY
             if (dayOfWeek === 0) {
                 if (!isToday || (isToday && now.getHours() < 12)) {
-                    foundMass = "Eerstvolgende mis: zondag om 11:00";
+                    foundMass = "Eerstvolgende mis:<span class='mobile-break'></span>zondag om 11:00";
                     console.log("  - Found Regular Sunday. Status: ACTIVE");
                     break;
                 }
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (foundMass) {
-            display.innerText = foundMass;
+            display.innerHTML = foundMass;
         } else {
             console.log("No upcoming mass found in the next 7 days.");
         }

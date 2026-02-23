@@ -53,7 +53,24 @@ nav {
 .md-nav--primary .md-nav__title .md-nav__icon::after {
   display: none !important;
 }
+/* On desktop, the span does nothing */
+.mobile-break {
+    display: inline;
+}
 
+/* On mobile (screens under 600px wide) */
+@media screen and (max-width: 600px) {
+    .mobile-break::before {
+        content: "\A"; /* This creates a line break */
+        white-space: pre;
+    }
+}
+@media screen and (min-width: 600px) {
+    .desktop-break::before {
+        content: "\A"; /* This creates a line break */
+        white-space: pre;
+    }
+}
 .md-ellipsis {
   text-align: start;
 }
@@ -75,7 +92,7 @@ span.blockspam {
 }
 
 .homepage-intro {
-  background-color: #c7c7c7;
+  background-color: #EAE2DF;
   border-radius: 12px;
   padding: 20px;
   margin: 20px 0;
@@ -254,3 +271,97 @@ li.md-meta__item{
     display: none;
   }
 } */
+
+.schedule-board {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: sans-serif;
+}
+
+.schedule-month {
+  margin-bottom: 40px;
+}
+
+.month-title {
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.schedule-table {
+  background: transparent; /* Changed to transparent for card spacing */
+}
+
+/* DESKTOP STYLES */
+.schedule-row {
+  display: grid;
+  grid-template-columns: 1.6fr 1.6fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 14px 18px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+  font-size: 14px;
+}
+
+.schedule-head {
+  background: #f5f5f5;
+  font-weight: 600;
+  font-size: 13px;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* COLOR ACCENTS */
+.schedule-row.purple { background: #f7f3ff; border-left: 4px solid #5A2A82; }
+.schedule-row.green  { background: #f1f8f2; border-left: 4px solid #2E7D32; }
+.schedule-row.red    { background: #ffe5e8; border-left: 4px solid #B11226; }
+.schedule-row.rose   { background: #fff4f6; border-left: 4px solid #C97B84; }
+.schedule-row.white  { background: #f7f7f7; border-left: 4px solid #CCCCCC; }
+/* MOBILE STYLES (MATCHING YOUR IMAGE) */
+@media (max-width: 768px) {
+  .schedule-head {
+    display: none!important; /* Hide the header row on mobile */
+  }
+
+  .schedule-row {
+    display: block; /* Stack everything vertically */
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /* The first div (The Date) becomes the header of the card */
+  .schedule-row div:first-child {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    color: #2E7D32; /* Default green, can be overridden */
+  }
+
+  /* Specific date colors based on the row class */
+  .schedule-row.purple div:first-child { color: #5A2A82; }
+  .schedule-row.red div:first-child    { color: #B11226; }
+  .schedule-row.rose div:first-child   { color: #C97B84; }
+  .schedule-row.green div:first-child { color: #2D6A4F; }
+
+  /* All other divs (the data) need labels */
+  .schedule-row div:not(:first-child) {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px 15px;
+    border-bottom: none;
+  }
+
+  /* Create the labels using Pseudo-elements */
+  .schedule-row div:not(:first-child)::before {
+    content: attr(data-label); /* Pulls text from HTML data-label */
+    font-weight: 600;
+    color: #666;
+    width: 130px; /* Fixed width for the "Label" column */
+    flex-shrink: 0;
+  }
