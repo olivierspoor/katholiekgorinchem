@@ -31,8 +31,9 @@ hide:
         <div data-label="Lectoren">K. Orfaly</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
         <div data-label="Koor"></div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Geen</div>
       </div>
 
       <div class="schedule-row purple" data-date="2026-03-08">
@@ -40,7 +41,8 @@ hide:
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H.Klaver</div>
         <div data-label="Misdienaars"></div>
-        <div data-label="Kosters"></div>
+        <div data-label="Kosters"></div>       
+        <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
         <div data-label="Koor">Tutti</div>
         <div data-label="Koffie & Thee"></div>
       </div>
@@ -51,8 +53,9 @@ hide:
         <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters"></div>
-        <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Rose</div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee">Geen</div>
       </div>
 
       <div class="schedule-row purple" data-date="2026-03-22">
@@ -61,6 +64,7 @@ hide:
         <div data-label="Lectoren">H.Gruiters</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
         <div data-label="Koor"></div>
         <div data-label="Koffie & Thee"></div>
       </div>
@@ -71,8 +75,9 @@ hide:
         <div data-label="Lectoren">H.Klaver</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
         <div data-label="Koor">Intermezzo</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Geen</div>
       </div>
 
     </div>
@@ -100,8 +105,9 @@ hide:
         <div data-label="Lectoren"></div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
         <div data-label="Koor"></div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Geen</div>
       </div>
 
       <div class="schedule-row red" data-date="2026-04-03">
@@ -109,9 +115,10 @@ hide:
         <div data-label="Bijzonderheden">Kruisverering<br>(Goede vrijdag)</div>
         <div data-label="Lectoren">H. Gruiters</div>
         <div data-label="Misdienaars"></div>
-        <div data-label="Kosters"></div>
+        <div data-label="Kosters"></div>        
+        <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
         <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Geen</div>
       </div>
 
       <div class="schedule-row white" data-date="2026-04-04">
@@ -120,8 +127,9 @@ hide:
         <div data-label="Lectoren"></div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">Intermezzo</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Geen</div>
       </div>
 
       <div class="schedule-row white" data-date="2026-04-05">
@@ -129,9 +137,10 @@ hide:
         <div data-label="Bijzonderheden">Paaszondag</div>
         <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars"></div>
-        <div data-label="Kosters"></div>
+        <div data-label="Kosters"></div>        
+        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Geen</div>
       </div>
 
       <div class="schedule-row white" data-date="2026-04-12">
@@ -140,6 +149,7 @@ hide:
         <div data-label="Lectoren">H. Klaver</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor"></div>
         <div data-label="Koffie & Thee"></div>
       </div>
@@ -149,9 +159,10 @@ hide:
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars"></div>
-        <div data-label="Kosters"></div>
+        <div data-label="Kosters"></div>        
+        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor"></div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Geen</div>
       </div>
 
       <div class="schedule-row white" data-date="2026-04-26">
@@ -159,7 +170,8 @@ hide:
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H. Gruiters</div>
         <div data-label="Misdienaars"></div>
-        <div data-label="Kosters"></div>
+        <div data-label="Kosters"></div>       
+        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor"></div>
         <div data-label="Koffie & Thee"></div>
       </div>

@@ -71,6 +71,20 @@ nav {
         white-space: pre;
     }
 }
+/* Hide the label on desktop */
+.mobile-label {
+  display: none;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+/* Show only on mobile screens */
+@media screen and (max-width: 768px) {
+  .mobile-label {
+    display: block;
+  }
+}
 .md-ellipsis {
   text-align: start;
 }
