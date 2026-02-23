@@ -1,3 +1,7 @@
 venv/
 site/
 *.bak
+*.ods
+*.ods#
+*.csv
+*.csv#
