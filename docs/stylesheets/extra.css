@@ -296,7 +296,9 @@ li.md-meta__item{
 .schedule-month {
   margin-bottom: 40px;
 }
-
+.schedule-row div:first-child {
+  font-weight: bold;
+}
 .month-title {
   color: #333;
   border-bottom: 2px solid #eee;

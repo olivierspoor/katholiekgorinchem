@@ -123,7 +123,7 @@ hide:
 
       <div class="schedule-row white" data-date="2026-04-04">
         <div>Zaterdag 4 april <span class='desktop-break'></span>21:00</div>
-        <div data-label="Bijzonderheden">Paaswake<br>Bisschop Van den Hende</div>
+        <div data-label="Bijzonderheden">Paaswake</div>
         <div data-label="Lectoren"></div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters"></div>
