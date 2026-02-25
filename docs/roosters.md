@@ -44,7 +44,7 @@ hide:
         <div data-label="Kosters"></div>       
         <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
         <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Teresa  en Gerlinde </div>
       </div>
 
       <div class="schedule-row rose" data-date="2026-03-15">
@@ -66,7 +66,7 @@ hide:
         <div data-label="Kosters"></div>
         <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
         <div data-label="Koor"></div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Marijke  en Fadia </div>
       </div>
 
       <div class="schedule-row red" data-date="2026-03-29">
@@ -151,7 +151,7 @@ hide:
         <div data-label="Kosters"></div>
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor"></div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Jocelyn  en Teresa </div>
       </div>
 
       <div class="schedule-row white" data-date="2026-04-19">
@@ -173,7 +173,7 @@ hide:
         <div data-label="Kosters"></div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor"></div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Corien en Gerlinde </div>
       </div>
 
     </div>
