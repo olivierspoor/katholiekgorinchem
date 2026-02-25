@@ -113,7 +113,7 @@ hide:
       <div class="schedule-row red" data-date="2026-04-03">
         <div>Vrijdag 3 april <span class='desktop-break'></span>19:00</div>
         <div data-label="Bijzonderheden">Kruisverering<br>(Goede vrijdag)</div>
-        <div data-label="Lectoren">H. Gruiters</div>
+        <div data-label="Lectoren">H. Gruiters en K. Orfaly</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters"></div>        
         <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
@@ -124,7 +124,7 @@ hide:
       <div class="schedule-row gold" data-date="2026-04-04">
         <div>Zaterdag 4 april <span class='desktop-break'></span>21:00</div>
         <div data-label="Bijzonderheden">Paaswake</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">A. Bakker en H. Gruiters</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters"></div>
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -135,7 +135,7 @@ hide:
       <div class="schedule-row gold" data-date="2026-04-05">
         <div>Zondag 5 april <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Paaszondag</div>
-        <div data-label="Lectoren">A. Bakker</div>
+        <div data-label="Lectoren">K. Orfaly</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters"></div>        
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
