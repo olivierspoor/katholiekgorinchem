@@ -335,6 +335,7 @@ li.md-meta__item{
 .schedule-row.red    { background: #ffe5e8; border-left: 4px solid #B11226; }
 .schedule-row.rose   { background: #fff4f6; border-left: 4px solid #C97B84; }
 .schedule-row.white  { background: #f7f7f7; border-left: 4px solid #CCCCCC; }
+.schedule-row.gold   { background: #fffef2; border-left: 4px solid #dcc600; }
 /* MOBILE STYLES (MATCHING YOUR IMAGE) */
 @media (max-width: 768px) {
   .schedule-head {
@@ -364,6 +365,8 @@ li.md-meta__item{
   .schedule-row.red div:first-child    { color: #B11226; }
   .schedule-row.rose div:first-child   { color: #C97B84; }
   .schedule-row.green div:first-child { color: #2D6A4F; }
+  /* white ontbreekt */
+  .schedule-row.gold div:first-child { color: #c2ae00; }
 
   /* All other divs (the data) need labels */
   .schedule-row div:not(:first-child) {
@@ -381,3 +384,4 @@ li.md-meta__item{
     width: 130px; /* Fixed width for the "Label" column */
     flex-shrink: 0;
   }
+}

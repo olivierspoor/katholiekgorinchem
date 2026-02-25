@@ -121,7 +121,7 @@ hide:
         <div data-label="Koffie & Thee">Geen</div>
       </div>
 
-      <div class="schedule-row white" data-date="2026-04-04">
+      <div class="schedule-row gold" data-date="2026-04-04">
         <div>Zaterdag 4 april <span class='desktop-break'></span>21:00</div>
         <div data-label="Bijzonderheden">Paaswake</div>
         <div data-label="Lectoren"></div>
@@ -132,7 +132,7 @@ hide:
         <div data-label="Koffie & Thee">Geen</div>
       </div>
 
-      <div class="schedule-row white" data-date="2026-04-05">
+      <div class="schedule-row gold" data-date="2026-04-05">
         <div>Zondag 5 april <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Paaszondag</div>
         <div data-label="Lectoren">A. Bakker</div>
@@ -143,7 +143,7 @@ hide:
         <div data-label="Koffie & Thee">Geen</div>
       </div>
 
-      <div class="schedule-row white" data-date="2026-04-12">
+      <div class="schedule-row gold" data-date="2026-04-12">
         <div>Zondag 12 april <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H. Klaver</div>
@@ -154,7 +154,7 @@ hide:
         <div data-label="Koffie & Thee">Jocelyn  en Teresa </div>
       </div>
 
-      <div class="schedule-row white" data-date="2026-04-19">
+      <div class="schedule-row gold" data-date="2026-04-19">
         <div>Zondag 19 april <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">A. Bakker</div>
@@ -165,7 +165,7 @@ hide:
         <div data-label="Koffie & Thee">Geen</div>
       </div>
 
-      <div class="schedule-row white" data-date="2026-04-26">
+      <div class="schedule-row gold" data-date="2026-04-26">
         <div>Zondag 26 april <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H. Gruiters</div>
