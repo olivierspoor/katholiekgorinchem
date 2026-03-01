@@ -28,7 +28,9 @@
 .md-header__topic .md-ellipsis{
   color: var(--text-color);
 }
-
+.md-nav__title {
+  color: var(--text-color)!important;
+}
 p {
   font-size: 0.9em;
   text-align: left;

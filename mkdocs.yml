@@ -26,6 +26,8 @@ nav:
   - Berichten:
     - berichten/index.md
   - Liturgische Agenda: liturgischeagenda.md
+  - Roosters: roosters.md
+  - Activiteiten: activiteiten.md
   - Artikelen:
     - artikelen/index.md
   - In Memoriam: inmemoriam.md
