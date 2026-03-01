@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // B. CHECK REGULAR WEDNESDAY
             if (dayOfWeek === 3) {
                 if (!isToday || (isToday && now.getHours() < 11)) {
-                    foundMass = "Eerstvolgende mis:<span class='mobile-break'></span>woensdag om 10:00";
+                    foundMass = "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00";
                     console.log("  - Found Regular Wednesday. Status: ACTIVE");
                     break;
                 }
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // C. CHECK REGULAR SUNDAY
             if (dayOfWeek === 0) {
                 if (!isToday || (isToday && now.getHours() < 12)) {
-                    foundMass = "Eerstvolgende mis:<span class='mobile-break'></span>zondag om 11:00";
+                    foundMass = "Eerstvolgende mis: <span class='mobile-break'></span>zondag om 11:00";
                     console.log("  - Found Regular Sunday. Status: ACTIVE");
                     break;
                 }
@@ -137,6 +137,11 @@ const liturgicalColors = {
   white: {
     primary: "#CCCCCC",
     secondary: "#FFFFFF",
+    text: "#000000"
+  },
+  gold: {
+    primary: "#D4AF37",   // classic metallic gold
+    secondary: "#B8901F", // deeper antique gold
     text: "#000000"
   }
 };
