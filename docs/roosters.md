@@ -57,18 +57,18 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>zondag 8 maart 2026 <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H.Klaver</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Chelsea,<br> Chisom,<br> Adriana en <br>Arthur</div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
         <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee">Teresa  en Gerlinde </div>
+        <div data-label="Koffie & Thee">Teresa  en Gerlinde</div>
       </div>
 
       <div class="schedule-row rose" data-date="2026-03-15">
         <div>Zondag 15 maart <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">A. Bakker</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Savyo,<br> Daniel,<br> Yfke en<br> Asaira</div>
         <div data-label="Kosters">A. v d Diepstraten</div>
         <div data-label="Liturgische kleur" class="mobile-label">Rose</div>
         <div data-label="Koor">-</div>
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 22 maart <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H.Gruiters</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Reinilde, <br> Melanie,<br> Destiny en<br> Arthur</div>
         <div data-label="Kosters">K. Wirken</div>
         <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
         <div data-label="Koor">-</div>
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 29 maart <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Palmzondag</div>
         <div data-label="Lectoren">H.Klaver</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Marcos,<br> Chelsea,<br> Adriana en<br> Savyo</div>
         <div data-label="Kosters">E. van Es</div>
         <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
         <div data-label="Koor">Intermezzo</div>

@@ -16,7 +16,7 @@ Beste parochianen,
 
 Wij zijn blij om u mede te kunnen delen dat we weer beginnen met bijbelcursus/ Docat wetende dat er behoefte is aan catechese in onze parochie is het fijn dat dit een vervolg krijgt.    
 
-Op 2 maart aanstaande gaan we starten met de bijbelcursus. We hebben iemand uit de parochie bereid gevonden om de bijbelcursus te verzorgen. Mevrouw Yvonne van den Akker wil graag beginnen ons meer te vertellen over het Oude Testament en lezingen en teksten gaan bespreken die passen bij de komende 40-dagentijd. De Docat zal worden gegeven door pastoor Meijer.
+Op 2 maart aanstaande gaan we starten met de bijbelcursus. We hebben iemand uit de parochie bereid gevonden om de bijbelcursus te verzorgen. Mevrouw Yvonne van den Akker wil graag beginnen ons meer te vertellen over het Nieuwe Testament en lezingen en teksten gaan bespreken die passen bij de komende 40-dagentijd. De Docat zal worden gegeven door pastoor Meijer.
 
 Iedereen is van harte uitgenodigd. We beginnen zoals we gewend waren om 19.30 op maandagavond.
 
