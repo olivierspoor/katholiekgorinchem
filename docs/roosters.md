@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>zondag 8 maart 2026 <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H.Klaver</div>
-        <div data-label="Misdienaars">Chelsea,<br> Chisom,<br> AAsaira en <br>Arthur</div>
+        <div data-label="Misdienaars">Chelsea,<br> Chisom,<br> Asaira en <br>Arthur</div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
         <div data-label="Koor">Tutti</div>
