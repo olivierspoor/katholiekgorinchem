@@ -10,21 +10,21 @@ authors:
   pastoor:
     name: De Pastoor
     description: Sinds het overlijden van Pastoor de Jong viert Pastoor Meijer de Mis in onze parochie.
-    avatar: https://katholiekgorinchem.nl/assets/authors/pastoor.png
+    avatar: /assets/authors/pastoormeijer.jpg
     # slug: url
     # url: url
 
   pastoordejong:
     name: Pastoor de Jong       
     description: Pastoor de Jong was onze parochiepriester tot aan zijn overlijden op 16 november 2025.        
-    avatar: https://katholiekgorinchem.nl/assets/authors/pastoor.jpeg
+    avatar: /assets/authors/pastoor.jpeg
     # slug: url
     # url: url
 
   olivier:
     name: Olivier Spoor
     description: Beheerder van de website en redactielid.
-    avatar: https://katholiekgorinchem.nl/assets/authors/olivier.jpeg
+    avatar: /assets/authors/olivier.jpeg
     # slug: url
     # url: url
 
@@ -38,20 +38,27 @@ authors:
   bestuur:
     name: Parochiebestuur
     description: Het bestuur
-    avatar: https://katholiekgorinchem.nl/assets/authors/bestuur.jpeg
+    avatar: /assets/authors/bestuur.jpeg
     # slug: url           # Author profile slug
     # url: url            # Author website URL
 
   vdakker:
     name: Yvonne van den Akker-Savelsbergh
     description: exegete Nieuwe Testament
-    avatar: https://katholiekgorinchem.nl/assets/authors/yvonne.jpeg
+    avatar: /assets/authors/yvonne.jpeg
     # slug: url           # Author profile slug
     # url: url            # Author website URL
 
   bisdom:
     name: Bisdom Rotterdam
     description: De Kerk van Rotterdam is een netwerk van liefde tot opbouw van een beschaving van liefde. Het bisdom wordt geleid door bisschop Van den Hende
-    avatar: https://katholiekgorinchem.nl/assets/authors/bisdomrotterdam.jpg
+    avatar: /assets/authors/bisdomrotterdam.jpg
+    # slug: url           # Author profile slug
+    # url: url            # Author website URL
+
+  danielle:
+    name: Danielle Kluijvers
+    description: Parochielid
+    avatar: /assets/authors/danielle.jpg
     # slug: url           # Author profile slug
     # url: url            # Author website URL
