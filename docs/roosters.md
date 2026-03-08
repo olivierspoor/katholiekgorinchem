@@ -302,7 +302,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       <div class="schedule-row red" data-date="2026-05-24">
         <div>Zondag 24 mei <span class='desktop-break'></span>11:00</div>
-        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Bijzonderheden">Pinksteren</div>
         <div data-label="Lectoren"></div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">I. Scarpa</div>       
