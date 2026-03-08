@@ -12,4 +12,4 @@ hide:
 
 # Mis op vrijdagochtend
 
-Vanaf 20 maart aanstaande is er wekelijks een ochtendmis op vrijdagochtend om 10u00. 
+Met ingang van 20 maart zal er ook op vrijdagochtend wekelijks een Mis gevierd worden om 10u00.
