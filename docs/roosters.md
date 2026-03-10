@@ -123,9 +123,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
       <div class="schedule-row red" data-date="2026-03-29">
         <div>Zondag 29 maart <span class='desktop-break'></span>11:00</div>
-        <div data-label="Bijzonderheden">Palmzondag</div>
+        <div data-label="Bijzonderheden">Palmzondag /<br>Passiezondag</div>
         <div data-label="Lectoren">H.Klaver</div>
-        <div data-label="Misdienaars">Marcos,<br> Chelsea,<br> Adriana en<br> Savyo</div>
+        <div data-label="Misdienaars">Marcos,<br> Yfke,<br> Adriana en<br> Savyo</div>
         <div data-label="Kosters">E. van Es</div>
         <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
         <div data-label="Koor">Intermezzo</div>
