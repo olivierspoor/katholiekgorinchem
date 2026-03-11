@@ -17,7 +17,7 @@ hide:
 
 <div class="mis-balk">
 
-    <div class="icoon">
+    <div id="homeIcon" class="icoon">
         <i class="fa-solid fa-church"></i>
     </div>
 
