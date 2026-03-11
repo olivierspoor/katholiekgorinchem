@@ -13,7 +13,7 @@ hide:
 
 # Palmpaasstokken versieren
 
-We Palmpaasstokken versieren!    
+We gaan Palmpaasstokken versieren!    
 Zaterdag 28 maart van 14u - 16u. 
 
 Graag horen we of je erbij zult zijn zodat we genoeg materialen beschikbaar zullen hebben. Spreek ons aan; Daniëlle of Gerlinde. Of laat een briefje achter in de bus op de tafel achter in de kerk. Dankjewel!    
