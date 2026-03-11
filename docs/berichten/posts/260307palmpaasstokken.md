@@ -2,6 +2,7 @@
 draft: false 
 date: 2026-03-11
 pin: false
+slug: palmpaasstokken
 categories:
   - Activiteiten
 authors:
@@ -10,7 +11,7 @@ hide:
   - toc
 ---
 
-# Palmpaastakken versieren
+# Palmpaasstokken versieren
 
 We Palmpaasstokken versieren!    
 Zaterdag 28 maart van 14u - 16u. 
