@@ -115,10 +115,9 @@ div {
 }
 
 .hero-title {
-  margin: 0;
   color: white!important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  font-size: 2.5rem; /* Adjust as needed */
+  font-size: 1.9em!important;
 }
 .hero-badge {
   /* Positioning it in the bottom right */
@@ -194,6 +193,33 @@ div {
   object-position: 50% 0%;
 }
 
+/* Vieringen balk */
+.mis-balk{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    border-radius:10px;
+    background-color: #EAE2DF;
+    padding:14px 20px;
+    margin:25px 0 40px 0;
+    border-left:4px solid var(--primary-color);
+    box-shadow:0 4px 10px rgba(0,0,0,0.05);
+}
+
+.mis-balk .mis-tekst{
+    font-size: 0.9rem;
+    color:#444;
+}
+@media (max-width: 768px) {
+  .icoon {
+    font-size: 30px;
+  }
+}
+
+.mis-balk strong{
+    color:#222;
+    margin-right:6px;
+}
 /* 3. Header
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* Header and Tabs use the two colors */
@@ -228,6 +254,9 @@ nav {
   margin: 40px auto;
   padding: 0 20px;
   font-family: sans-serif;
+}
+#upcomming-schedule {
+  padding: 0 20px;
 }
 .schedule-month {
   margin-bottom: 40px;

@@ -5,12 +5,29 @@ hide:
   - footer
   - toc
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><section class="activiteiten">
+
 <div class="hero-banner">
   <h1 class="hero-title">Welkom bij de parochie van de Heilige Martelaren van Gorcum</h1>
   
   <div class="hero-badge">
     <span id="next-mass-display">...laden...</span>
   </div>
+</div>
+
+<div class="mis-balk">
+
+    <div class="icoon">
+        <i class="fa-solid fa-church"></i>
+    </div>
+
+    <div class="mis-tekst">
+        <strong>Wekelijkse Eucharistievieringen:</strong>
+        Zondag 11:00 |<span class="mobile-label"></span>
+        Woensdag 10:00 |<span class="mobile-label"></span>
+        Vrijdag 10:00
+    </div>
+
 </div>
 
 ## Laatste berichten
