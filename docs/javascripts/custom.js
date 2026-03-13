@@ -61,7 +61,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
 
-            // C. CHECK REGULAR SUNDAY
+            // C. CHECK REGULAR FRIDAY
+            if (dayOfWeek === 5) {
+                if (!isToday || (isToday && now.getHours() < 11)) {
+                    foundMass = "Eerstvolgende mis: <span class='mobile-break'></span>Vrijdag om 10:00";
+                    console.log("  - Found Regular Friday. Status: ACTIVE");
+                    break;
+                }
+            }
+
+            // D. CHECK REGULAR SUNDAY
             if (dayOfWeek === 0) {
                 if (!isToday || (isToday && now.getHours() < 12)) {
                     foundMass = "Eerstvolgende mis: <span class='mobile-break'></span>zondag om 11:00";
