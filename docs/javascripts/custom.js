@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const specialMasses = {
             // FIXED: Changed hour to 20 (8 PM) so it doesn't expire at 11:00 AM
             '2026-02-18': { text: "Eerstvolgende mis: Aswoensdag:<span class='mobile-break'></span>Eucharistieviering om 19:00", hour: 20 },
+            '2026-03-18': { text: "Eerstvolgende mis: Vrijdag:<span class='mobile-break'></span> om 10:00", hour: 20 },
         };
 
         let foundMass = "";
