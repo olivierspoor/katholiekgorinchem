@@ -55,9 +55,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // B. CHECK REGULAR WEDNESDAY
             if (dayOfWeek === 3) {
+                const isFirstWednesday = checkDate.getDate() <= 7;
+
                 if (!isToday || (isToday && now.getHours() < 11)) {
-                    foundMass = "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00";
-                    console.log("  - Found Regular Wednesday. Status: ACTIVE");
+                    if (isFirstWednesday) {
+                        foundMass = "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00 <span class='mobile-break'></span>+ aanbidding";
+                        console.log("  - Found First Wednesday. Status: ACTIVE");
+                    } else {
+                        foundMass = "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00";
+                        console.log("  - Found Regular Wednesday. Status: ACTIVE");
+                    }
                     break;
                 }
             }

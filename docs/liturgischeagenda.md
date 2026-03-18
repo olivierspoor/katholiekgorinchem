@@ -28,7 +28,7 @@ Datum | tijd | Activiteit |
 maandag 2 maart | 19u30 | Bijbelcursus met mw. Van den Akker-Savelsbergh |
 maandag 16 maart | 19u30 | Docat met pastoor Meijer |
 maandag 30 maart | 19u30 | Bijbelcursus met mw. Van den Akker-Savelsbergh |
-
+maandag 13 april | 19u30 | Docat met pastoor Meijer |
 
 ## Roosters
 Voor roosters zie [hier](/roosters.html)
