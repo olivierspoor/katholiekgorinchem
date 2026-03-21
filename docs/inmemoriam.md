@@ -2,6 +2,7 @@
 hide:
   - navigation
   - footer
+  - toc
 ---
 
 # In memoriam pastoor Ype de Jong
