@@ -15,6 +15,7 @@ hide:
   color: var(--primary-color);
 }
 .agenda-section h2 i {
+  padding-right:10px;
   color: var(--primary-color); /* match your purple */
 }
 
@@ -132,6 +133,9 @@ hide:
   .page-title {
     font-size: 2rem;
   }
+  .agenda-section h2 {
+    font-size: 1.3em;
+  } 
 }
   </style>
 
@@ -150,7 +154,7 @@ hide:
         <div class="content">
           <div class="day">Zondag</div>
           <div class="time">11:00</div>
-          <div class="extra">Koffie na de mis: Elke 2e en 4e zondag van de maand.</div>
+          <div class="extra">Koffie na de mis: <span class='mobile-break'></span>Elke 2e en 4e zondag van de maand.</div>
         </div>
       </div>
 
@@ -159,7 +163,7 @@ hide:
         <div class="content">
           <div class="day">Woensdag</div>
           <div class="time">10:00</div>
-          <div class="extra">Aanbidding: elke 1e woensdag van de maand.</div>
+          <div class="extra">Aanbidding: <span class='mobile-break'></span>elke 1e woensdag van de maand.</div>
         </div>
       </div>
 
@@ -252,7 +256,7 @@ hide:
         </div>
         <div class="details">
           <div class="title">Bijbelcursus</div>
-          <div class="meta">Maandag • 19:30 • mw. Van den Akker-Savelsbergh</div>
+          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>mw. Van den Akker-Savelsbergh</div>
         </div>
       </div>
 
@@ -263,7 +267,7 @@ hide:
         </div>
         <div class="details">
           <div class="title">Docat</div>
-          <div class="meta">Maandag • 19:30 • pastoor Meijer</div>
+          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>pastoor Meijer</div>
         </div>
       </div>
 
@@ -274,7 +278,7 @@ hide:
         </div>
         <div class="details">
           <div class="title">Bijbelcursus</div>
-          <div class="meta">Maandag • 19:30 • mw. Van den Akker-Savelsbergh</div>
+          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>mw. Van den Akker-Savelsbergh</div>
         </div>
       </div>
 
@@ -285,7 +289,7 @@ hide:
         </div>
         <div class="details">
           <div class="title">Docat</div>
-          <div class="meta">Maandag • 19:30 • pastoor Meijer</div>
+          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>pastoor Meijer</div>
         </div>
     </div>
 

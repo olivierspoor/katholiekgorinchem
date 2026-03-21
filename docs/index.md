@@ -15,19 +15,17 @@ hide:
   </div>
 </div>
 
-<div class="mis-balk">
+<div class="mis-balk" onclick="location.href='/liturgischeagenda.html'" style="cursor:pointer;">
+  <div id="homeIcon" class="icoon">
+    <i class="fa-solid fa-church" style="color:#000;"></i>
+  </div>
 
-    <div id="homeIcon" class="icoon">
-        <i class="fa-solid fa-church"></i>
-    </div>
-
-    <div class="mis-tekst">
-        <strong>Wekelijkse Eucharistievieringen:</strong>
-        Zondag 11:00 |<span class="mobile-label"></span>
-        Woensdag 10:00 |<span class="mobile-label"></span>
-        Vrijdag 10:00
-    </div>
-
+  <div class="mis-tekst">
+    <strong>Wekelijkse Eucharistievieringen:</strong>
+    Zondag 11:00 |
+    Woensdag 10:00 |
+    Vrijdag 10:00
+  </div>
 </div>
 
 ## Laatste berichten
