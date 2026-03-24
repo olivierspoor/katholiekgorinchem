@@ -229,6 +229,9 @@ article.md-post.md-post--excerpt.featured-artikel {
 article.md-post.md-post--excerpt.featured-artikel h2 {
     margin: 0.6em 0 .64em;
 }
+article.md-post.md-post--excerpt.featured-artikel ul.md-meta__list {
+    display: flex !important;
+}
 
 /* 3. Header
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
