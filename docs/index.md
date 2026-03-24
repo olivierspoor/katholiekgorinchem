@@ -33,48 +33,104 @@ Vrijdag 10:00 </div>
 <script>
 (async function() {
   try {
-    const resp = await fetch('berichten/index.html');
-    const html = await resp.text();
     const parser = new DOMParser();
-    const doc = parser.parseFromString(html, 'text/html');
-
-    // Pak de eerste 3 artikelen in de volgorde zoals op berichten/index.html
-    const posts = Array.from(doc.querySelectorAll('article.md-post')).slice(0, 3);
     const container = document.getElementById('latest-posts');
     if (!container) return;
+
     container.innerHTML = '';
 
-    if (posts.length === 0) {
-      container.textContent = 'Geen berichten gevonden';
+    // Fetch both sources at once
+    const [berichtenResp, artikelenResp] = await Promise.all([
+      fetch('berichten/index.html'),
+      fetch('artikelen/index.html')
+    ]);
+
+    const [berichtenHtml, artikelenHtml] = await Promise.all([
+      berichtenResp.text(),
+      artikelenResp.text()
+    ]);
+
+    const berichtenDoc = parser.parseFromString(berichtenHtml, 'text/html');
+    const artikelenDoc = parser.parseFromString(artikelenHtml, 'text/html');
+
+    const berichten = Array.from(berichtenDoc.querySelectorAll('article.md-post')).slice(0, 3);
+    const artikelen = Array.from(artikelenDoc.querySelectorAll('article.md-post')).slice(0, 1);
+
+    if (berichten.length === 0 && artikelen.length === 0) {
+      container.textContent = 'Geen berichten of artikelen gevonden';
       return;
     }
 
-    posts.forEach(post => {
-      // Clone de volledige article node zodat titel, image en meta behouden blijven
-      const cloned = post.cloneNode(true);
-
-      // Pas relatieve links aan zodat ze naar /berichten/<slug>.html wijzen
-      cloned.querySelectorAll('a').forEach(a => {
+    function normalizeLinks(node, basePath) {
+      node.querySelectorAll('a').forEach(a => {
         const href = a.getAttribute('href') || '';
-        // Laat absolute links, anchor-links en mailto/ tel door
         if (/^(https?:|mailto:|tel:|#)/i.test(href)) return;
-        // Als het al begint met /berichten laat het zoals het is
-        if (href.startsWith('/berichten')) return;
-        // Normaliseer en prefix naar /berichten/
+        if (href.startsWith(basePath)) return;
+
         const clean = href.replace(/^\.?\/+/, '');
-        a.setAttribute('href', '/berichten/' + clean);
+        a.setAttribute('href', basePath + clean);
       });
+    }
 
-      // Verwijder eventuele scripts uit de gekloonde inhoud, voor de veiligheid
-      cloned.querySelectorAll('script').forEach(s => s.remove());
+    function removeScripts(node) {
+      node.querySelectorAll('script').forEach(s => s.remove());
+    }
 
-      // Voeg de gekloonde article toe aan de container
-      container.appendChild(cloned);
+    // Static button linking to all articles
+    function addReadMoreButton(node) {
+      const button = document.createElement('a');
+      button.className = 'button';
+      button.textContent = 'Bekijk alle artikelen →';
+      button.href = '/artikelen/index.html';
+
+      const wrapper = document.createElement('p');
+      wrapper.appendChild(button);
+      node.appendChild(wrapper);
+    }
+
+    function append(node) {
+      container.appendChild(node);
+    }
+
+    // 1. First bericht
+    if (berichten[0]) {
+      const b0 = berichten[0].cloneNode(true);
+      normalizeLinks(b0, '/berichten/');
+      removeScripts(b0);
+      append(b0);
+    }
+
+    // 2. Featured artikel
+    if (artikelen[0]) {
+      const a0 = artikelen[0].cloneNode(true);
+      a0.classList.add('featured-artikel');
+
+      // Add H2 for "Laatste artikel"
+      const heading = document.createElement('h2');
+      heading.textContent = 'Laatste artikel';
+      a0.prepend(heading);
+
+      normalizeLinks(a0, '/artikelen/');
+      removeScripts(a0);
+      addReadMoreButton(a0);
+
+      append(a0);
+    }
+
+    // 3. Remaining berichten
+    [1, 2].forEach(i => {
+      if (berichten[i]) {
+        const b = berichten[i].cloneNode(true);
+        normalizeLinks(b, '/berichten/');
+        removeScripts(b);
+        append(b);
+      }
     });
+
   } catch (err) {
     console.error(err);
     const container = document.getElementById('latest-posts');
-    if (container) container.textContent = 'Fout bij laden berichten';
+    if (container) container.textContent = 'Fout bij laden inhoud';
   }
 })();
 </script>
