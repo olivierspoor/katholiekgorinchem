@@ -221,6 +221,15 @@ div {
     color:#222;
     margin-right:6px;
 }
+
+/* Laatste artikel */
+article.md-post.md-post--excerpt.featured-artikel {
+    background: #eae2df;
+}
+article.md-post.md-post--excerpt.featured-artikel h2 {
+    margin: 0.6em 0 .64em;
+}
+
 /* 3. Header
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* Header and Tabs use the two colors */
