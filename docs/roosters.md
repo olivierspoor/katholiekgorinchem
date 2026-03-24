@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">E. van Es</div>
         <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
         <div data-label="Koor">Intermezzo</div>
-        <div data-label="Koffie & Thee">-</div>
+        <div data-label="Koffie & Thee">Jocelyn en Gerlinde</div>
       </div>
 
     </div>
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">I. Scarpa</div>        
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee">-</div>
+        <div data-label="Koffie & Thee">Gerlinde</div>
       </div>
 
       <div class="schedule-row gold" data-date="2026-04-12">
