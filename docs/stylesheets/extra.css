@@ -494,6 +494,11 @@ nav {
 .md-footer__title .md-ellipsis{
   color:white;
 }
+@media screen and (max-width: 44.9844em) {
+  .md-footer__link--prev .md-footer__title {
+    display: block;
+  }
+}
 /* Hide the label on desktop */
 .mobile-label {
   display: none;
