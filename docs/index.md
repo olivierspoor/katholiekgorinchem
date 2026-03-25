@@ -5,6 +5,11 @@ hide:
   - footer
   - toc
 ---
+<style>
+  .md-meta__list {
+  display: flex !important;
+  }
+</style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><section class="activiteiten">
 
 <div class="hero-banner">
@@ -76,11 +81,31 @@ Vrijdag 10:00 </div>
       node.querySelectorAll('script').forEach(s => s.remove());
     }
 
-    // Static button linking to all articles
+    function injectAuthor(node) {
+      const img = node.querySelector(".md-author img");
+      if (!img) return;
+
+      const alt = img.getAttribute("alt");
+      if (!alt) return;
+
+      const metaList = node.querySelector(".md-meta__list");
+      if (!metaList) return;
+
+      // Prevent duplicates
+      if (metaList.querySelector(".author-injected")) return;
+
+      const li = document.createElement("li");
+      li.className = "md-meta__item author-injected";
+      li.textContent = alt;
+
+      // Add as FIRST item
+      metaList.insertBefore(li, metaList.firstElementChild);
+    }
+
     function addReadMoreButton(node) {
       const button = document.createElement('a');
       button.className = 'button';
-      button.textContent = 'Bekijk alle artikelen →';
+      button.textContent = 'Bekijk alle artikelen';
       button.href = '/artikelen/index.html';
 
       const wrapper = document.createElement('p');
@@ -97,6 +122,7 @@ Vrijdag 10:00 </div>
       const b0 = berichten[0].cloneNode(true);
       normalizeLinks(b0, '/berichten/');
       removeScripts(b0);
+      injectAuthor(b0);
       append(b0);
     }
 
@@ -105,13 +131,13 @@ Vrijdag 10:00 </div>
       const a0 = artikelen[0].cloneNode(true);
       a0.classList.add('featured-artikel');
 
-      // Add H2 for "Laatste artikel"
       const heading = document.createElement('h2');
       heading.textContent = 'Laatste artikel';
       a0.prepend(heading);
 
       normalizeLinks(a0, '/artikelen/');
       removeScripts(a0);
+      injectAuthor(a0);
       addReadMoreButton(a0);
 
       append(a0);
@@ -123,6 +149,7 @@ Vrijdag 10:00 </div>
         const b = berichten[i].cloneNode(true);
         normalizeLinks(b, '/berichten/');
         removeScripts(b);
+        injectAuthor(b);
         append(b);
       }
     });
@@ -134,6 +161,7 @@ Vrijdag 10:00 </div>
   }
 })();
 </script>
+
 
 <a href="/berichten/index.html" class="button" >Alle berichten</a>
 ---
