@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row red" data-date="2026-03-29">
         <div>Zondag 29 maart <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Palmzondag /<br>Passiezondag</div>
-        <div data-label="Lectoren">H.Klaver</div>
+        <div data-label="Lectoren">H.Klaver en K. Orfaly</div>
         <div data-label="Misdienaars">Marcos,<br> Yfke,<br> Adriana en<br> Savyo</div>
         <div data-label="Kosters">E. van Es</div>
         <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row gold" data-date="2026-05-03">
         <div>Zondag 3 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">K. Orfaly</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -270,7 +270,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row gold" data-date="2026-05-10">
         <div>Zondag 10 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">H. Klaver</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row gold" data-date="2026-05-14">
         <div>Donderdag 14 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Hemelvaartsdag</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -292,7 +292,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row gold" data-date="2026-05-17">
         <div>Zondag 17 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">H. Gruiters</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -303,7 +303,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row red" data-date="2026-05-24">
         <div>Zondag 24 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Pinksteren</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">K. Orfaly</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
@@ -311,10 +311,12 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Koffie & Thee">Marijke en Gerlinde</div>
       </div>
 
+      <!-- Tweede pinksterdag? -->
+
       <div class="schedule-row gold" data-date="2026-05-31">
         <div>Zondag 31 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">H. Klaver</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -343,7 +345,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row gold" data-date="2026-06-07">
         <div>Zondag 7 juni <span class='desktop-break'></span>11:00</div>
       	<div data-label="Bijzonderheden">Sacramentsdag</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -354,7 +356,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="schedule-row green" data-date="2026-06-14">
       <div>Zondag 14 juni <span class='desktop-break'></span>11:00</div>
      	  <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">H. Gruiters</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
@@ -365,7 +367,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="schedule-row green" data-date="2026-06-21">
       <div>Zondag 21 juni <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">H. Klaver</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
@@ -376,7 +378,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="schedule-row green" data-date="2026-06-28">
       <div>Zondag 28 juni <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">K. Orfaly</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
