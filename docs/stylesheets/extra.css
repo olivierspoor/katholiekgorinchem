@@ -49,7 +49,14 @@ div {
 .md-profile__description {
   text-align: start;
 }
-
+.md-author{
+  width: 55px!important;
+  height: 55px!important;
+  margin-bottom: 10px!important;
+}
+.md-meta__list li{
+  margin: 0px!important;
+}
 /* On desktop, the span does nothing */
 .mobile-break {
     display: inline;
@@ -84,7 +91,7 @@ div {
   margin-bottom:2rem;
 }
 
-.button, .md-post__action{
+.button, .buttonAlle, .md-post__action{
   display: inline-block;
   background-color: var(--primary-color);
   color: var(--text-color)!important;
@@ -93,6 +100,12 @@ div {
   font-size: 15px;
   text-decoration: none;
   transition: background-color 0.3s;
+}
+.buttonAlle{
+  background-color: #eae2df;
+  color:black;
+  border: 1px solid black;
+  min-width: 173px;;
 }
 .md-post__action a{
   color: var(--text-color)!important;
@@ -478,7 +491,9 @@ nav {
 .md-ellipsis{
   color:black;
 }
-
+.md-footer__title .md-ellipsis{
+  color:white;
+}
 /* Hide the label on desktop */
 .mobile-label {
   display: none;

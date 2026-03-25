@@ -7,7 +7,6 @@ hide:
 
 # Roosters
 
-<!-- Scripts voor verdijnen verlopen data -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const today = new Date();
@@ -27,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
-<!-- Script voor overige roosters -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -61,7 +59,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="schedule-board">
 
-  <!-- MARCH -->
   <div class="schedule-month">
     <h2 class="month-title">Maart 2026</h2>
 
@@ -135,7 +132,6 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
-  <!-- APRIL -->
   <div class="schedule-month">
     <h2 class="month-title">April 2026</h2>
 
@@ -231,8 +227,6 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
-  <!-- May -->
-
   <div style="text-align:center; margin-top:20px;">
     <span id="show-more-roosters" class="button">Overige roosters</span>
   </div>
@@ -240,7 +234,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 <div id="upcomming-schedule" style="display:none;">
 
-  <!-- May -->
   <div class="schedule-month">
     <h2 class="month-title">Mei 2026</h2>
 
@@ -310,8 +303,6 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Koor">Intermezzo</div>
         <div data-label="Koffie & Thee">Marijke en Gerlinde</div>
       </div>
-
-      <!-- Tweede pinksterdag? -->
 
       <div class="schedule-row gold" data-date="2026-05-31">
         <div>Zondag 31 mei <span class='desktop-break'></span>11:00</div>

@@ -104,8 +104,8 @@ Vrijdag 10:00 </div>
 
     function addReadMoreButton(node) {
       const button = document.createElement('a');
-      button.className = 'button';
-      button.textContent = 'Bekijk alle artikelen';
+      button.className = 'buttonAlle';
+      button.textContent = 'Alle artikelen';
       button.href = '/artikelen/index.html';
 
       const wrapper = document.createElement('p');
