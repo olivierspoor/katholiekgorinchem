@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Misdienaars">Melanie en<br>Marcos</div>
         <div data-label="Kosters">A. v d Diepstraten</div>        
         <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
-        <div data-label="Koor">Tutti</div>
+        <div data-label="Koor">Intermezzo</div>
         <div data-label="Koffie & Thee">-</div>
       </div>
 
@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Misdienaars">Reinilde,<br> Khaled,<br> Yfke en<br> Arthur</div>
         <div data-label="Kosters">A. v d Diepstraten /<br> K. Wirken</div>
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
-        <div data-label="Koor">Intermezzo</div>
+        <div data-label="Koor">Tutti</div>
         <div data-label="Koffie & Thee">-</div>
       </div>
 
@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Misdienaars">Savyo,<br> Daniel,<br> Adriana en<br> Destiny</div>
         <div data-label="Kosters">I. Scarpa</div>        
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
-        <div data-label="Koor">Tutti</div>
+        <div data-label="Koor">Intermezzo</div>
         <div data-label="Koffie & Thee">Gerlinde</div>
       </div>
 
