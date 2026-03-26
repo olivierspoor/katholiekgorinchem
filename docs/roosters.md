@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
 
       <div class="schedule-row gold" data-date="2026-04-05">
-        <div>Zondag 5 april <span class='desktop-break'></span>11:00</div>
+        <div>Zondag 5 april <span class='desktop-break'></span>10:00</div>
         <div data-label="Bijzonderheden">Paaszondag</div>
         <div data-label="Lectoren">K. Orfaly</div>
         <div data-label="Misdienaars">Savyo,<br> Daniel,<br> Adriana en<br> Destiny</div>

@@ -236,7 +236,7 @@ hide:
         </div>
         <div class="details">
           <div class="title">Paaszondag</div>
-          <div class="meta">zondag • 11:00</div>
+          <div class="meta">zondag • 10:00</div>
         </div>
       </div>
 
