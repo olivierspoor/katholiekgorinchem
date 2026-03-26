@@ -25,9 +25,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // FIXED: Changed hour to 20 (8 PM) so it doesn't expire at 11:00 AM
             '2026-02-18': { text: "Eerstvolgende mis: Aswoensdag:<span class='mobile-break'></span>Eucharistieviering om 19:00", hour: 20 },
             '2026-03-18': { text: "Eerstvolgende mis: <span class='mobile-break'></span>Uitvaartmis Mw. Willemsen <span class='mobile-break'></span>Woensdag: om 10:30", hour: 11 },
-            '2026-04-03': { text: "Eerstvolgende viering: <span class='mobile-break'></span>Kruisweg om 15:00", hour: 16 },
+            '2026-04-03': { text: "Eerstvolgende viering: <span class='mobile-break'></span>Kruisweg om 15:00 <span class='mobile-break'></span>Kruisverering om 19:00", hour: 16 },
             '2026-04-03': { text: "Eerstvolgende viering: <span class='mobile-break'></span>Kruisverering om 19:00", hour: 20 },
-            '2026-02-04': { text: "Eerstvolgende mis: Paaswake:<span class='mobile-break'></span>Eucharistieviering om 21:00", hour: 22 },
+            '2026-02-04': { text: "Eerstvolgende mis: Zaterdag: <span class='mobile-break'></span>Paaswake om 21:00 <span class='mobile-break'></span>Paaszondag: Mis om 10:00", hour: 22 },
             '2026-04-05': { text: "Eerstvolgende mis: Paaszondag:<span class='mobile-break'></span>Eucharistieviering om 10:00", hour: 11 },
         };
 
