@@ -7,6 +7,7 @@ theme:
     accent: red
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
   #   - toc.integrate
     - navigation.footer
   font:
@@ -21,14 +22,11 @@ site_url: "https://katholiekgorinchem.nl"
 use_directory_urls: false
 
 nav:
-  - Home: index.md
-
-  - Berichten:
-    - berichten/index.md
+  - Home: /
+  - Berichten: /berichten/
   - Liturgische Agenda: liturgischeagenda.md
   - Roosters: roosters.md
-  - Artikelen:
-    - artikelen/index.md
+  - Artikelen: /artikelen/
   - In Memoriam: inmemoriam.md
   - Over ons: overons.md
   - Contact: contact.md
