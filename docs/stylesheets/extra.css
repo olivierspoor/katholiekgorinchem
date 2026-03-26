@@ -103,7 +103,7 @@ div {
 }
 .buttonAlle{
   background-color: #eae2df;
-  color:black;
+  color:black!important;
   border: 1px solid black;
   min-width: 173px;;
 }
