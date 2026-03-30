@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="schedule-board">
 
-  <div class="schedule-month">
+  <div class="schedule-month" style="display:none;">
     <h2 class="month-title">Maart 2026</h2>
 
     <div class="schedule-table">
@@ -227,13 +227,6 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
-  <div style="text-align:center; margin-top:20px;">
-    <span id="show-more-roosters" class="button">Overige roosters</span>
-  </div>
-
-</div>
-<div id="upcomming-schedule" style="display:none;">
-
   <div class="schedule-month">
     <h2 class="month-title">Mei 2026</h2>
 
@@ -317,6 +310,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     </div>
   </div>
+
+  <div style="text-align:center; margin-top:20px;">
+    <span id="show-more-roosters" class="button">Overige roosters</span>
+  </div>
+
+</div>
+<div id="upcomming-schedule" style="display:none;">
 
   <div class="schedule-month">
     <h2 class="month-title">Juni 2026</h2>
