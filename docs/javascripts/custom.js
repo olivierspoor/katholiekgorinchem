@@ -23,12 +23,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const specialMasses = {
             // FIXED: Changed hour to 20 (8 PM) so it doesn't expire at 11:00 AM
-            '2026-02-18': { text: "Eerstvolgende mis: Aswoensdag:<span class='mobile-break'></span>Eucharistieviering om 19:00", hour: 20 },
+            '2026-02-18': { text: "Eerstvolgende mis: Aswoensdag: <span class='mobile-break'></span>Eucharistieviering om 19:00", hour: 20 },
             '2026-03-18': { text: "Eerstvolgende mis: <span class='mobile-break'></span>Uitvaartmis Mw. Willemsen <span class='mobile-break'></span>Woensdag: om 10:30", hour: 11 },
-            '2026-04-03': { text: "Eerstvolgende viering: <span class='mobile-break'></span>Kruisweg om 15:00 <span class='mobile-break'></span>Kruisverering om 19:00", hour: 16 },
-            '2026-04-03': { text: "Eerstvolgende viering: <span class='mobile-break'></span>Kruisverering om 19:00", hour: 20 },
-            '2026-02-04': { text: "Eerstvolgende mis: Zaterdag: <span class='mobile-break'></span>Paaswake om 21:00 <span class='mobile-break'></span>Paaszondag: Mis om 10:00", hour: 22 },
-            '2026-04-05': { text: "Eerstvolgende mis: Paaszondag:<span class='mobile-break'></span>Eucharistieviering om 10:00", hour: 11 },
+            '2026-04-03': [
+                { text: "Eerstvolgende viering: <span class='mobile-break'></span>Kruisweg om 15:00 & <span class='mobile-break'></span>Kruisverering om 19:00", hour: 16 },
+                { text: "Eerstvolgende viering: <span class='mobile-break'></span>Kruisverering om 19:00", hour: 20 }
+            ],
+            '2026-04-04': { text: "Eerstvolgende mis: Zaterdag: <span class='mobile-break'></span>Paaswake om 21:00 & <span class='mobile-break'></span>Paaszondag: Mis om 10:00", hour: 22 },
+            '2026-04-05': { text: "Eerstvolgende mis: Paaszondag: <span class='mobile-break'></span>Eucharistieviering om 10:00", hour: 11 },
         };
 
         let foundMass = "";
@@ -45,18 +47,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // A. CHECK SPECIAL DATES FIRST
             if (specialMasses[dateKey]) {
-                const special = specialMasses[dateKey];
-                console.log(`  - Found Special Match! Expiry hour: ${special.hour}`);
+                const specials = Array.isArray(specialMasses[dateKey])
+                    ? specialMasses[dateKey]
+                    : [specialMasses[dateKey]];
 
-                if (!isToday || (isToday && now.getHours() < special.hour)) {
-                    foundMass = special.text;
-                    console.log("  - Status: ACTIVE (Using this mass)");
+                console.log(`  - Found ${specials.length} special mass(es)`);
+
+                for (const special of specials) {
+                    console.log(`    -> Checking expiry hour: ${special.hour}`);
+
+                    if (!isToday || (isToday && now.getHours() < special.hour)) {
+                        foundMass = special.text;
+                        console.log("    -> Status: ACTIVE (Using this mass)");
+                        break;
+                    } else {
+                        console.log("    -> Status: EXPIRED (Trying next one)");
+                    }
+                }
+                if (foundMass) {
                     break;
                 } else {
-                    console.log("  - Status: EXPIRED (Moving to next available mass)");
+                    console.log("  - All special masses expired for today");
                 }
             }
-
             // B. CHECK REGULAR WEDNESDAY
             if (dayOfWeek === 3) {
                 const isFirstWednesday = checkDate.getDate() <= 7;
