@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 12 april <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H. Klaver</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Arthur,<br> Yfke,<br> Melanie en<br> Chisom</div>
         <div data-label="Kosters">K. Wirken</div>
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">-</div>
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 19 april <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">A. Bakker</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Asaira,<br> Adriana,<br>en Reinilde</div>
         <div data-label="Kosters">E. van Es</div>        
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">-</div>
@@ -217,7 +217,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 26 april <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H. Gruiters</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Arthur,<br> Destiny,<br> Chisom en<br> Daniel</div>
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">-</div>
@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 3 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">K. Orfaly</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Asaira,<br> Adriana,<br> Melanie en<br> Savyo</div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">-</div>
@@ -257,7 +257,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 10 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H. Klaver</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Arthur,<br> Yfke,<br> Chisom en<br> Marcos</div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">Tutti</div>
@@ -279,7 +279,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 17 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H. Gruiters</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Asaira,<br> Destiny,<br> Reinilde en<br> Daniel</div>
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">-</div>
@@ -290,7 +290,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 24 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Pinksteren</div>
         <div data-label="Lectoren">K. Orfaly</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Yfke,<br> Adriana,<br> Melanie en<br> Chisom</div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
         <div data-label="Koor">Intermezzo</div>
@@ -301,7 +301,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 31 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H. Klaver</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Arthur,<br> Destiny,<br> Savyo en<br> Marcos</div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">-</div>
