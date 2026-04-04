@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
             let checkDate = new Date(now);
             checkDate.setDate(now.getDate() + i);
 
-            const dateKey = checkDate.toISOString().split('T')[0];
+            const dateKey = checkDate.toLocaleDateString('en-CA');
             const dayOfWeek = checkDate.getDay();
             const isToday = (i === 0);
 
