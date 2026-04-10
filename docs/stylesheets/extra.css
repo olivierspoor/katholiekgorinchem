@@ -6,7 +6,8 @@
 3. Header
 4. Rooster
 5. Contact
-6. Overige CSS
+6. Activiteiten
+7. Overige CSS
 
 ============================================================================ */
 
@@ -481,7 +482,88 @@ nav {
   .streetview-card{order:4;}
 
 }
-/* 6. Overige CSS
+/* 6. Activiteiten
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.activity-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+/* CONTENT */
+.activity-content {
+  padding: 20px;
+}
+.activity-time {
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+/* IMAGE */
+.activity-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* === LAYOUT VARIANTS === */
+/* RIGHT */
+.layout-right {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+}
+/* LEFT */
+.layout-left {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+}
+/* TOP */
+.layout-top {
+  display: flex;
+  flex-direction: column;
+}
+.layout-top .activity-image {
+  height: 180px;
+}
+/* BOTTOM */
+.layout-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.layout-bottom .activity-image {
+  height: 180px;
+}
+/* SIDE IMAGES */
+.layout-right .activity-image,
+.layout-left .activity-image {
+  height: 100%;
+  min-height: 180px;
+}
+/* GRID */
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .activities-grid {
+    grid-template-columns: 1fr;
+  }
+  /* Kill fancy layouts on mobile (trust me, this saves lives) */
+  .layout-right,
+  .layout-left {
+    grid-template-columns: 1fr;
+  }
+  .activity-image {
+    height: 180px;
+  }
+}
+
+/* 7. Overige CSS
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .md-nav--primary .md-nav__title .md-nav__icon::after {
