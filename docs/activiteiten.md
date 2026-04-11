@@ -22,7 +22,7 @@ hide:
         <p>In de gebedsgroep komen we bij elkaar om de rozenkrans te bidden voor de priesters.</p>
       </div>
       <div class="activity-image">
-        <img src="" alt="Gebedsgroep">
+        <img src="../assets/activiteiten/gebedsgroep.png" alt="Gebedsgroep">
       </div>
     </div>
 
@@ -66,7 +66,7 @@ hide:
 
     <div class="activity-card layout-left">
       <div class="activity-image">
-        <img src="" alt="Schoonmaakploeg">
+        <img src="../assets/activiteiten/schoonmaak.png" alt="Schoonmaakploeg">
       </div>
       <div class="activity-content">
         <h3>Schoonmaakploeg</h3>

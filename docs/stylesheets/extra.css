@@ -558,6 +558,10 @@ nav {
   .layout-left {
     grid-template-columns: 1fr;
   }
+  .layout-right .activity-image,
+  .layout-left .activity-image {
+    max-height: 180px;
+  }
   .activity-image {
     height: 180px;
   }
