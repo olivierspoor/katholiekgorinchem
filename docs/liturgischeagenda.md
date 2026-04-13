@@ -171,6 +171,17 @@ hide:
         </div>
     </div>
 
+    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
+        <div class="date">
+          <div class="day">11</div>
+          <div class="month">mei</div>
+        </div>
+        <div class="details">
+          <div class="title">Docat</div>
+          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>pastoor Meijer</div>
+        </div>
+    </div>
+
     </div>
   </section>
 
