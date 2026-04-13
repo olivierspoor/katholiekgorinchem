@@ -164,7 +164,39 @@ Vrijdag 10:00 </div>
 
 
 <a href="/berichten/index.html" class="button" >Alle berichten</a>
----
+<br><br>
+
+  <section class="agenda-section">
+    <div class="weekly-grid">
+      <a href="/liturgischeagenda">
+      <div class="mass-card">
+        <div class="icon"><i class="fa-regular fa-calendar"></i></div>
+        <div class="content">
+          <div class="day">Liturgische agenda</div>
+          <div class="extra">Bekijk de vieringen, missen en bijeenkomsten binnen onze parochie.</div>
+        </div>
+      </div>
+      </a>
+      <a href="/activiteiten">
+      <div class="mass-card">
+        <div class="icon"><i class="fa-solid fa-people-roof"></i></div>
+        <div class="content">
+          <div class="day">Activiteiten</div>
+          <div class="extra">Bekijk de activiteiten die in onze parochie worden georganiseerd.</div>
+        </div>
+      </div>
+      </a>
+      <a href="/roosters">
+      <div class="mass-card">
+        <div class="icon"><i class="fa-regular fa-calendar-days"></i></div>
+        <div class="content">
+          <div class="day">Roosters</div>
+          <div class="extra">Bekijk de roosters van de verschillende taken en bedieningen.</div>
+        </div>
+      </div>
+      </a>
+    </div>
+  </section>
 
 ## Over RK Gorinchem
 <div class="homepage-intro">
@@ -172,5 +204,6 @@ Vrijdag 10:00 </div>
 <span class="divider"></span>
 <p>De parochie wil de missie tot uitvoer brengen. In woord en daad wil zij Christus verkondigen in deze maatschappij. Het is en blijft de droom van de <strong>Katholieke Kerk</strong> dat steeds meer mensen Christus leren kennen als fundament in hun leven. Het ideaal van het pastoraal team is dat parochies gelovige, liefdevolle en geëngageerde gemeenschappen zijn.</p>
     <p><a href="overons.html" class="button">Doorgaan met lezen →</a></p>
-
 </div>
+
+<br>

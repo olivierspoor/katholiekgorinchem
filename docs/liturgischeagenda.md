@@ -6,139 +6,6 @@ hide:
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<style>
-/* Container */
-.agenda-container {
-  margin: 0 auto;
-}
-.agenda-section h2 {
-  color: var(--primary-color);
-}
-.agenda-section h2 i {
-  padding-right:10px;
-  color: var(--primary-color); /* match your purple */
-}
-
-/* WEEKLY GRID */
-.weekly-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-.mass-card {
-  background: color-mix(in srgb, var(--primary-color) 10%, white);;
-  border-radius: 14px;
-  padding: 20px;
-  display: flex;
-  gap: 15px;
-  align-items: flex-start;
-  box-shadow:0 4px 12px rgba(0,0,0,0.06);
-  transition: 0.2s ease;
-}
-.mass-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
-}
-.mass-card .icon {
-  font-size: 1.4rem;
-  color: var(--primary-color);
-}
-.mass-card .day {
-  font-weight: 600;
-  font-size: 1.1rem;
-}
-.mass-card .time {
-  font-size: 1.2rem;
-}
-.mass-card .extra {
-  font-size: 0.8rem;
-  color: #666;
-}
-
-/* EVENT LIST */
-.event-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.event-item {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-  background: #fff;
-  padding: 14px 16px;
-  border-radius: 12px;
-  box-shadow:0 4px 12px rgba(0,0,0,0.06);
-  transition: 0.2s ease;
-}
-.event-item:hover {
-  transform: translateX(4px);
-  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
-}
-
-/* Date block */
-.date {
-  min-width: 55px;
-  text-align: center;
-  background-color:#fff;
-  border-radius: 10px;
-  padding: 6px 0;
-}
-.date .day {
-  font-weight: 700;
-  font-size: 1.2rem;
-}
-
-.date .month {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  color: #777;
-}
-
-/* Event details */
-.details .title {
-  font-weight: 600;
-  margin-bottom: 2px;
-}
-.details .meta {
-  font-size: 0.85rem;
-  color: #666;
-}
-
-
-/* ROSTER LINK */
-.rooster-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--primary-color);
-  text-decoration: none;
-  font-weight: 500;
-  transition: 0.2s;
-}
-.rooster-link:hover {
-  gap: 12px;
-}
-
-/* RESPONSIVE */
-@media (max-width: 900px) {
-  .weekly-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 600px) {
-  .weekly-grid {
-    grid-template-columns: 1fr;
-  }
-  .page-title {
-    font-size: 2rem;
-  }
-  .agenda-section h2 {
-    font-size: 1.3em;
-  } 
-}
-  </style>
-
 <div class="agenda-container">
 
   <h1 class="page-title">Liturgische Agenda</h1>
@@ -290,6 +157,17 @@ hide:
         <div class="details">
           <div class="title">Docat</div>
           <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>pastoor Meijer</div>
+        </div>
+    </div>
+
+    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
+        <div class="date">
+          <div class="day">27</div>
+          <div class="month">apr</div>
+        </div>
+        <div class="details">
+          <div class="title">Bijbelcursus</div>
+          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>mw. Van den Akker-Savelsbergh</div>
         </div>
     </div>
 
