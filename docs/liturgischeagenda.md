@@ -184,15 +184,28 @@ hide:
 
     </div>
   </section>
-
-
-  <!-- ROSTERS -->
-  <section class="agenda-section">
-    <h2><i class="fa-solid fa-list"></i> Roosters</h2>
-
-    <a href="/roosters" class="rooster-link">
-      Bekijk de roosters <i class="fa-solid fa-arrow-right"></i>
-    </a>
-  </section>
-
 </div>
+<br>
+  <section class="agenda-section">
+    <div class="weekly-grid">
+      <a href="/activiteiten">
+      <div class="mass-card">
+        <div class="icon"><i class="fa-solid fa-people-roof"></i></div>
+        <div class="content">
+          <div class="day">Activiteiten</div>
+          <div class="extra">Bekijk de activiteiten die in onze parochie worden georganiseerd.</div>
+        </div>
+      </div>
+      </a>
+      <a href="/roosters">
+      <div class="mass-card">
+        <div class="icon"><i class="fa-regular fa-calendar-days"></i></div>
+        <div class="content">
+          <div class="day">Roosters</div>
+          <div class="extra">Bekijk de roosters van de verschillende taken en bedieningen.</div>
+        </div>
+      </div>
+      </a>
+    </div>
+  </section>
+<br>
