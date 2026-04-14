@@ -80,7 +80,7 @@ hide:
         <img src="../assets/activiteiten/docat.png" alt="Schoonmaakploeg">
       </div>
       <div class="activity-content">
-        <h3>Docat / Bibelcursus</h3>
+        <h3>Docat / Bijbelcursus</h3>
         <div class="activity-time"><a href="/liturgischeagenda">Zie de agenda</a></div>
         <p>Regelmatig organiseren wij een Bijbelcursus of DOCAT-bijeenkomst. Samen gaan we in gesprek over het geloof en wat dit betekent voor het dagelijks leven.</p>
       </div>
