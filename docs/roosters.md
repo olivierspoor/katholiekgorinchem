@@ -336,7 +336,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row gold" data-date="2026-06-07">
         <div>Zondag 7 juni <span class='desktop-break'></span>11:00</div>
       	<div data-label="Bijzonderheden">Sacramentsdag</div>
-        <div data-label="Lectoren">A. Bakker</div>
+        <div data-label="Lectoren">H. Klaver</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -358,7 +358,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="schedule-row green" data-date="2026-06-21">
       <div>Zondag 21 juni <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren">H. Klaver</div>
+        <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
