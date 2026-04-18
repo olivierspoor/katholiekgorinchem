@@ -2,6 +2,13 @@ import os, re, yaml, markdown as md_lib
 from datetime import datetime
 
 
+def make_slug(title_str):
+    slug = title_str.strip().lower()
+    slug = re.sub(r'[^\w\s-]', '', slug)
+    slug = re.sub(r'[\s_]+', '-', slug)
+    return slug.strip('-')
+
+
 def load_posts(posts_dir, authors_data, url_prefix, excerpt_only=False):
     posts = []
     for filename in os.listdir(posts_dir):
@@ -30,7 +37,6 @@ def load_posts(posts_dir, authors_data, url_prefix, excerpt_only=False):
         body = re.sub(r'^#\s+.+$', '', body, flags=re.MULTILINE).strip()
 
         if excerpt_only:
-            # Cut at <!-- more --> if present, otherwise first paragraph
             if '<!-- more -->' in body:
                 body = body.split('<!-- more -->')[0].strip()
             else:
@@ -38,16 +44,13 @@ def load_posts(posts_dir, authors_data, url_prefix, excerpt_only=False):
                 body = first_para.group(1).strip() if first_para else body
             body = body.replace('\n', ' ')
 
-        # Convert MkDocs image attributes to inline HTML attributes
-        # e.g. ![alt](url){ style="..." } -> ![alt](url) becomes <img style="...">
+        # Convert MkDocs image attributes to inline HTML
         def replace_img_attrs(text):
-            # Match image followed by attribute block
             pattern = r'(!\[([^\]]*)\]\(([^)]+)\))\{([^}]+)\}'
             def repl(m):
                 alt = m.group(2)
                 url = m.group(3)
                 attrs_raw = m.group(4).strip()
-                # Extract style if present
                 style_match = re.search(r'style=["\']([^"\']+)["\']', attrs_raw)
                 style = ' style="' + style_match.group(1) + '"' if style_match else ''
                 return '<img src="' + url + '" alt="' + alt + '"' + style + '>'
@@ -64,12 +67,15 @@ def load_posts(posts_dir, authors_data, url_prefix, excerpt_only=False):
             except Exception:
                 date_display = date_str
 
+            slug = make_slug(title.group(1))
+            url = url_prefix + slug + ".html"
+
             posts.append({
                 "title": title.group(1).strip(),
                 "date": date_str,
                 "date_display": date_display,
                 "body_html": body_html,
-                "url": url_prefix + filename.replace('.md', '.html'),
+                "url": url,
                 "author_name": author.get("name", ""),
                 "author_avatar": author.get("avatar", ""),
             })
