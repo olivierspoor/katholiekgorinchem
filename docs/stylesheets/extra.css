@@ -246,6 +246,10 @@ article.md-post.md-post--excerpt.featured-artikel h2 {
 article.md-post.md-post--excerpt.featured-artikel ul.md-meta__list {
     display: flex !important;
 }
+#latest-posts .md-post__action{
+  display: table;
+  margin: 10px 0;
+}
 
 /* 3. Header
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */

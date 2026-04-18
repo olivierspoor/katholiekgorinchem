@@ -5,3 +5,4 @@ site/
 *.ods#
 *.csv
 *.csv#
+__pycache__/
