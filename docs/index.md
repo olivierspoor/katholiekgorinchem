@@ -132,7 +132,7 @@ Vrijdag 10:00 </div>
       a0.classList.add('featured-artikel');
 
       const heading = document.createElement('h2');
-      heading.textContent = 'Laatste artikel';
+      heading.textContent = 'Nieuwste artikel';
       a0.prepend(heading);
 
       normalizeLinks(a0, '/artikelen/');
