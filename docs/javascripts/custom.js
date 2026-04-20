@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             '2026-04-05': { text: "Eerstvolgende mis: Paaszondag: <span class='mobile-break'></span>Eucharistieviering om 10:00", hour: 11 },
             '2026-04-15': { text: "Geen doordeweekse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
             '2026-04-17': { text: "Geen doordeweekse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
-            '2026-04-24': { text: "Geen dagmis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-04-24': { text: "Vridjag geen dagmis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
         };
 
         let foundMass = "";
