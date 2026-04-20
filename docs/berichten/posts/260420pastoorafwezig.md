@@ -10,6 +10,6 @@ hide:
   - toc
 ---
 
-# Geen Mis op vridag 24 april 
+# Geen Mis op vrijdag 24 april 
 
 Vrijdag 24 april vervalt helaas de ochtendmis van 10 uur.
