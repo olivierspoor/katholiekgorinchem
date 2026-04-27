@@ -10,7 +10,6 @@ hide:
 
   <h1 class="page-title">Liturgische Agenda</h1>
 
-  <!-- WEEKLY MASSES -->
   <section class="agenda-section">
     <h2><i class="fa-solid fa-calendar-week"></i> Wekelijkse Eucharistievieringen</h2>
 
@@ -179,6 +178,17 @@ hide:
         <div class="details">
           <div class="title">Docat</div>
           <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>pastoor Meijer</div>
+        </div>
+    </div>
+
+      <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+        <div class="date">
+          <div class="day">1</div>
+          <div class="month">jun</div>
+        </div>
+        <div class="details">
+          <div class="title">Bijbelcursus</div>
+          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>mw. Van den Akker-Savelsbergh</div>
         </div>
     </div>
 
