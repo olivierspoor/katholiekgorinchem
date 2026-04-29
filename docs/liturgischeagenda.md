@@ -106,6 +106,17 @@ hide:
         </div>
       </div>
 
+      <!-- <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
+        <div class="date">
+          <div class="day">14</div>
+          <div class="month">mei</div>
+        </div>
+        <div class="details">
+          <div class="title">Hemelvaart</div>
+          <div class="meta">donderdag • 10:00</div>
+        </div>
+      </div> -->
+
     </div>
   </section>
 
@@ -194,6 +205,69 @@ hide:
 
     </div>
   </section>
+
+    <section class="agenda-section">
+    <h2><i class="fa-solid fa-hands-praying"></i> Rozenkransgebedsgroep</h2>
+
+    <div class="event-list">
+      <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+        <div class="date">
+          <div class="day">7</div>
+          <div class="month">feb</div>
+        </div>
+        <div class="details">
+          <div class="title">Rozenkransgebedsgroep</div>
+          <div class="meta">Zaterdag • 10:00</div>
+        </div>
+      </div>
+
+      <div class="event-item" style="background-color: #f7f3ff; border-left: 4px solid #5A2A82;">
+        <div class="date">
+          <div class="day" style="color: #5A2A82;">7</div>
+          <div class="month" style="color: #5A2A82;">mrt</div>
+        </div>
+        <div class="details">
+          <div class="title">Rozenkransgebedsgroep</div>
+          <div class="meta">Zaterdag • 10:00</div>
+        </div>
+      </div>
+
+    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
+        <div class="date">
+          <div class="day">11</div>
+          <div class="month">apr</div>
+        </div>
+        <div class="details">
+          <div class="title">Rozenkransgebedsgroep</div>
+          <div class="meta">Zaterdag • 10:00 • wegens de paaswake een week later</div>
+        </div>
+    </div>
+
+    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
+        <div class="date">
+          <div class="day">02</div>
+          <div class="month">mei</div>
+        </div>
+        <div class="details">
+          <div class="title">Rozenkransgebedsgroep</div>
+          <div class="meta">Zaterdag • 10:00 • met aansluuitend een mis</div>
+        </div>
+    </div>
+
+    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+      <div class="date">
+        <div class="day">6</div>
+        <div class="month">jun</div>
+      </div>
+      <div class="details">
+        <div class="title">Rozenkransgebedsgroep</div>
+        <div class="meta">Zaterdag • 10:00</div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
 </div>
 <br>
   <section class="agenda-section">
