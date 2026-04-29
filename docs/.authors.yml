@@ -30,10 +30,17 @@ authors:
 
   Kevin:
     name: Kevin
-    description: Sinds 2025 lid van de parochie.
+    description: Parochielid
     avatar: /assets/authors/kevin.png
     # slug: url
     # url: url
+
+  Maureen:
+    name: Maureen
+    description: Parochielid
+    avatar: /assets/authors/maureen.png
+    # slug: url
+    # url: url  
 
   bestuur:
     name: Parochiebestuur
