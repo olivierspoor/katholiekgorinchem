@@ -10,7 +10,7 @@ hide:
   - toc
 ---
 
-# 02 mei rozenkrans gebedsgroep met aansluuitend een mis
+# 02 mei rozenkransgebedsgroep met aansluitend een mis
 
 Vrijdag begint de meimaand, een maand die (net als oktober) op bijzondere wijze aan Maria is toegewijd. Een mooie tijd om extra bij haar stil te staan en samen tot haar te bidden.
 
