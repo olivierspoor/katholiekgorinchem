@@ -106,16 +106,16 @@ hide:
         </div>
       </div> -->
 
-      <!-- <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
+      <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
         <div class="date">
           <div class="day">14</div>
           <div class="month">mei</div>
         </div>
         <div class="details">
           <div class="title">Hemelvaart</div>
-          <div class="meta">donderdag • 10:00</div>
+          <div class="meta">donderdag • 11:00</div>
         </div>
-      </div> -->
+      </div>
 
       <div class="event-item" style="background-color: #ffe5e8; border-left: 4px solid #B11226;">
         <div class="date">
