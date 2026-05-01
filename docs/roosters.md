@@ -257,7 +257,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 10 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H. Klaver</div>
-        <div data-label="Misdienaars">Arthur,<br> Yfke,<br> Chisom en<br> Marcos</div>
+        <div data-label="Misdienaars">Arthur,<br> Yfke,<br> Khaled en<br> Marcos</div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">Tutti</div>
@@ -333,7 +333,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
-        <div data-label="Koor">-</div>
+        <div data-label="Koor">Tutti</div>
         <div data-label="Koffie & Thee">-</div>
     </div>
 
@@ -344,7 +344,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
-        <div data-label="Koor">Tutti</div>
+        <div data-label="Koor">-</div>
         <div data-label="Koffie & Thee">Teresa en Jocelyn</div>
     </div>
 
@@ -402,7 +402,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
-        <div data-label="Koor">Tutti</div>
+        <div data-label="Koor">-</div>
         <div data-label="Koffie & Thee">-</div>
     </div>
 
@@ -413,7 +413,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
-        <div data-label="Koor">-</div>
+        <div data-label="Koor">Tutti</div>
         <div data-label="Koffie & Thee"></div>
     </div>
 
