@@ -119,8 +119,8 @@ hide:
 
       <div class="event-item" style="background-color: #ffe5e8; border-left: 4px solid #B11226;">
         <div class="date">
-          <div class="day" style="color: #B11226;">3</div>
-          <div class="month" style="color: #B11226;">apr</div>
+          <div class="day" style="color: #B11226;">24</div>
+          <div class="month" style="color: #B11226;">mei</div>
         </div>
         <div class="details">
           <div class="title">Pinksteren</div>
@@ -225,6 +225,17 @@ hide:
         </div>
     </div>
 
+    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+        <div class="date">
+          <div class="day">15</div>
+          <div class="month">jun</div>
+        </div>
+        <div class="details">
+          <div class="title">Docat</div>
+          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>pastoor Meijer</div>
+        </div>
+    </div>
+
     </div>
   </section>
 
@@ -267,7 +278,7 @@ hide:
 
     <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
         <div class="date">
-          <div class="day">02</div>
+          <div class="day">2</div>
           <div class="month">mei</div>
         </div>
         <div class="details">
