@@ -42,6 +42,13 @@ authors:
     # slug: url
     # url: url  
 
+  Gerlinde:
+    name: Gerlinde
+    description: Parochielid
+    avatar: /assets/authors/gerlinde.jpg
+    # slug: url
+    # url: url    
+
   bestuur:
     name: Parochiebestuur
     description: Het bestuur
