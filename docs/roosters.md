@@ -268,7 +268,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Donderdag 14 mei <span class='desktop-break'></span>11:00</div>
         <div data-label="Bijzonderheden">Hemelvaartsdag</div>
         <div data-label="Lectoren">A. Bakker</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Asaira,<br> Reinilde en<br> Yfke</div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">-</div>
