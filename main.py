@@ -63,7 +63,13 @@ def load_posts(posts_dir, authors_data, url_prefix, excerpt_only=False):
             date_str = date.group(1).strip()
             try:
                 date_obj = datetime.strptime(date_str, "%Y-%m-%d")
-                date_display = date_obj.strftime("%d %B %Y").lstrip("0")
+                DUTCH_MONTHS = {
+                    1: "januari", 2: "februari", 3: "maart", 4: "april",
+                    5: "mei", 6: "juni", 7: "juli", 8: "augustus",
+                    9: "september", 10: "oktober", 11: "november", 12: "december"
+                }
+
+                date_display = f"{date_obj.day} {DUTCH_MONTHS[date_obj.month]} {date_obj.year}"
             except Exception:
                 date_display = date_str
 
