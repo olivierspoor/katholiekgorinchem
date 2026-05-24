@@ -59,174 +59,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="schedule-board">
 
-  <div class="schedule-month" style="display:none;">
-    <h2 class="month-title">Maart 2026</h2>
-
-    <div class="schedule-table">
-
-      <div class="schedule-row schedule-head">
-        <div>Datum</div>
-        <div>Bijzonderheden</div>
-        <div>Lectoren</div>
-        <div>Misdienaars</div>
-        <div>Kosters</div>
-        <div>Koor</div>
-        <div>Koffie & Thee</div>
-      </div>
-
-      <div class="schedule-row purple" data-date="2026-03-01">
-        <div>zondag 1 maart 2026 <span class='desktop-break'></span>11:00</div>
-        <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren">K. Orfaly</div>
-        <div data-label="Misdienaars"></div>
-        <div data-label="Kosters">J. van Oord</div>
-        <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
-        <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee">-</div>
-      </div>
-
-      <div class="schedule-row purple" data-date="2026-03-08">
-        <div>zondag 8 maart 2026 <span class='desktop-break'></span>11:00</div>
-        <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren">H.Klaver</div>
-        <div data-label="Misdienaars">Chelsea,<br> Chisom,<br> Asaira en <br>Arthur</div>
-        <div data-label="Kosters">I. Scarpa</div>       
-        <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
-        <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee">Teresa en Gerlinde</div>
-      </div>
-
-      <div class="schedule-row rose" data-date="2026-03-15">
-        <div>Zondag 15 maart <span class='desktop-break'></span>11:00</div>
-        <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren">A. Bakker</div>
-        <div data-label="Misdienaars">Savyo,<br> Daniel,<br> Yfke en<br> Adriana</div>
-        <div data-label="Kosters">A. v d Diepstraten</div>
-        <div data-label="Liturgische kleur" class="mobile-label">Rose</div>
-        <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee">-</div>
-      </div>
-
-      <div class="schedule-row purple" data-date="2026-03-22">
-        <div>Zondag 22 maart <span class='desktop-break'></span>11:00</div>
-        <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren">H.Gruiters</div>
-        <div data-label="Misdienaars">Reinilde, <br> Melanie,<br> Destiny en<br> Arthur</div>
-        <div data-label="Kosters">K. Wirken</div>
-        <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
-        <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee">Marijke en Fadia </div>
-      </div>
-
-      <div class="schedule-row red" data-date="2026-03-29">
-        <div>Zondag 29 maart <span class='desktop-break'></span>11:00</div>
-        <div data-label="Bijzonderheden">Palmzondag /<br>Passiezondag</div>
-        <div data-label="Lectoren">H.Klaver en K. Orfaly</div>
-        <div data-label="Misdienaars">Marcos,<br> Yfke,<br> Adriana en<br> Savyo</div>
-        <div data-label="Kosters">E. van Es</div>
-        <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
-        <div data-label="Koor">Intermezzo</div>
-        <div data-label="Koffie & Thee">Jocelyn en Gerlinde</div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="schedule-month" style="display:none;">
-    <h2 class="month-title">April 2026</h2>
-
-    <div class="schedule-table">
-
-      <div class="schedule-row schedule-head">
-        <div>Datum</div>
-        <div>Bijzonderheden</div>
-        <div>Lectoren</div>
-        <div>Misdienaars</div>
-        <div>Kosters</div>
-        <div>Koor</div>
-        <div>Koffie & Thee</div>
-      </div>
-
-      <div class="schedule-row red" data-date="2026-04-03">
-        <div>Vrijdag 3 april <span class='desktop-break'></span>15:00</div>
-        <div data-label="Bijzonderheden">Kruisweg<br>(Goede vrijdag)</div>
-        <div data-label="Lectoren"></div>
-        <div data-label="Misdienaars"></div>
-        <div data-label="Kosters">A. v d Diepstraten</div>
-        <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
-        <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee">-</div>
-      </div>
-
-      <div class="schedule-row red" data-date="2026-04-03">
-        <div>Vrijdag 3 april <span class='desktop-break'></span>19:00</div>
-        <div data-label="Bijzonderheden">Kruisverering<br>(Goede vrijdag)</div>
-        <div data-label="Lectoren">H. Gruiters en <br>K. Orfaly</div>
-        <div data-label="Misdienaars">Melanie en<br>Marcos</div>
-        <div data-label="Kosters">A. v d Diepstraten</div>        
-        <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
-        <div data-label="Koor">Intermezzo</div>
-        <div data-label="Koffie & Thee">-</div>
-      </div>
-
-      <div class="schedule-row gold" data-date="2026-04-04">
-        <div>Zaterdag 4 april <span class='desktop-break'></span>21:00</div>
-        <div data-label="Bijzonderheden">Paaswake</div>
-        <div data-label="Lectoren">A. Bakker en <br>H. Gruiters</div>
-        <div data-label="Misdienaars">Reinilde,<br> Khaled,<br> Yfke en<br> Arthur</div>
-        <div data-label="Kosters">A. v d Diepstraten /<br> K. Wirken</div>
-        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
-        <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee">-</div>
-      </div>
-
-      <div class="schedule-row gold" data-date="2026-04-05">
-        <div>Zondag 5 april <span class='desktop-break'></span>10:00</div>
-        <div data-label="Bijzonderheden">Paaszondag</div>
-        <div data-label="Lectoren">K. Orfaly</div>
-        <div data-label="Misdienaars">Savyo,<br> Daniel,<br> Adriana en<br> Destiny</div>
-        <div data-label="Kosters">I. Scarpa</div>        
-        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
-        <div data-label="Koor">Intermezzo</div>
-        <div data-label="Koffie & Thee">Gerlinde</div>
-      </div>
-
-      <div class="schedule-row gold" data-date="2026-04-12">
-        <div>Zondag 12 april <span class='desktop-break'></span>11:00</div>
-        <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren">H. Klaver</div>
-        <div data-label="Misdienaars">Arthur,<br> Yfke,<br> Melanie en<br> Chisom</div>
-        <div data-label="Kosters">K. Wirken</div>
-        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
-        <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee">Jocelyn en Teresa </div>
-      </div>
-
-      <div class="schedule-row gold" data-date="2026-04-19">
-        <div>Zondag 19 april <span class='desktop-break'></span>11:00</div>
-        <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren">A. Bakker</div>
-        <div data-label="Misdienaars">Asaira,<br> Adriana,<br>en Reinilde</div>
-        <div data-label="Kosters">J. van Oord</div>        
-        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
-        <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee">-</div>
-      </div>
-
-      <div class="schedule-row gold" data-date="2026-04-26">
-        <div>Zondag 26 april <span class='desktop-break'></span>11:00</div>
-        <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren">H. Gruiters</div>
-        <div data-label="Misdienaars">Arthur,<br> Destiny,<br> Chisom en<br> Daniel</div>
-        <div data-label="Kosters">E. van Es</div>       
-        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
-        <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee">Corien en Gerlinde </div>
-      </div>
-
-    </div>
-  </div>
-
   <div class="schedule-month">
     <h2 class="month-title">Mei 2026</h2>
 
@@ -299,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       <div class="schedule-row gold" data-date="2026-05-31">
         <div>Zondag 31 mei <span class='desktop-break'></span>11:00</div>
-        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Bijzonderheden">Heilige Drieëenheid</div>
         <div data-label="Lectoren">H. Klaver</div>
         <div data-label="Misdienaars">Arthur,<br> Destiny,<br> Savyo en<br> Marcos</div>
         <div data-label="Kosters">K. Wirken</div>       
@@ -330,7 +162,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 7 juni <span class='desktop-break'></span>11:00</div>
       	<div data-label="Bijzonderheden">Sacramentsdag</div>
         <div data-label="Lectoren">H. Klaver</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Arthur,<br> Adriana,<br> Savyo en<br> Chisom</div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">Tutti</div>
@@ -341,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div>Zondag 14 juni <span class='desktop-break'></span>11:00</div>
      	  <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H. Gruiters</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Yfke,<br> Asaira,<br> Khaled en<br> Marcos</div>
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
@@ -352,7 +184,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div>Zondag 21 juni <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">A. Bakker</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Arthur,<br> Destiny,<br> Khaled en<br> Daniel</div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
@@ -363,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div>Zondag 28 juni <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">K. Orfaly</div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Asaira,<br> Adriana,<br> Melanie en<br> Savyo</div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">Intermezzo</div>
@@ -399,7 +231,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 5 juli <span class='desktop-break'></span>11:00</div>
       	<div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren"></div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Arthur,<br> Destiny,<br> Chisom en<br> Marcos</div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
@@ -410,7 +242,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div>Zondag 12 juli <span class='desktop-break'></span>11:00</div>
      	  <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren"></div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Yfke,<br> Asaira,<br> Reinilde en<br> Khaled</div>
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">Tutti</div>
@@ -421,7 +253,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div>Zondag 19 juli <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren"></div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Adriana,<br> Destiny,<br> Savyo en<br> Marcos</div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
@@ -432,7 +264,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div>Zondag 26 juli <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren"></div>
-        <div data-label="Misdienaars"></div>
+        <div data-label="Misdienaars">Yfke,<br> Adriana,<br> Khaled en<br> Chisom</div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
