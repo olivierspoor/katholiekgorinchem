@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function () {
      	  <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">H. Gruiters</div>
         <div data-label="Misdienaars">Yfke,<br> Asaira,<br> Khaled en<br> Marcos</div>
-        <div data-label="Kosters">J. van Oord</div>       
+        <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
         <div data-label="Koffie & Thee">Teresa en Jocelyn</div>
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function () {
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars">Arthur,<br> Destiny,<br> Khaled en<br> Daniel</div>
-        <div data-label="Kosters">I. Scarpa</div>       
+        <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
         <div data-label="Koffie & Thee">-</div>
