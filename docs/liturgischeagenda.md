@@ -51,91 +51,36 @@ hide:
 
     <div class="event-list">
 
-      <!-- <div class="event-item" style="background-color: #ffe5e8; border-left: 4px solid #B11226;">
-        <div class="date">
-          <div class="day" style="color: #B11226;">29</div>
-          <div class="month" style="color: #B11226;">mrt</div>
-        </div>
-        <div class="details">
-          <div class="title">Palmzondag</div>
-          <div class="meta">zondag • 11:00</div>
-        </div>
-      </div>
-
-      <div class="event-item" style="background-color: #ffe5e8; border-left: 4px solid #B11226;">
-        <div class="date">
-          <div class="day" style="color: #B11226;">3</div>
-          <div class="month" style="color: #B11226;">apr</div>
-        </div>
-        <div class="details">
-          <div class="title">Kruisweg (Goede Vrijdag)</div>
-          <div class="meta">vrijdag • 15:00</div>
-        </div>
-      </div>
-
-      <div class="event-item" style="background-color: #ffe5e8; border-left: 4px solid #B11226;">
-        <div class="date">
-          <div class="day" style="color: #B11226;">3</div>
-          <div class="month" style="color: #B11226;">apr</div>
-        </div>
-        <div class="details">
-          <div class="title">Kruisverering (Goede Vrijdag)</div>
-          <div class="meta">vrijdag • 19:00</div>
-        </div>
-      </div>
-
-    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
-      <div class="date">
-        <div class="day">4</div>
-        <div class="month">apr</div>
-        </div>
-        <div class="details">
-          <div class="title">Paaswake</div>
-          <div class="meta">zaterdag • 21:00</div>
-        </div>
-      </div>
-
       <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
         <div class="date">
-          <div class="day">5</div>
-          <div class="month">apr</div>
+          <div class="day">7</div>
+          <div class="month">juni</div>
         </div>
         <div class="details">
-          <div class="title">Paaszondag</div>
-          <div class="meta">zondag • 10:00</div>
-        </div>
-      </div> -->
-
-      <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
-        <div class="date">
-          <div class="day">14</div>
-          <div class="month">mei</div>
-        </div>
-        <div class="details">
-          <div class="title">Hemelvaart</div>
-          <div class="meta">donderdag • 11:00</div>
-        </div>
-      </div>
-
-      <div class="event-item" style="background-color: #ffe5e8; border-left: 4px solid #B11226;">
-        <div class="date">
-          <div class="day" style="color: #B11226;">24</div>
-          <div class="month" style="color: #B11226;">mei</div>
-        </div>
-        <div class="details">
-          <div class="title">Pinksteren</div>
+          <div class="title">Sacramentsdag</div>
           <div class="meta">zondag • 11:00</div>
         </div>
       </div>
 
       <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
         <div class="date">
-          <div class="day">31</div>
-          <div class="month">mei</div>
+          <div class="day">12</div>
+          <div class="month">juni</div>
         </div>
         <div class="details">
-          <div class="title">Heilige Drieëenheid</div>
+          <div class="title">Heilig Hart van Jezus</div>
           <div class="meta">zondag • 11:00</div>
+        </div>
+      </div>
+
+      <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
+        <div class="date">
+          <div class="day">24</div>
+          <div class="month">juni</div>
+        </div>
+        <div class="details">
+          <div class="title">Geboorte van de H. Johannes de Doper</div>
+          <div class="meta">woensdag • 10:00</div>
         </div>
       </div>
 
@@ -147,83 +92,6 @@ hide:
     <h2><i class="fa-solid fa-book-bible"></i> Bijbelcursus en catechese</h2>
 
     <div class="event-list">
-
-      <!-- <div class="event-item" style="background-color: #f7f3ff; border-left: 4px solid #5A2A82;">
-        <div class="date">
-          <div class="day" style="color: #5A2A82;">2</div>
-          <div class="month" style="color: #5A2A82;">mrt</div>
-        </div>
-        <div class="details">
-          <div class="title">Bijbelcursus</div>
-          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>mw. Van den Akker-Savelsbergh</div>
-        </div>
-      </div>
-
-      <div class="event-item" style="background-color: #f7f3ff; border-left: 4px solid #5A2A82;">
-        <div class="date">
-          <div class="day" style="color: #5A2A82;">16</div>
-          <div class="month" style="color: #5A2A82;">mrt</div>
-        </div>
-        <div class="details">
-          <div class="title">Docat</div>
-          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>pastoor Meijer</div>
-        </div>
-      </div>
-
-      <div class="event-item" style="background-color: #f7f3ff; border-left: 4px solid #5A2A82;">
-        <div class="date">
-          <div class="day" style="color: #5A2A82;">30</div>
-          <div class="month" style="color: #5A2A82;">mrt</div>
-        </div>
-        <div class="details">
-          <div class="title">Bijbelcursus</div>
-          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>mw. Van den Akker-Savelsbergh</div>
-        </div>
-      </div>
-
-      <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
-        <div class="date">
-          <div class="day">13</div>
-          <div class="month">apr</div>
-        </div>
-        <div class="details">
-          <div class="title">Docat</div>
-          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>pastoor Meijer</div>
-        </div>
-    </div>
-
-    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
-        <div class="date">
-          <div class="day">27</div>
-          <div class="month">apr</div>
-        </div>
-        <div class="details">
-          <div class="title">Bijbelcursus</div>
-          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>mw. Van den Akker-Savelsbergh</div>
-        </div>
-    </div> -->
-
-    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
-        <div class="date">
-          <div class="day">11</div>
-          <div class="month">mei</div>
-        </div>
-        <div class="details">
-          <div class="title">Docat</div>
-          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>pastoor Meijer</div>
-        </div>
-    </div>
-
-      <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
-        <div class="date">
-          <div class="day">1</div>
-          <div class="month">jun</div>
-        </div>
-        <div class="details">
-          <div class="title">Bijbelcursus</div>
-          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>mw. Van den Akker-Savelsbergh</div>
-        </div>
-    </div>
 
     <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
         <div class="date">
@@ -254,50 +122,7 @@ hide:
     <h2><i class="fa-solid fa-hands-praying"></i> Rozenkransgebedsgroep</h2>
 
     <div class="event-list">
-      <!-- <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
-        <div class="date">
-          <div class="day">7</div>
-          <div class="month">feb</div>
-        </div>
-        <div class="details">
-          <div class="title">Rozenkransgebedsgroep</div>
-          <div class="meta">Zaterdag • 10:00</div>
-        </div>
-      </div>
-
-      <div class="event-item" style="background-color: #f7f3ff; border-left: 4px solid #5A2A82;">
-        <div class="date">
-          <div class="day" style="color: #5A2A82;">7</div>
-          <div class="month" style="color: #5A2A82;">mrt</div>
-        </div>
-        <div class="details">
-          <div class="title">Rozenkransgebedsgroep</div>
-          <div class="meta">Zaterdag • 10:00</div>
-        </div>
-      </div>
-
-    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
-        <div class="date">
-          <div class="day">11</div>
-          <div class="month">apr</div>
-        </div>
-        <div class="details">
-          <div class="title">Rozenkransgebedsgroep</div>
-          <div class="meta">Zaterdag • 10:00 • wegens de paaswake een week later</div>
-        </div>
-    </div> -->
-
-    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
-        <div class="date">
-          <div class="day">2</div>
-          <div class="month">mei</div>
-        </div>
-        <div class="details">
-          <div class="title">Rozenkransgebedsgroep</div>
-          <div class="meta">Zaterdag • 10:00 • met aansluitend een mis</div>
-        </div>
-    </div>
-
+  
     <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
       <div class="date">
         <div class="day">6</div>
