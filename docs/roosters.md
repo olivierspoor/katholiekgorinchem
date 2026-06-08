@@ -8,58 +8,138 @@ hide:
 # Roosters
 
 <script>
+// Freeze "today" to any date you want
+// const RealDate = Date;
+// Date = class extends RealDate {
+//   constructor(...args) {
+//     if (args.length === 0) return super(2026, 7, 17); // month is 0-based, so 5 = June
+//     return super(...args);
+//   }
+// };
+// console.log(new Date().toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' }));
+
 document.addEventListener("DOMContentLoaded", function () {
-  const today = new Date();
-  today.setHours(0, 0, 0, 0); // normalize to midnight
-
-  const rows = document.querySelectorAll(".schedule-row[data-date]");
-
-  rows.forEach(row => {
-    const dateString = row.getAttribute("data-date");
-    const rowDate = new Date(dateString);
-    rowDate.setHours(0, 0, 0, 0);
-
-    if (rowDate < today) {
-      row.style.display = "none";
-    }
-  });
-});
-</script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
-  const rows = document.querySelectorAll(".schedule-row[data-date]");
-
-  rows.forEach(row => {
-    const dateString = row.getAttribute("data-date");
-    const rowDate = new Date(dateString);
-    rowDate.setHours(0, 0, 0, 0);
-
-    if (rowDate < today) {
-      row.style.display = "none";
-    }
+  // Step 1: hide all past rows
+  document.querySelectorAll(".schedule-row[data-date]").forEach(row => {
+    const d = new Date(row.getAttribute("data-date"));
+    d.setHours(0, 0, 0, 0);
+    if (d < today) row.style.display = "none";
   });
 
-  const btn = document.getElementById("show-more-roosters");
-  const may = document.getElementById("upcomming-schedule");
+  // Step 2: find months that still have at least one visible upcoming row
+  const months = Array.from(document.querySelectorAll(".schedule-month[data-date]"));
+  const monthsWithUpcoming = months.filter(month => {
+    return Array.from(month.querySelectorAll(".schedule-row[data-date]"))
+      .some(row => row.style.display !== "none");
+  });
 
-  if (btn && may) {
+  // Step 3: show the first 2 months that have upcoming dates; hide the rest
+  months.forEach(month => month.style.display = "none");
+  monthsWithUpcoming.slice(0, 2).forEach(month => month.style.display = "");
+
+  // Step 4: "Load more" reveals everything and unhides past rows
+  const btn = document.getElementById("show-more-roosters");
+  if (btn) {
     btn.addEventListener("click", function () {
-      may.style.display = "block";
+      months.forEach(month => month.style.display = "");
+      document.querySelectorAll(".schedule-row[data-date]").forEach(row => {
+        row.style.display = "";
+      });
       btn.remove();
     });
   }
-
 });
 </script>
 
 <div class="schedule-board">
+  <div class="schedule-month"  data-date="2026-05-01">
+    <h2 class="month-title">Mei 2026</h2>
 
-  <div class="schedule-month">
+    <div class="schedule-table">
+
+      <div class="schedule-row schedule-head">
+        <div>Datum</div>
+        <div>Bijzonderheden</div>
+        <div>Lectoren</div>
+        <div>Misdienaars</div>
+        <div>Kosters</div>
+        <div>Koor</div>
+        <div>Koffie & Thee</div>
+      </div>
+
+      <div class="schedule-row gold" data-date="2026-05-03">
+        <div>Zondag 3 mei <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren">K. Orfaly</div>
+        <div data-label="Misdienaars">Asaira,<br> Adriana,<br> Melanie en<br> Savyo</div>
+        <div data-label="Kosters">I. Scarpa</div>       
+        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
+        <div data-label="Koor">-</div>
+        <div data-label="Koffie & Thee">-</div>
+      </div>
+
+      <div class="schedule-row gold" data-date="2026-05-10">
+        <div>Zondag 10 mei <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren">H. Klaver</div>
+        <div data-label="Misdienaars">Arthur,<br> Yfke,<br> Khaled en<br> Marcos</div>
+        <div data-label="Kosters">K. Wirken</div>       
+        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
+        <div data-label="Koor">Tutti</div>
+        <div data-label="Koffie & Thee">Jocelyn en Corien</div>
+      </div>
+
+      <div class="schedule-row gold" data-date="2026-05-14">
+        <div>Donderdag 14 mei <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Hemelvaartsdag</div>
+        <div data-label="Lectoren">A. Bakker</div>
+        <div data-label="Misdienaars">Asaira,<br> Reinilde en<br> Yfke</div>
+        <div data-label="Kosters">E. van Es</div>       
+        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
+        <div data-label="Koor">-</div>
+        <div data-label="Koffie & Thee">-</div>
+      </div>
+
+      <div class="schedule-row gold" data-date="2026-05-17">
+        <div>Zondag 17 mei <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren">H. Gruiters</div>
+        <div data-label="Misdienaars">Asaira,<br> Destiny,<br> Reinilde en<br> Daniel</div>
+        <div data-label="Kosters">J. van Oord</div>       
+        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
+        <div data-label="Koor">-</div>
+        <div data-label="Koffie & Thee">-</div>
+      </div>
+
+      <div class="schedule-row red" data-date="2026-05-24">
+        <div>Zondag 24 mei <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Pinksteren</div>
+        <div data-label="Lectoren">A. Bakker</div>
+        <div data-label="Misdienaars">Yfke,<br> Adriana,<br> Melanie en<br> Chisom</div>
+        <div data-label="Kosters">I. Scarpa</div>       
+        <div data-label="Liturgische kleur" class="mobile-label">Rood</div>
+        <div data-label="Koor">Intermezzo</div>
+        <div data-label="Koffie & Thee">Marijke en Gerlinde</div>
+      </div>
+
+      <div class="schedule-row gold" data-date="2026-05-31">
+        <div>Zondag 31 mei <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Heilige Drieëenheid</div>
+        <div data-label="Lectoren">H. Klaver</div>
+        <div data-label="Misdienaars">Arthur,<br> Destiny,<br> Savyo en<br> Marcos</div>
+        <div data-label="Kosters">K. Wirken</div>       
+        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
+        <div data-label="Koor">-</div>
+        <div data-label="Koffie & Thee">-</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="schedule-month" data-date="2026-06-01">
     <h2 class="month-title">Juni 2026</h2>
 
     <div class="schedule-table">
@@ -122,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
 
 
-  <div class="schedule-month">
+  <div class="schedule-month" data-date="2026-07-01">
     <h2 class="month-title">Juli 2026</h2>
 
     <div class="schedule-table">
@@ -184,14 +264,10 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
-    <div style="text-align:center; margin-top:20px;">
-    <span id="show-more-roosters" class="button">Overige roosters</span>
-  </div>
+
 
 </div>
-<div id="upcomming-schedule" style="display:none;">
-
-  <div class="schedule-month">
+  <div class="schedule-month" data-date="2026-08-01">
     <h2 class="month-title">Augusts 2026</h2>
 
     <div class="schedule-table">
@@ -264,7 +340,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
-  <div class="schedule-month">
+  <div class="schedule-month" data-date="2026-09-01">
     <h2 class="month-title">September 2026</h2>
 
     <div class="schedule-table">
@@ -326,7 +402,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
-  <div class="schedule-month">
+  <div class="schedule-month" data-date="2026-10-01">
     <h2 class="month-title">Oktober 2026</h2>
 
     <div class="schedule-table">
@@ -388,7 +464,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
-  <div class="schedule-month">
+  <div class="schedule-month" data-date="2026-11-01">
     <h2 class="month-title">November 2026</h2>
 
     <div class="schedule-table">
@@ -461,7 +537,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
   </div>
 
-  <div class="schedule-month">
+  <div class="schedule-month" data-date="2026-12-01">
     <h2 class="month-title">December 2026</h2>
 
     <div class="schedule-table">
@@ -544,5 +620,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     </div>
   </div>
-
+  <div style="text-align:center; margin-top:20px;">
+    <span id="show-more-roosters" class="button">Overige roosters</span>
+  </div>
 </div>
