@@ -69,7 +69,7 @@ hide:
         </div>
         <div class="details">
           <div class="title">Heilig Hart van Jezus</div>
-          <div class="meta">zondag • 11:00</div>
+          <div class="meta">vrijdag • 10:00</div>
         </div>
       </div>
 
