@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Misdienaars">Asaira,<br> Adriana,<br> Melanie en<br> Savyo</div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
-        <div data-label="Koor">Intermezzo</div>
+        <div data-label="Koor">-</div>
         <div data-label="Koffie & Thee">Fadia en Corien</div>
     </div>
 
