@@ -2,6 +2,7 @@
 draft: false 
 date: 2026-06-15
 pin: false
+slug: 28-juni-processie-heylighe-hout-in-dordtrecht
 categories:
   - Agenda
 authors:
@@ -10,7 +11,7 @@ hide:
   - toc
 ---
 
-# 28 juni: Processie Heylighe Hout in Dordtrecht
+# 28 juni: Processie Heylighe Hout in Dordrecht
 
 Op zondag 28 juni trekt de processie van het Heylighe Hout door de binnenstad van Dordrecht. Een bijzondere middag waarin geloof, traditie en ontmoeting samenkomen.
 

@@ -11,10 +11,13 @@ def make_slug(title_str):
 
 def load_posts(posts_dir, authors_data, url_prefix, excerpt_only=False):
     posts = []
+
     for filename in os.listdir(posts_dir):
         if not filename.endswith(".md"):
             continue
+
         filepath = os.path.join(posts_dir, filename)
+
         with open(filepath, encoding="utf-8") as f:
             content = f.read()
 
@@ -22,13 +25,20 @@ def load_posts(posts_dir, authors_data, url_prefix, excerpt_only=False):
         if re.search(r'^draft:\s*true', content, re.MULTILINE):
             continue
 
-        date  = re.search(r'^date:\s*(.+)$', content, re.MULTILINE)
+        date = re.search(r'^date:\s*(.+)$', content, re.MULTILINE)
         title = re.search(r'^title:\s*(.+)$', content, re.MULTILINE)
+        slug_match = re.search(r'^slug:\s*(.+)$', content, re.MULTILINE)
+
         if not title:
             title = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
 
         # Get first author
-        author_match = re.search(r'^authors:\s*\n\s+-\s*(.+)$', content, re.MULTILINE)
+        author_match = re.search(
+            r'^authors:\s*\n\s+-\s*(.+)$',
+            content,
+            re.MULTILINE
+        )
+
         author_key = author_match.group(1).strip() if author_match else None
         author = authors_data.get(author_key, {}) if author_key else {}
 
@@ -42,38 +52,78 @@ def load_posts(posts_dir, authors_data, url_prefix, excerpt_only=False):
             else:
                 first_para = re.search(r'^(.+?)(?:\n\n|$)', body, re.DOTALL)
                 body = first_para.group(1).strip() if first_para else body
+
             body = body.replace('\n', ' ')
 
         # Convert MkDocs image attributes to inline HTML
         def replace_img_attrs(text):
             pattern = r'(!\[([^\]]*)\]\(([^)]+)\))\{([^}]+)\}'
+
             def repl(m):
                 alt = m.group(2)
                 url = m.group(3)
                 attrs_raw = m.group(4).strip()
-                style_match = re.search(r'style=["\']([^"\']+)["\']', attrs_raw)
-                style = ' style="' + style_match.group(1) + '"' if style_match else ''
-                return '<img src="' + url + '" alt="' + alt + '"' + style + '>'
+
+                style_match = re.search(
+                    r'style=["\']([^"\']+)["\']',
+                    attrs_raw
+                )
+
+                style = (
+                    ' style="' + style_match.group(1) + '"'
+                    if style_match else ''
+                )
+
+                return (
+                    '<img src="' + url +
+                    '" alt="' + alt +
+                    '"' + style + '>'
+                )
+
             return re.sub(pattern, repl, text)
 
         body = replace_img_attrs(body)
-        body_html = md_lib.markdown(body, extensions=['tables', 'fenced_code'])
+        body_html = md_lib.markdown(
+            body,
+            extensions=['tables', 'fenced_code']
+        )
 
         if title and date:
             date_str = date.group(1).strip()
+
             try:
                 date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+
                 DUTCH_MONTHS = {
-                    1: "januari", 2: "februari", 3: "maart", 4: "april",
-                    5: "mei", 6: "juni", 7: "juli", 8: "augustus",
-                    9: "september", 10: "oktober", 11: "november", 12: "december"
+                    1: "januari",
+                    2: "februari",
+                    3: "maart",
+                    4: "april",
+                    5: "mei",
+                    6: "juni",
+                    7: "juli",
+                    8: "augustus",
+                    9: "september",
+                    10: "oktober",
+                    11: "november",
+                    12: "december"
                 }
 
-                date_display = f"{date_obj.day} {DUTCH_MONTHS[date_obj.month]} {date_obj.year}"
+                date_display = (
+                    f"{date_obj.day} "
+                    f"{DUTCH_MONTHS[date_obj.month]} "
+                    f"{date_obj.year}"
+                )
+
             except Exception:
                 date_display = date_str
 
-            slug = make_slug(title.group(1))
+            # Use custom slug if present, otherwise generate one
+            if slug_match:
+                slug = slug_match.group(1).strip()
+            else:
+                slug = make_slug(title.group(1))
+
             url = url_prefix + slug + ".html"
 
             posts.append({
