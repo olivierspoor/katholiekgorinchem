@@ -2,7 +2,6 @@
 draft: false 
 date: 2026-06-15
 pin: false
-slug: 28-juni-processie-heylighe-hout-in-dordtrecht
 categories:
   - Agenda
 authors:
