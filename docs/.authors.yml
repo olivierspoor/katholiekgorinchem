@@ -83,3 +83,10 @@ authors:
     avatar: /assets/authors/rob.jpg
     # slug: url           # Author profile slug
     # url: url            # Author website URL
+
+  sylwia:
+    name: Sylwia Szara-Borowska
+    description: Parochielid
+    avatar: /assets/authors/redactie_icon.png
+    # slug: url           # Author profile slug
+    # url: url            # Author website URL
