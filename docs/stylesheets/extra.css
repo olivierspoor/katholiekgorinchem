@@ -711,6 +711,15 @@ nav {
   display: none !important;
 }
 
+@media (max-width: 768px) {
+    .responsive-image {
+        width: 100% !important;
+        height: auto;
+        max-height: none !important;
+        display: block;
+    }
+}
+
 .md-ellipsis{
   color:black;
 }

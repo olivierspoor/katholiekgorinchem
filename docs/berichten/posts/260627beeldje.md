@@ -14,7 +14,7 @@ hide:
 
 In 2026 viert het bisdom Rotterdam zijn 70-jarig bestaan. Ter gelegenheid van dit jubileum reist een replica van het beeld van de heilige diaken Laurentius, de patroonheilige van ons bisdom, langs de parochies in een bijzondere estafette. De estafette start op zondag 1 februari, na de opening van het jubileumjaar.
 
-![Laurentius replica](/assets/berichten/laurentiusbeeld.jpg){ align=right style="width:auto; max-height:360px;" }
+![Laurentius replica](/assets/berichten/laurentiusbeeld.jpg){ align=right .responsive-image style="width:auto; max-height:360px;" }
 
 Wij zijn verheugd dat onze parochie het beeld van de heilige Laurentius mag ontvangen. Van 3 juli tot en met 11 juli is de replica bij ons te gast. In deze periode bent u van harte welkom om het beeld te komen bekijken en deel te nemen aan de activiteiten die rondom dit bijzondere bezoek worden georganiseerd.
 

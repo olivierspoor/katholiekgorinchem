@@ -16,6 +16,6 @@ Zaterdag 18 april trad broeder Alex op in Vianen met zijn voorstelling De arme p
 
 Voor broeder Alex is dit pelgrimsleven geen last, maar een roeping. “God draagt zorg voor mij op de weg,” zegt hij. “Zoals Christus leert dat de vogels niet zaaien en niet maaien, en toch gevoed worden — zo ervaar ik elke dag dat er voor mij gezorgd wordt.”
 
-![Paaskaars](../assets/berichten/pelgrim_1.png){ style="width:auto; max-height:225px;" } 
-![Paaskaars](../assets/berichten/pelgrim_2.png){ style="width:auto; max-height:225px;" }
+![Paaskaars](https://katholiekgorinchem.nl/assets/berichten/pelgrim_1.png){ style="width:auto; max-height:225px;" } 
+![Paaskaars](https://katholiekgorinchem.nl/assets/berichten/pelgrim_2.png){ style="width:auto; max-height:225px;" }
 
