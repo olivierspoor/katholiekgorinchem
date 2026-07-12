@@ -236,7 +236,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Gerlinde en Jocelyn</div>
     </div>
 
     <div class="schedule-row green" data-date="2026-07-19">
@@ -258,7 +258,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Corien en Carolien</div>
     </div>
 
     </div>
@@ -301,7 +301,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Fadia en Corien</div>
     </div>
 
     <div class="schedule-row green" data-date="2026-08-16">
@@ -323,7 +323,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Carolien en Gerlinde</div>
     </div>
 
     <div class="schedule-row green" data-date="2026-08-30">
@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">-</div>
     </div>
 
     </div>
@@ -374,7 +374,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Jocelyn en Carolien</div>
     </div>
 
     <div class="schedule-row green" data-date="2026-09-20">
@@ -396,7 +396,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">Intermezzo</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Teresa en Fadia</div>
     </div>
 
     </div>
@@ -436,7 +436,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Marijke en Jocelyn</div>
       </div>
 
       <div class="schedule-row green" data-date="2026-10-18">
@@ -458,7 +458,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Marijke en Ela</div>
       </div>
 
     </div>
@@ -498,7 +498,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Teresa en Gerlinde</div>
       </div>
 
       <div class="schedule-row green" data-date="2026-11-15">
@@ -520,7 +520,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">A. v d Diepstraten</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">Intermezzo</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Teresa en Gerlinde</div>
       </div>
 
       <div class="schedule-row purple" data-date="2026-11-29">
@@ -531,7 +531,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
         <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">-</div>
       </div>
 
     </div>
@@ -571,7 +571,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Rose</div>
         <div data-label="Koor">Tutti</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Marijke en Ela</div>
       </div>
 
       <div class="schedule-row purple" data-date="2026-12-20">
@@ -615,7 +615,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">-</div>
-        <div data-label="Koffie & Thee"></div>
+        <div data-label="Koffie & Thee">Corien en Fadia</div>
       </div>
 
     </div>
