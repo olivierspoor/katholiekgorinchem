@@ -253,7 +253,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="schedule-row green" data-date="2026-07-26">
       <div>Zondag 26 juli <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren">A. Bakker</div>
+        <div data-label="Lectoren">V. Osterhaus</div>
         <div data-label="Misdienaars">Yfke,<br> Adriana,<br> Khaled en<br> Chisom</div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
