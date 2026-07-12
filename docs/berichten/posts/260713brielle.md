@@ -1,7 +1,7 @@
 ---
 draft: false 
 date: 2026-07-13
-slug: bedevaartbrielle
+slug: terugblik-brielle
 categories:
   - Overig
 authors:
