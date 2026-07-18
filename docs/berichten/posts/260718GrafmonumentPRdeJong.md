@@ -1,6 +1,6 @@
 ---
 draft: false 
-date: 2026-07-13
+date: 2026-07-18
 slug: grafmonument-pr-de-jong
 categories:
   - Overig
@@ -27,5 +27,6 @@ Dit kunt u doen door uw bijdrage over te maken op de bankrekening van onze paroc
 Alvast dank voor uw bijdrage.
 Het parochiebestuur
 
-
-![QR code](https://katholiekgorinchem.nl/assets/berichten/qrcode_grafmonument.png){ style="width:auto; max-height:225px;" } 
+<a href="https://tikkie.me/pay/RKParochie/x3K3zoB163j8pM18TakMX5">
+![QR code](https://katholiekgorinchem.nl/assets/berichten/qrcode_grafmonument.png){ style="width:178px; max-height:225px;" } 
+</a>
