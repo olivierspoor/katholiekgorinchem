@@ -268,7 +268,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 </div>
   <div class="schedule-month" data-date="2026-08-01">
-    <h2 class="month-title">Augusts 2026</h2>
+    <h2 class="month-title">Augustus 2026</h2>
 
     <div class="schedule-table">
 

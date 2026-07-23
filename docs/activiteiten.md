@@ -77,7 +77,7 @@ hide:
 
     <div class="activity-card layout-top">
       <div class="activity-image">
-        <img src="../assets/activiteiten/docat.png" alt="Schoonmaakploeg">
+        <img src="../assets/activiteiten/docat.png" alt="Docat">
       </div>
       <div class="activity-content">
         <h3>Docat / Bijbelcursus</h3>

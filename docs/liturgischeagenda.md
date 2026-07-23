@@ -137,6 +137,17 @@ hide:
       </div>
     </div>
 
+    <div class="event-item" style="background-color: #ffe5e8; border-left: 4px solid #B11226;">
+        <div class="date">
+        <div class="day" style="color: #B11226;">10</div>
+        <div class="month" style="color: #B11226;">aug</div>
+        </div>
+        <div class="details">
+          <div class="title">Docat</div>
+          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>pastoor Meijer</div>
+        </div>
+    </div>
+
     </div>
   </section>
 
@@ -147,8 +158,8 @@ hide:
   
     <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
       <div class="date">
-        <div class="day">6</div>
-        <div class="month">jun</div>
+        <div class="day">4</div>
+        <div class="month">jul</div>
       </div>
       <div class="details">
         <div class="title">Rozenkransgebedsgroep</div>
@@ -156,10 +167,21 @@ hide:
       </div>
     </div>
 
-    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
       <div class="date">
-        <div class="day">4</div>
-        <div class="month">jul</div>
+        <div class="day">1</div>
+        <div class="month">aug</div>
+      </div>
+      <div class="details">
+        <div class="title">Rozenkransgebedsgroep</div>
+        <div class="meta">Zaterdag • 10:00</div>
+      </div>
+    </div> 
+
+      <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+      <div class="date">
+        <div class="day">5</div>
+        <div class="month">sept</div>
       </div>
       <div class="details">
         <div class="title">Rozenkransgebedsgroep</div>
