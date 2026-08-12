@@ -384,7 +384,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Misdienaars">Arthur, <br>Adriana, <br>Chisom en <br>Savyo</div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
-        <div data-label="Koor">-</div>
+        <div data-label="Koor">Intermezzo</div>
         <div data-label="Koffie & Thee">-</div>
     </div>
 
@@ -395,7 +395,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Misdienaars">Yfke, <br>Asaira, <br>Melanie en <br>Marcos</div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
-        <div data-label="Koor">Intermezzo</div>
+        <div data-label="Koor">-</div>
         <div data-label="Koffie & Thee">Teresa en Fadia</div>
     </div>
 
