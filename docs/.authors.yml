@@ -90,3 +90,10 @@ authors:
     avatar: /assets/authors/redactie_icon.png
     # slug: url           # Author profile slug
     # url: url            # Author website URL
+
+  intermezzo:
+    name: Intermezzo
+    description: RK koor Intermezzo is een gemengd koor met 28 leden. We hebben sopranen, alten, tenoren en bassen, maar zijn altijd blij met nieuwe enthousiaste mensen.
+    avatar: /assets/authors/intermezzo.png
+    # slug: url           # Author profile slug
+    url: https://www.rkkoorintermezzo.com/
