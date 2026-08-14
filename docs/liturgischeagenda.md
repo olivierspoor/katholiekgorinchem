@@ -53,33 +53,23 @@ hide:
 
       <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
         <div class="date">
-          <div class="day">12</div>
-          <div class="month">juni</div>
-        </div>
-        <div class="details">
-          <div class="title">Heilig Hart van Jezus</div>
-          <div class="meta">vrijdag • 10:00</div>
-        </div>
-      </div>
-
-      <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
-        <div class="date">
-          <div class="day">24</div>
-          <div class="month">juni</div>
-        </div>
-        <div class="details">
-          <div class="title">Geboorte van de H. Johannes de Doper</div>
-          <div class="meta">woensdag • 10:00</div>
-        </div>
-      </div>
-
-      <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
-        <div class="date">
           <div class="day">16</div>
           <div class="month">aug</div>
         </div>
         <div class="details">
           <div class="title">Maria Tenhemelopneming</div>
+          <div class="meta">zondag • 11:00</div>
+        </div>
+      </div>
+
+      
+      <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+        <div class="date">
+          <div class="day">20</div>
+          <div class="month">sept</div>
+        </div>
+        <div class="details">
+          <div class="title">Lustrumviering R.K. Koor Intermezzo</div>
           <div class="meta">zondag • 11:00</div>
         </div>
       </div>
@@ -92,28 +82,6 @@ hide:
     <h2><i class="fa-solid fa-book-bible"></i> Bijbelcursus en catechese</h2>
 
     <div class="event-list">
-
-    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
-        <div class="date">
-          <div class="day">15</div>
-          <div class="month">jun</div>
-        </div>
-        <div class="details">
-          <div class="title">Docat</div>
-          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>pastoor Meijer</div>
-        </div>
-    </div>
-
-    <div class="event-item" style="background-color: #ffe5e8; border-left: 4px solid #B11226;">
-      <div class="date">
-        <div class="day" style="color: #B11226;">29</div>
-        <div class="month" style="color: #B11226;">jun</div>
-      </div>
-      <div class="details">
-        <div class="title">Bijbelcursus</div>
-          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>mw. Van den Akker-Savelsbergh</div>
-      </div>
-    </div>
 
     <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
         <div class="date">
