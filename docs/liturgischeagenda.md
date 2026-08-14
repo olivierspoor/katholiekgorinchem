@@ -88,7 +88,7 @@ hide:
   </section>
 
   <!-- BIBLE STUDY -->
-  <section class="agenda-section">
+  <section id="docat" class="agenda-section">
     <h2><i class="fa-solid fa-book-bible"></i> Bijbelcursus en catechese</h2>
 
     <div class="event-list">
@@ -162,7 +162,70 @@ hide:
     </div>
   </section>
 
-    <section class="agenda-section">
+  <section id="jongerengroep" class="agenda-section">
+    <h2><i class="fa-solid fa-book-bible"></i> Jongvolwassenengroep</h2>
+
+    <div class="event-list">
+
+    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+        <div class="date">
+          <div class="day">8</div>
+          <div class="month">jul</div>
+        </div>
+        <div class="details">
+          <div class="title">Jongvolwassenengroep</div>
+          <div class="meta">Woensdag • 19:00 • <span class='mobile-break'></span>pastoor Meijer</div>
+        </div>
+    </div>
+
+    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
+      <div class="date">
+        <div class="day" style="color: #B11226;">22</div>
+        <div class="month" style="color: #B11226;">jul</div>
+      </div>
+      <div class="details">
+        <div class="title">Jongvolwassenengroep</div>
+          <div class="meta">Woensdag • 19:00 • <span class='mobile-break'></span>pastoor Meijer</div>
+      </div>
+    </div>
+
+    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+        <div class="date">
+          <div class="day">5</div>
+          <div class="month">aug</div>
+        </div>
+        <div class="details">
+          <div class="title">Jongvolwassenengroep</div>
+          <div class="meta">Woensdag • 19:00 • <span class='mobile-break'></span>pastoor Meijer</div>
+        </div>
+    </div>
+
+    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+      <div class="date">
+        <div class="day">19</div>
+        <div class="month">aug</div>
+      </div>
+      <div class="details">
+        <div class="title">Jongvolwassenengroep</div>
+          <div class="meta">Woensdag • 19:00 • <span class='mobile-break'></span>pastoor Meijer</div>
+      </div>
+    </div>
+
+    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+      <div class="date">
+        <div class="day">2</div>
+        <div class="month">sept</div>
+        </div>
+        <div class="details">
+          <div class="title">Jongvolwassenengroep</div>
+          <div class="meta">Woensdag • 19:00 • <span class='mobile-break'></span>pastoor Meijer</div>
+        </div>
+    </div>
+
+    </div>
+  </section>
+
+  <section class="agenda-section">
     <h2><i class="fa-solid fa-hands-praying"></i> Rozenkransgebedsgroep</h2>
 
     <div class="event-list">

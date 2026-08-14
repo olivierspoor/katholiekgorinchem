@@ -81,8 +81,19 @@ hide:
       </div>
       <div class="activity-content">
         <h3>Docat / Bijbelcursus</h3>
-        <div class="activity-time"><a href="/liturgischeagenda">Zie de agenda</a></div>
+        <div class="activity-time"><a href="/liturgischeagenda#docat">Zie de agenda</a></div>
         <p>Regelmatig organiseren wij een Bijbelcursus of DOCAT-bijeenkomst. Samen gaan we in gesprek over het geloof en wat dit betekent voor het dagelijks leven.</p>
+      </div>
+    </div>
+
+    <div class="activity-card layout-bottom">
+      <div class="activity-content">
+        <h3>Jongvolwassenengroep</h3>
+        <div class="activity-time"><a href="/liturgischeagenda#jongerengroep">Zie de agenda</a></div>
+        <p>Een plek waar jongeren samenkomen om hun geloof te verdiepen en te ontdekken wat het betekent om katholiek te leven.</p>
+      </div>
+      <div class="activity-image">
+        <img src="../assets/activiteiten/jongerengroep.png" alt="Jongerengroep">
       </div>
     </div>
 

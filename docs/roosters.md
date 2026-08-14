@@ -307,7 +307,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="schedule-row green" data-date="2026-08-16">
       <div>Zondag 16 augustus <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Maria Tenhemelopneming</div>
-        <div data-label="Lectoren">A. Bakker</div>
+        <div data-label="Lectoren">V. Osterhaus</div>
         <div data-label="Misdienaars">Arthur, <br>Adriana, <br>Chisom en <br>Savyo</div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
@@ -318,7 +318,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="schedule-row green" data-date="2026-08-23">
       <div>Zondag 23 augustus <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren">V. Osterhaus</div>
+        <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars">Asaira, <br>Destiny, <br>Daniel en <br>Marcos</div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
@@ -379,7 +379,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     <div class="schedule-row green" data-date="2026-09-20">
       <div>Zondag 20 september <span class='desktop-break'></span>11:00</div>
-    	  <div data-label="Bijzonderheden">Eucharistieviering</div>
+    	  <div data-label="Bijzonderheden">Lustrumviering R.K. Koor Intermezzo</div>
         <div data-label="Lectoren">L. Ekelmans</div>
         <div data-label="Misdienaars">Arthur, <br>Adriana, <br>Chisom en <br>Savyo</div>
         <div data-label="Kosters">K. Wirken</div>       

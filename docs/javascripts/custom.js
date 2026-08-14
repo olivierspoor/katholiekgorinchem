@@ -43,6 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
             '2026-07-01': { text: "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00. <span class='mobile-break'></span>Aanbidding woensdag 8 juli", hour: 11 },
             '2026-07-08': { text: "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00 <span class='mobile-break'></span>+ aanbidding", hour: 11 },
             '2026-07-17': { text: "Vrijdag 17 juli geen doordeweekse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-09-09': { text: "Woensdag 9 september geen dagelijkse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-09-11': { text: "Vrijdag 11 september geen dagelijkse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-08-15': { text: "Eerstvolgende mis: Zondag: <span class='mobile-break'></span>Lustrumviering R.K. Koor Intermezzo om 11:00", hour: 12 },
         };
 
         let foundMass = "";
@@ -261,7 +264,7 @@ const liturgicalCalendar = [
   { color: "red", start: "2026-08-29", end: "2026-08-29" },
   { color: "green", start: "2026-08-30", end: "2026-09-02" },
   { color: "gold", start: "2026-09-03", end: "2026-09-03" },
-  { color: "green", start: "2026-09-04", end: "2026-09-07" },  
+  { color: "green", start: "2026-09-04", end: "2026-09-07" },
   { color: "gold", start: "2026-09-08", end: "2026-09-08" },
   { color: "green", start: "2026-09-09", end: "2026-09-14" },
   { color: "gold", start: "2026-09-15", end: "2026-09-15" },

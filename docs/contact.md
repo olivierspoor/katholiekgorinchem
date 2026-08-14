@@ -41,8 +41,7 @@ maandag en vrijdag 10:30 – 11:30
 <div class="contact-row">
 <i class="fa-solid fa-envelope"></i>
 <div>
-<span class="blockspam">GEEN SPAM!</span>
-rkgorinchem@<!-- sdfjsdhfkjypcs -->gmail.com
+<a href="mailto:rkgorinchem@gmail.com">rkgorinchem@gmail.com</a>
 </div>
 </div>
 </div>
