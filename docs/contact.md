@@ -124,3 +124,68 @@ loading="lazy">
   </section>
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Hoe laat zijn de vieringen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wekelijkse eucharistievieringen: zondag om 11.00 uur, woensdag om 10.00 uur en vrijdag om 10.00 uur. Iedereen is van harte welkom."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Waar kan ik parkeren bij de kerk?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Naast de kerk zijn enkele parkeerplaatsen beschikbaar. U kunt ook parkeren op het parkeerterrein naast het Piazza Center."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is de kerk rolstoeltoegankelijk?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, de kerk heeft twee ingangen die beide rolstoeltoegankelijk zijn. Vooraan in de kerk zijn speciale plaatsen beschikbaar voor mensen die minder goed ter been zijn."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is er kinderoppas of kindernevendienst tijdens de mis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nee, tijdens de mis is er helaas geen kinderoppas of kindernevendienst. Kinderen van alle leeftijden zijn van harte welkom om de mis mee te vieren."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kan ik de collecte ook op een andere manier geven dan met contant geld?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, in de kerk vindt u verschillende QR-codes waarmee u eenvoudig digitaal kunt bijdragen. U kunt uw collecte ook via de online collecte overmaken onder vermelding van 'collecte'."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wanneer is er biecht mogelijk?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Voor een biecht kunt u het beste de pastoor persoonlijk aanspreken om een afspraak te maken. U kunt ook contact opnemen met het secretariaat."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wanneer is er aanbidding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Op de eerste woensdag van de maand is er na de dagmis van 10.00 uur eucharistische aanbidding."
+      }
+    }
+  ]
+}
+</script>
