@@ -734,47 +734,62 @@ nav {
   gap: 12px;
 }
 
-.faq-item {
+/* Reset Material's built-in details/admonition styling first (higher
+   specificity than .md-typeset details / .md-typeset summary) */
+.md-typeset .faq-item {
+  display: block;
   background: #fff;
+  border: none;
+  border-left: 4px solid var(--primary-color);
   border-radius: 12px;
   padding: 4px 18px;
+  margin: 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-  border-left: 4px solid var(--primary-color);
   transition: 0.2s ease;
 }
-.faq-item:hover {
+.md-typeset .faq-item:hover {
   box-shadow: 0 10px 22px rgba(0,0,0,0.06);
 }
-.faq-item summary {
+.md-typeset .faq-item > summary {
   list-style: none;
   cursor: pointer;
-  padding: 16px 0;
+  padding: 16px 0 !important;
+  margin: 0;
   font-weight: 600;
+  background: none !important;
+  border: none !important;
+  min-height: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 15px;
 }
-.faq-item summary::-webkit-details-marker {
+.md-typeset .faq-item > summary::before,
+.md-typeset .faq-item > summary::after {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+}
+.md-typeset .faq-item > summary::-webkit-details-marker {
   display: none;
 }
-.faq-item summary i {
+.md-typeset .faq-item > summary i {
   color: var(--primary-color);
   transition: transform 0.2s ease;
   flex-shrink: 0;
 }
-.faq-item[open] summary i {
+.md-typeset .faq-item[open] > summary i {
   transform: rotate(180deg);
 }
-.faq-answer {
+.md-typeset .faq-answer {
   padding: 0 0 16px 0;
   color: #444;
 }
-.faq-answer p {
+.md-typeset .faq-answer p {
   margin: 0;
   font-size: 0.9em;
 }
-.faq-answer a {
+.md-typeset .faq-answer a {
   color: var(--primary-color);
 }
 
