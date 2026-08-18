@@ -704,7 +704,87 @@ nav {
   }
 }
 
-/* 8. Overige CSS
+/* 8. FAQ
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.faq-section {
+  margin-bottom: 35px;
+}
+.faq-section h2 {
+  color: var(--primary-color);
+}
+.faq-section h2 i {
+  padding-right: 10px;
+  color: var(--primary-color);
+}
+.faq-subtitle {
+  color: #666;
+  font-size: 1em;
+  font-weight: 600;
+  margin: -8px 0 16px 0;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faq-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 4px 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  border-left: 4px solid var(--primary-color);
+  transition: 0.2s ease;
+}
+.faq-item:hover {
+  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+}
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 16px 0;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+.faq-item summary i {
+  color: var(--primary-color);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+.faq-item[open] summary i {
+  transform: rotate(180deg);
+}
+.faq-answer {
+  padding: 0 0 16px 0;
+  color: #444;
+}
+.faq-answer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+.faq-answer a {
+  color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+  .faq-item summary {
+    font-size: 0.95em;
+  }
+}
+
+/* 9. Overige CSS
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .md-nav--primary .md-nav__title .md-nav__icon::after {
