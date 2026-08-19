@@ -120,6 +120,13 @@ loading="lazy">
         </div>
       </details>
 
+      <details class="faq-item">
+        <summary>Waar worden de doordeweekse missen gehouden?<i class="fa-solid fa-chevron-down"></i></summary>
+        <div class="faq-answer">
+          <p>De doordeweekse missen worden gehouden in de kapel. De ingang van de kapel bevindt zich voorbij de klokkentoren.</p>
+        </div>
+      </details>
+
     </div>
   </section>
 
@@ -184,6 +191,14 @@ loading="lazy">
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Op de eerste woensdag van de maand is er na de dagmis van 10.00 uur eucharistische aanbidding."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Waar worden de doordeweekse missen gehouden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "De doordeweekse missen worden gehouden in de kapel. De ingang van de kapel bevindt zich voorbij de klokkentoren."
       }
     }
   ]

@@ -76,7 +76,7 @@ font-size:15px;
   </div>
 
   <div class="card">
-    <p>You have found the website of the Roman Catholic parish of the <strong>Holy Martyrs of Gorcum</strong>, located in Gorinchem. Visitors and pilgrims are always welcome to join our celebrations.</p>
+    <p>Welcome to the Roman Catholic parish of the Holy Martyrs of Gorcum. The parish of Gorinchem is placed under the patronage of the <strong>Holy Martyrs of Gorcum</strong>. Together with the parish of the Holy Trinity, we form the Driestromenland federation. Both parishes belong to the Diocese of Rotterdam. You are always warmly welcome to join us for Mass and our other celebrations.</p>
   </div>
 
   <div class="card">
@@ -141,7 +141,7 @@ font-size:15px;
 
   <div class="card">
     <h2><i class="fa-solid fa-cross"></i> Who are the Martyrs of Gorcum?</h2>
-    <p>In 1572, nineteen Catholic clergymen priests, religious brothers, and laypeople from Gorinchem who were martyred for refusing to renounce their Catholic faith, in particular their belief in the Real Presence of Christ in the Eucharist and the authority of the Pope.</p>
+    <p>In 1572, nineteen Catholic priests, religious brothers and laypeople were arrested in Gorinchem and later martyred in Brielle for refusing to renounce their Catholic faith, particularly their belief in the Real Presence of Christ in the Eucharist and the authority of the Pope.
     <p>They were canonized by Pope Pius IX in 1867 and are venerated as the patron saints of our parish.</p>
   </div>
 <img src="../assets/banner/spring.jpeg" alt="Banner">
