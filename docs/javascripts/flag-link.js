@@ -5,7 +5,7 @@ function addEnglishFlag() {
       const search = header.querySelector('[data-md-component="search"]');
 
       const link = document.createElement("a");
-      link.href = "/english.html";
+      link.href = "/english";
       link.className = "md-header__button md-icon md-header__flag";
       link.setAttribute("aria-label", "English");
       link.title = "English";
@@ -29,7 +29,7 @@ function addEnglishFlag() {
     li.className = "md-nav__item md-nav__english";
 
     const link = document.createElement("a");
-    link.href = "/english.html";
+    link.href = "/english";
     link.className = "md-nav__link";
     link.setAttribute("aria-label", "English");
     link.textContent = "🇬🇧  English";
