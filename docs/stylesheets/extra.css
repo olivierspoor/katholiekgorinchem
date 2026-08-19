@@ -866,7 +866,7 @@ li.md-meta__item{
   position: relative; /* usually already true, safe to repeat */
 }
 
-.md-header__flag {
+.md-header .md-header__flag {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -876,6 +876,17 @@ li.md-meta__item{
   transition: transform 0.15s;
 }
 
-.md-header__flag:hover {
+.md-header .md-header__flag:hover {
   transform: scale(1.15);
+}
+
+/* Mobile */
+@media screen and (max-width: 76.1875em) {
+  .md-header .md-header__flag {
+    display: none !important;
+  }
+
+  .md-nav__english {
+    display: block;
+  }
 }
