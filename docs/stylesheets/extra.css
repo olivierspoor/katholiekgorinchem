@@ -789,7 +789,7 @@ nav {
 }
 .md-typeset .faq-answer p {
   margin: 0;
-  font-size: 0.9em;
+  font-size: 14px;
 }
 .md-typeset .faq-answer a {
   color: var(--primary-color);
@@ -889,4 +889,7 @@ li.md-meta__item{
   .md-nav__english {
     display: block;
   }
+}
+.md-post__meta.md-nav__list .md-nav__item.md-nav__english {
+  display: none;
 }
