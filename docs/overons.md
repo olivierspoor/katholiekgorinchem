@@ -97,6 +97,62 @@ max-width:50%;
 border-radius:12px;
 }
 
+/* bestuur banner */
+.bestuur-banner{
+display:flex;
+align-items:center;
+gap:20px;
+background:#eae2df;
+border-radius:12px;
+padding:20px 25px;
+text-decoration:none;
+color:#333;
+margin-top:20px;
+transition:opacity 0.2s ease;
+}
+.bestuur-banner:hover{
+opacity:0.85;
+}
+.bestuur-banner img{
+width:90px;
+height:90px;
+min-width:90px;
+border-radius:50%;
+object-fit:cover;
+}
+.bestuur-banner p{
+flex:1;
+margin:0;
+font-size:17px;
+line-height:1.4;
+}
+.bestuur-banner .button{
+flex-shrink:0;
+margin-left:auto;
+white-space:nowrap;
+}
+@media (max-width:800px){
+  .bestuur-banner{
+    flex-wrap:wrap;
+    gap:15px;
+    padding:15px;
+  }
+  .bestuur-banner img{
+    width:65px;
+    height:65px;
+    min-width:65px;
+  }
+  .bestuur-banner p{
+    flex:1 1 auto;
+    font-size:15px;
+  }
+  .bestuur-banner .button{
+    margin-left:0;
+    width:100%;
+    text-align:center;
+  }
+}
+
 /* links */
 .links-grid{
 display:grid;
@@ -241,6 +297,14 @@ color:var(--primary-color);
       <a href="https://anbi.rkcn.nl/publicaties/ROT613">deze link</a>.</p>
 
     </div>
+  </div>
+
+  <div class="section">
+    <a href="/artikelen/parochiebestuur" class="bestuur-banner">
+      <img src="/assets/authors/bestuur.jpeg" alt="Parochiebestuur">
+      <p style="color:black;">Het Parochiebestuur van de Heilige Martelaren van Gorcum parochie stelt zich hier graag aan u voor.</p>
+      <span class="button">Lees meer</span>
+    </a>
   </div>
 
   <div class="section">
