@@ -14,7 +14,7 @@ hide:
 
 <div class="hero-banner">
   <h1 class="hero-title">Welkom bij de parochie van de Heilige Martelaren van Gorcum</h1>
-  
+
   <div class="hero-badge">
     <span id="next-mass-display">...laden...</span>
   </div>
@@ -25,12 +25,20 @@ hide:
     <i class="fa-solid fa-church" style="color:#000;"></i>
   </div>
 
-<div class="mis-tekst"> 
-<strong>Wekelijkse Eucharistievieringen:</strong> 
-Zondag 11:00 |<span class="mobile-label"></span> 
-Woensdag 10:00 |<span class="mobile-label"></span> 
+<div class="mis-tekst">
+<strong>Wekelijkse Eucharistievieringen:</strong>
+Zondag 11:00 |<span class="mobile-label"></span>
+Woensdag 10:00 |<span class="mobile-label"></span>
 Vrijdag 10:00 </div>
 </div>
+
+<div class="mis-balk">
+<div class="mis-tekst">
+<strong>Maandag 31 augustus is het secetariaat helaas gesloten.</strong>
+</div>
+</div>
+
+
 
 ## Laatste berichten
 {{ latest_posts() }}
