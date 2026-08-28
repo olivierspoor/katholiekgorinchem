@@ -128,6 +128,83 @@ loading="lazy">
       </details>
 
     </div>
+
+    <h3 class="faq-subtitle">Lidmaatschap &amp; administratie</h3>
+
+    <div class="faq-list">
+
+      <details class="faq-item">
+        <summary>Hoe schrijf ik me in als parochiaan?<i class="fa-solid fa-chevron-down"></i></summary>
+        <div class="faq-answer">
+          <p>U kunt zich inschrijven door uw gegevens per e-mail door te geven aan het parochiesecretariaat of door contact op te nemen met de pastoor.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Ik verhuis vanuit een andere parochie — wat moet ik doen?<i class="fa-solid fa-chevron-down"></i></summary>
+        <div class="faq-answer">
+          <p>Mail uw gegevens naar het parochiesecretariaat. Vermeld daarbij uw naam, nieuwe adres, telefoonnummer en e-mailadres, en geef aan uit welke plaats en parochie u afkomstig bent. Uw inschrijving wordt vervolgens automatisch verwerkt.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Hoe kan ik meedoen aan de actie Kerkbalans of een periodieke gift regelen (i.v.m. belasting/ANBI)?<i class="fa-solid fa-chevron-down"></i></summary>
+        <div class="faq-answer">
+          <p>U kunt meedoen aan de actie Kerkbalans of een periodieke gift regelen door uw gegevens per e-mail door te geven aan het parochiesecretariaat. Vermeld daarbij uw naam, adres, telefoonnummer en e-mailadres.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Waar vind ik het rekeningnummer van de parochie?<i class="fa-solid fa-chevron-down"></i></summary>
+        <div class="faq-answer">
+          <p>U kunt uw bijdrage overmaken naar het rekeningnummer van de parochie: <strong>NL65 ABNA 0472 2646 48</strong>, onder vermelding van <strong>Parochie van de Heilige Martelaren van Gorcum</strong>.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Wat is Driestromenland en hoe verhoudt onze parochie zich daartoe?<i class="fa-solid fa-chevron-down"></i></summary>
+        <div class="faq-answer">
+          <p>Federatie Driestromenland bestaat uit twee parochies: de parochie van Gorinchem en de parochie van Vianen. De kerken van Leerdam en Everdingen vallen onder de parochie van Vianen. Onze parochie maakt deel uit van deze federatie.</p><br>
+          <p>Lees <a href="https://katholiekgorinchem.nl/overons#driestroom">hier</a> meer over de Driestromenland federatie of bezoek de website van <a href="https://heiligedrieeenheid.eu/">De Heilige Drie-eenheid</a> parochie</p>
+        </div>
+      </details>
+
+    </div>
+
+    <h3 class="faq-subtitle">Contact &amp; communicatie</h3>
+
+    <div class="faq-list">
+
+      <details class="faq-item">
+        <summary>Hoe bereik ik het secretariaat, en wat zijn de openingstijden?<i class="fa-solid fa-chevron-down"></i></summary>
+        <div class="faq-answer">
+          <p>Het secretariaat is open op maandag en vrijdag van 10:30 tot 11:30 uur. U kunt bellen naar 06 2390 2455 of mailen naar rkgorinchem@gmail.com.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Hoe blijf ik op de hoogte van nieuws (WhatsApp-kanaal, nieuwsbrief)?<i class="fa-solid fa-chevron-down"></i></summary>
+        <div class="faq-answer">
+          <p>Via ons WhatsApp-kanaal blijft u op de hoogte van nieuws en aankondigingen. U kunt zich hierop abonneren via <a href="https://whatsapp.com/channel/0029VbBZTv79xVJiB1zM7f3n">deze link</a>.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Bij wie kan ik terecht voor een persoonlijk gesprek met de pastoor?<i class="fa-solid fa-chevron-down"></i></summary>
+        <div class="faq-answer">
+          <p>U kunt contact opnemen met het secretariaat (open op maandag en vrijdag van 10:30 tot 11:30 uur, telefoon 06 2390 2455 of e-mail rkgorinchem@gmail.com), of pastoor Meijer persoonlijk aanspreken na de mis.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Hoe kan ik een gebedsintentie doorgeven?<i class="fa-solid fa-chevron-down"></i></summary>
+        <div class="faq-answer">
+          <p>U kunt een gebedsintentie doorgeven via het secretariaat, open op maandag en vrijdag van 10:30 tot 11:30 uur, telefonisch via 06 2390 2455 of per e-mail naar rkgorinchem@gmail.com.</p>
+        </div>
+      </details>
+
+    </div>
+
   </section>
 
 </div>
@@ -199,6 +276,78 @@ loading="lazy">
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "De doordeweekse missen worden gehouden in de kapel. De ingang van de kapel bevindt zich voorbij de klokkentoren."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Hoe schrijf ik me in als parochiaan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "U kunt zich inschrijven door uw gegevens per e-mail door te geven aan het parochiesecretariaat of door contact op te nemen met de pastoor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ik verhuis vanuit een andere parochie — wat moet ik doen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mail uw gegevens naar het parochiesecretariaat. Vermeld daarbij uw naam, nieuwe adres, telefoonnummer en e-mailadres, en geef aan uit welke plaats en parochie u afkomstig bent. Uw inschrijving wordt vervolgens automatisch verwerkt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Hoe kan ik meedoen aan de actie Kerkbalans of een periodieke gift regelen (i.v.m. belasting/ANBI)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "U kunt meedoen aan de actie Kerkbalans of een periodieke gift regelen door uw gegevens per e-mail door te geven aan het parochiesecretariaat. Vermeld daarbij uw naam, adres, telefoonnummer en e-mailadres."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Waar vind ik het rekeningnummer van de parochie?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "U kunt uw bijdrage overmaken naar het rekeningnummer van de parochie: NL65 ABNA 0472 2646 48, onder vermelding van Parochie van de Heilige Martelaren van Gorcum."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wat is Driestromenland en hoe verhoudt onze parochie zich daartoe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Federatie Driestromenland bestaat uit twee parochies: de parochie van Gorinchem en de parochie van Vianen. De kerken van Leerdam en Everdingen vallen onder de parochie van Vianen. Onze parochie maakt deel uit van deze federatie."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Hoe bereik ik het secretariaat, en wat zijn de openingstijden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Het secretariaat is open op maandag en vrijdag van 10:30 tot 11:30 uur. U kunt bellen naar 06 2390 2455 of mailen naar rkgorinchem@gmail.com."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Hoe blijf ik op de hoogte van nieuws (WhatsApp-kanaal, nieuwsbrief)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Via ons WhatsApp-kanaal blijft u op de hoogte van nieuws en aankondigingen. U kunt zich hierop abonneren via deze link."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Bij wie kan ik terecht voor een persoonlijk gesprek met de pastoor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "U kunt contact opnemen met het secretariaat (open op maandag en vrijdag van 10:30 tot 11:30 uur, telefoon 06 2390 2455 of e-mail rkgorinchem@gmail.com), of pastoor Meijer persoonlijk aanspreken na de mis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Hoe kan ik een gebedsintentie doorgeven?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "U kunt een gebedsintentie doorgeven via het secretariaat, open op maandag en vrijdag van 10:30 tot 11:30 uur, telefonisch via 06 2390 2455 of per e-mail naar rkgorinchem@gmail.com."
       }
     }
   ]
