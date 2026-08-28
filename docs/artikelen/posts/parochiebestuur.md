@@ -1,5 +1,5 @@
 ---
-draft: false 
+draft: false
 date: 2026-08-22
 slug: parochiebestuur
 categories:
@@ -16,7 +16,7 @@ hide:
 <p>Het doel en de taak van een parochiebestuur zijn vastgelegd in het "Algemeen Reglement voor het bestuur van een parochie van de Rooms-katholieke Kerk in Nederland". Zij bestuurt de parochie voor zover het betreft het parochiaal vermogen en de zorg voor een doelmatige aanwending daarvan ten bate van de parochie, met inachtneming van het kerkelijk recht en de bisschoppelijke voorschriften.</p>
 
 <p>Tot de taak van het parochiebestuur behoren:</p>
-<ol type="a"> 
+<ol type="a">
 <li>Het bestuur over de roerende en onroerende zaken;</li>
 <li>Financiële zaken;</li>
 <li>Het verrichten van rechtshandelingen en het aangaan van overeenkomsten ten name van de parochie.</li>
@@ -49,7 +49,7 @@ Het parochiebestuur komt ongeveer eens in de zes weken bijeen. Heeft u een vraag
       <details class="faq-item">
         <summary>Françoise van Heemskerk — Secretaris<i class="fa-solid fa-chevron-down"></i></summary>
         <div class="faq-answer">
-          <p>Mijn naam is Françoise van Heemskerk en ik ben getrouwd met Wim. Ik ben werkzaam in de gehandicaptenzorg als werkbegeleider dagbesteding. In 1994 ben ik vanuit Tilburg naar Dalem verhuisd en sindsdien ga ik in Gorinchem naar de kerk. Nu de kinderen op eigen benen staan en ik geen mantelzorgtaken meer heb, is er weer ruimte om vrijwilligerswerk te doen. In 2023 kwam de oproep in de kerk voor een ledenadministrateur, daar heb ik op gereageerd. Uiteindelijk werd het de functie van secretaris, waar op dat moment een vacature voor was.</p><br>
+          <p>Mijn naam is Françoise van Heemskerk en ik ben getrouwd met Wim. Ik ben werkzaam in de zorg als werkbegeleider dagbesteding. In 1994 ben ik vanuit Tilburg naar Dalem verhuisd en sindsdien ga ik in Gorinchem naar de kerk. Nu de kinderen op eigen benen staan en ik geen mantelzorgtaken meer heb, is er weer ruimte om vrijwilligerswerk te doen. In 2023 kwam de oproep in de kerk voor een ledenadministrateur, daar heb ik op gereageerd. Uiteindelijk werd het de functie van secretaris, waar op dat moment een vacature voor was.</p><br>
           <p>In eerste instantie dacht ik: kan ik dat wel? Ik zag het bestuur altijd een beetje als 'een club van wijze mannen' — pas ik daar wel bij? De werkzaamheden die bij de secretaris op het bordje komen heb ik vaker gedaan: notuleren klinkt moeilijker dan het is, en een agenda maken en de mailbox beheren is zo gedaan. Eerlijk gezegd heb ik me daar wel een beetje in vergist; de afgelopen jaren zijn er situaties voorbijgekomen die best een uitdaging vormden. Gelukkig word je niet in het diepe gegooid: je krijgt eerst een parochiebesturencursus, kunt hulp vragen bij het bisdom en hebt natuurlijk de hulp van je medebestuursleden en vele vrijwilligers binnen de parochie.</p><br>
           <p>Ik heb er dus geen spijt van dat ik ja gezegd heb. In mijn functie heb ik veel bijgeleerd over de kerk, de parochie en over mijzelf. Het bestuur is gelukkig geen club van wijze mannen, maar een fijne groep die zijn best doet om alles zo goed mogelijk te laten lopen, met hulp van iedereen. Hopelijk wordt dat ook gevoeld door de parochie en zijn we met deze nieuwe website beter zichtbaar en bereikbaar voor alle parochianen.</p>
         </div>
