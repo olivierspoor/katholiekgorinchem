@@ -32,14 +32,6 @@ Woensdag 10:00 |<span class="mobile-label"></span>
 Vrijdag 10:00 </div>
 </div>
 
-<div class="mis-balk">
-<div class="mis-tekst">
-<strong>Maandag 31 augustus is het secetariaat helaas gesloten.</strong>
-</div>
-</div>
-
-
-
 ## Laatste berichten
 {{ latest_posts() }}
 
