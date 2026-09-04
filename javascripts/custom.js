@@ -1,0 +1,333 @@
+// Make menu back more readable
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.md-nav__title[for^="__nav"]').forEach(title => {
+    const textSpan = title.querySelector('span:last-child');
+    if (textSpan && !textSpan.textContent.includes('Terug')) {
+      textSpan.textContent = '← Terug naar menu';
+    }
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    function updateNextMass() {
+        const display = document.getElementById('next-mass-display');
+
+        if (!display) {
+            return;
+        }
+
+        const now = new Date();
+        // DEBUG: See what time the script thinks it is
+        console.log("Current System Time:", now.toString());
+        console.log("Current Hour:", now.getHours());
+
+        const specialMasses = {
+            // FIXED: Changed hour to 20 (8 PM) so it doesn't expire at 11:00 AM
+            '2026-02-18': { text: "Eerstvolgende mis: Aswoensdag: <span class='mobile-break'></span>Eucharistieviering om 19:00", hour: 20 },
+            '2026-03-18': { text: "Eerstvolgende mis: <span class='mobile-break'></span>Uitvaartmis Mw. Willemsen <span class='mobile-break'></span>Woensdag: om 10:30", hour: 11 },
+            '2026-04-03': [
+                { text: "Eerstvolgende viering: Vrijdag <span class='mobile-break'></span>Kruisweg om 15:00 & <span class='mobile-break'></span>Kruisverering om 19:00", hour: 16 },
+                { text: "Eerstvolgende viering: <span class='mobile-break'></span>Kruisverering om 19:00", hour: 20 }
+            ],
+            '2026-04-04': { text: "Eerstvolgende mis: Zaterdag: <span class='mobile-break'></span>Paaswake om 21:00 & <span class='mobile-break'></span>Paaszondag: Mis om 10:00", hour: 22 },
+            '2026-04-05': { text: "Eerstvolgende mis: Paaszondag: <span class='mobile-break'></span>Eucharistieviering om 10:00", hour: 11 },
+            '2026-04-15': { text: "Geen doordeweekse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-04-17': { text: "Geen doordeweekse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-04-24': { text: "Vrijdag geen dagmis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-05-02': { text: "Eerstvolgende mis: <span class='mobile-break'></span>Zaterdag: om 10:00 rozenkransgebed met aansluitend een mis.", hour: 11 },
+            '2026-05-08': { text: "Eerstvolgende mis: <span class='mobile-break'></span>vrijdag om 10:00 <span class='mobile-break'></span>+ aanbidding", hour: 11 },
+            '2026-05-13': { text: "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00 & <span class='mobile-break'></span>Donderdag: <span class='mobile-break'></span>Hemelvaart om 11:00", hour: 12 },
+            '2026-05-14': { text: "Eerstvolgende mis: Donderdag: <span class='mobile-break'></span>Hemelvaart om 11:00", hour: 12 },
+            '2026-05-24': { text: "Eerstvolgende mis: Pinksterzondag om 11:00 <span class='mobile-break'></span> met aansluitend een lunch", hour: 12 },
+            '2026-06-26': { text: "Vrijdag geen doordeweekse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-07-01': { text: "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00. <span class='mobile-break'></span>Aanbidding woensdag 8 juli", hour: 11 },
+            '2026-07-08': { text: "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00 <span class='mobile-break'></span>+ aanbidding", hour: 11 },
+            '2026-07-17': { text: "Vrijdag 17 juli geen doordeweekse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-09-09': { text: "Woensdag 9 september geen dagelijkse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-09-11': { text: "Vrijdag 11 september geen dagelijkse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-09-20': { text: "Eerstvolgende mis: Zondag: <span class='mobile-break'></span>Lustrumviering R.K. Koor Intermezzo om 11:00", hour: 12 },
+        };
+
+        let foundMass = "";
+
+        for (let i = 0; i < 7; i++) {
+            let checkDate = new Date(now);
+            checkDate.setDate(now.getDate() + i);
+
+            const dateKey = checkDate.toLocaleDateString('en-CA');
+            const dayOfWeek = checkDate.getDay();
+            const isToday = (i === 0);
+
+            console.log(`Checking Day +${i} (${dateKey}):`);
+
+            // A. CHECK SPECIAL DATES FIRST
+            if (specialMasses[dateKey]) {
+                const specials = Array.isArray(specialMasses[dateKey])
+                    ? specialMasses[dateKey]
+                    : [specialMasses[dateKey]];
+
+                console.log(`  - Found ${specials.length} special mass(es)`);
+
+                for (const special of specials) {
+                    console.log(`    -> Checking expiry hour: ${special.hour}`);
+
+                    if (!isToday || (isToday && now.getHours() < special.hour)) {
+                        foundMass = special.text;
+                        console.log("    -> Status: ACTIVE (Using this mass)");
+                        break;
+                    } else {
+                        console.log("    -> Status: EXPIRED (Trying next one)");
+                    }
+                }
+                if (foundMass) {
+                    break;
+                } else {
+                    console.log("  - All special masses expired for today");
+                }
+            }
+            // B. CHECK REGULAR WEDNESDAY
+            if (dayOfWeek === 3) {
+                const isFirstWednesday = checkDate.getDate() <= 7;
+
+                if (!isToday || (isToday && now.getHours() < 11)) {
+                    if (isFirstWednesday) {
+                        foundMass = "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00 <span class='mobile-break'></span>+ aanbidding";
+                        console.log("  - Found First Wednesday. Status: ACTIVE");
+                    } else {
+                        foundMass = "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00";
+                        console.log("  - Found Regular Wednesday. Status: ACTIVE");
+                    }
+                    break;
+                }
+            }
+
+            // C. CHECK REGULAR FRIDAY
+            if (dayOfWeek === 5) {
+                if (!isToday || (isToday && now.getHours() < 11)) {
+                    foundMass = "Eerstvolgende mis: <span class='mobile-break'></span>Vrijdag om 10:00";
+                    console.log("  - Found Regular Friday. Status: ACTIVE");
+                    break;
+                }
+            }
+
+            // D. CHECK REGULAR SUNDAY
+            if (dayOfWeek === 0) {
+                if (!isToday || (isToday && now.getHours() < 12)) {
+                    foundMass = "Eerstvolgende mis: <span class='mobile-break'></span>zondag om 11:00";
+                    console.log("  - Found Regular Sunday. Status: ACTIVE");
+                    break;
+                }
+            }
+        }
+
+        if (foundMass) {
+            display.innerHTML = foundMass;
+        } else {
+            console.log("No upcoming mass found in the next 7 days.");
+        }
+    }
+
+    updateNextMass();
+});
+
+// Make header title clickable
+document.addEventListener('DOMContentLoaded', function() {
+  const headerTitle = document.querySelector('.md-header__topic .md-ellipsis');
+  if (headerTitle && headerTitle.textContent.includes('HH. Martelaren van Gorcum')) {
+    headerTitle.style.cursor = 'pointer';
+    headerTitle.addEventListener('click', function() {
+      window.location.href = '/';
+    });
+  }
+});
+
+// Make header title clickable
+document.addEventListener('DOMContentLoaded', function() {
+  const headerTitle = document.querySelector('.md-header__topic .md-ellipsis');
+  if (headerTitle && headerTitle.textContent.includes('HH. Martelaren van Gorcum')) {
+    headerTitle.style.cursor = 'pointer';
+    headerTitle.addEventListener('click', function() {
+      window.location.href = '/';
+    });
+  }
+});
+
+// Function must be declared before usage
+function setLiturgicalColors(season) {
+  const colors = liturgicalColors[season];
+  if (!colors) return;
+document.documentElement.style.setProperty('--primary-color', colors.primary);
+document.documentElement.style.setProperty('--secondary-color', colors.secondary);
+document.documentElement.style.setProperty('--text-color', colors.text);
+}
+
+// Your colors map
+const liturgicalColors = {
+  green: {
+    primary: "#2E7D32",
+    secondary: "#194424",
+    text: "#FFFFFF"
+  },
+  purple: {
+    primary: "#5A2A82",
+    secondary: "#3E1C5A",
+    text: "#FFFFFF"
+  },
+  rose: {
+    primary: "#C97B84",
+    secondary: "#A05A63",
+    text: "#FFFFFF"
+  },
+  red: {
+    primary: "#B11226",
+    secondary: "#700B16",
+    text: "#FFFFFF"
+  },
+  white: {
+    primary: "#CCCCCC",
+    secondary: "#FFFFFF",
+    text: "#000000"
+  },
+  gold: {
+    primary: "#D4AF37",   // classic metallic gold
+    secondary: "#B8901F", // deeper antique gold
+    text: "#000000"
+  }
+};
+
+
+const liturgicalCalendar = [
+  { color: "green", start: "2026-01-01", end: "2026-01-05" },
+  { color: "gold", start: "2026-01-06", end: "2026-01-06" },
+  { color: "green", start: "2026-01-07", end: "2026-02-17" },
+  { color: "purple", start: "2026-02-18", end: "2026-03-14" },
+  { color: "rose", start: "2026-03-15", end: "2026-03-15" },
+  { color: "purple", start: "2026-03-16", end: "2026-03-18" },
+  { color: "gold", start: "2026-03-19", end: "2026-03-19" },
+  { color: "purple", start: "2026-03-20", end: "2026-03-24" },
+  { color: "gold", start: "2026-03-25", end: "2026-03-25" },
+  { color: "purple", start: "2026-03-26", end: "2026-03-28" },
+  { color: "red", start: "2026-03-29", end: "2026-03-29" },
+  { color: "purple", start: "2026-03-30", end: "2026-04-01" },
+  { color: "gold", start: "2026-04-02", end: "2026-04-02" },
+  { color: "red", start: "2026-04-03", end: "2026-04-03" },
+  { color: "gold", start: "2026-04-04", end: "2026-05-23" },
+  { color: "red", start: "2026-05-24", end: "2026-05-24" },
+  { color: "gold", start: "2026-05-25", end: "2026-05-25" },
+  { color: "green", start: "2026-05-26", end: "2026-05-30" },
+  { color: "gold", start: "2026-05-31", end: "2026-05-31" },
+  { color: "green", start: "2026-06-01", end: "2026-06-06" },
+  { color: "gold", start: "2026-06-07", end: "2026-06-07" },
+  { color: "green", start: "2026-06-08", end: "2026-06-11" },
+  { color: "gold", start: "2026-06-12", end: "2026-06-12" },
+  { color: "green", start: "2026-06-13", end: "2026-06-23" },
+  { color: "gold", start: "2026-06-24", end: "2026-06-24" },
+  { color: "green", start: "2026-06-25", end: "2026-06-28" },
+  { color: "red", start: "2026-06-29", end: "2026-06-29" },
+  { color: "green", start: "2026-06-30", end: "2026-07-02" },
+  { color: "red", start: "2026-07-03", end: "2026-07-03" },
+  { color: "green", start: "2026-07-04", end: "2026-07-08" },
+  { color: "red", start: "2026-07-09", end: "2026-07-09" },
+  { color: "green", start: "2026-07-10", end: "2026-07-10" },
+  { color: "gold", start: "2026-07-11", end: "2026-07-11" },
+  { color: "green", start: "2026-07-12", end: "2026-07-14" },
+  { color: "gold", start: "2026-07-15", end: "2026-07-15" },
+  { color: "green", start: "2026-07-16", end: "2026-07-21" },
+  { color: "gold", start: "2026-07-22", end: "2026-07-22" },
+  { color: "green", start: "2026-07-23", end: "2026-07-24" },
+  { color: "red", start: "2026-07-25", end: "2026-07-25" },
+  { color: "green", start: "2026-07-26", end: "2026-07-26" },
+  { color: "red", start: "2026-07-27", end: "2026-07-27" },
+  { color: "green", start: "2026-07-28", end: "2026-07-28" },
+  { color: "gold", start: "2026-07-29", end: "2026-07-29" },
+  { color: "green", start: "2026-07-30", end: "2026-07-30" },
+  { color: "gold", start: "2026-07-31", end: "2026-08-01" },
+  { color: "green", start: "2026-08-02", end: "2026-08-03" },
+  { color: "gold", start: "2026-08-04", end: "2026-08-04" },
+  { color: "green", start: "2026-08-05", end: "2026-08-05" },
+  { color: "gold", start: "2026-08-06", end: "2026-08-06" },
+  { color: "green", start: "2026-08-07", end: "2026-08-07" },
+  { color: "gold", start: "2026-08-08", end: "2026-08-08" },
+  { color: "green", start: "2026-08-09", end: "2026-08-09" },
+  { color: "red", start: "2026-08-10", end: "2026-08-10" },
+  { color: "gold", start: "2026-08-11", end: "2026-08-11" },
+  { color: "green", start: "2026-08-12", end: "2026-08-13" },
+  { color: "red", start: "2026-08-14", end: "2026-08-14" },
+  { color: "gold", start: "2026-08-15", end: "2026-08-16" },
+  { color: "red", start: "2026-08-17", end: "2026-08-17" },
+  { color: "green", start: "2026-08-18", end: "2026-08-19" },
+  { color: "gold", start: "2026-08-20", end: "2026-08-22" },
+  { color: "green", start: "2026-08-23", end: "2026-08-23" },
+  { color: "red", start: "2026-08-24", end: "2026-08-24" },
+  { color: "green", start: "2026-08-25", end: "2026-08-26" },
+  { color: "gold", start: "2026-08-27", end: "2026-08-28" },
+  { color: "red", start: "2026-08-29", end: "2026-08-29" },
+  { color: "green", start: "2026-08-30", end: "2026-09-02" },
+  { color: "gold", start: "2026-09-03", end: "2026-09-04" },
+  { color: "green", start: "2026-09-05", end: "2026-09-07" },
+  { color: "gold", start: "2026-09-08", end: "2026-09-08" },
+  { color: "green", start: "2026-09-09", end: "2026-09-11" },
+  { color: "gold", start: "2026-09-12", end: "2026-09-12" },
+  { color: "green", start: "2026-09-13", end: "2026-09-13" },
+  { color: "red", start: "2026-09-14", end: "2026-09-14" },
+  { color: "gold", start: "2026-09-15", end: "2026-09-15" },
+  { color: "red", start: "2026-09-16", end: "2026-09-16" },
+  { color: "green", start: "2026-09-17", end: "2026-09-20" },
+  { color: "red", start: "2026-09-21", end: "2026-09-21" },
+  { color: "green", start: "2026-09-22", end: "2026-09-22" },
+  { color: "gold", start: "2026-09-23", end: "2026-09-23" },
+  { color: "green", start: "2026-09-24", end: "2026-09-28" },
+  { color: "gold", start: "2026-09-29", end: "2026-10-02" },
+  { color: "green", start: "2026-10-03", end: "2026-10-06" },
+  { color: "gold", start: "2026-10-07", end: "2026-10-07" },
+  { color: "green", start: "2026-10-08", end: "2026-10-21" },
+  { color: "gold", start: "2026-10-22", end: "2026-10-22" },
+  { color: "green", start: "2026-10-23", end: "2026-10-31" },
+  { color: "gold", start: "2026-11-01", end: "2026-11-01" },
+  { color: "purple", start: "2026-11-02", end: "2026-11-02" },
+  { color: "green", start: "2026-11-03", end: "2026-11-05" },
+  { color: "gold", start: "2026-11-06", end: "2026-11-06" },
+  { color: "green", start: "2026-11-07", end: "2026-11-08" },
+  { color: "gold", start: "2026-11-09", end: "2026-11-09" },
+  { color: "green", start: "2026-11-10", end: "2026-11-21" },
+  { color: "gold", start: "2026-11-22", end: "2026-11-22" },
+  { color: "green", start: "2026-11-23", end: "2026-11-28" },
+  { color: "purple", start: "2026-11-29", end: "2026-12-12" },
+  { color: "rose", start: "2026-12-13", end: "2026-12-13" },
+  { color: "purple", start: "2026-12-14", end: "2026-12-24" },
+  { color: "gold", start: "2026-12-25", end: "2026-12-25" },
+  { color: "red", start: "2026-12-26", end: "2026-12-26" },
+  { color: "gold", start: "2026-12-27", end: "2026-12-31" }
+];
+
+function parseDateLocal(dateString) {
+  const [y, m, d] = dateString.split("-");
+  return new Date(y, m - 1, d);
+}
+
+function getTodayColor() {
+  const today = new Date();
+  today.setHours(0,0,0,0);
+
+  console.log("[Color] Today:", today);
+
+  for (const entry of liturgicalCalendar) {
+    const start = parseDateLocal(entry.start);
+    const end = parseDateLocal(entry.end);
+    end.setHours(23, 59, 59, 999);
+
+    console.log("[Color] Checking:", entry.color, start, end);
+
+    if (today >= start && today <= end) {
+      console.log("[Color] Match:", entry.color);
+      return entry.color;
+    }
+  }
+
+  console.log("[Color] No match");
+  return null;
+}
+
+// Set colors automatically
+const todayColor = getTodayColor();
+if (todayColor) setLiturgicalColors(todayColor);
