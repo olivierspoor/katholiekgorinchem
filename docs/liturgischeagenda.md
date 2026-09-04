@@ -198,10 +198,21 @@ hide:
       </div>
     </div> 
 
-      <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
       <div class="date">
         <div class="day">5</div>
         <div class="month">sept</div>
+      </div>
+      <div class="details">
+        <div class="title">Rozenkransgebedsgroep</div>
+        <div class="meta">Zaterdag • 10:00</div>
+      </div>
+    </div> 
+
+    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+      <div class="date">
+        <div class="day">3</div>
+        <div class="month">okt</div>
       </div>
       <div class="details">
         <div class="title">Rozenkransgebedsgroep</div>
