@@ -482,7 +482,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row gold" data-date="2026-11-01">
         <div>Zondag 1 november <span class='desktop-break'></span>11:00</div>
       	<div data-label="Bijzonderheden">Allerheiligen</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">H. Klaver</div>
         <div data-label="Misdienaars">Arthur, <br>Yfke, <br>Melanie en <br>Marcos</div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -493,7 +493,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row green" data-date="2026-11-08">
         <div>Zondag 8 november <span class='desktop-break'></span>11:00</div>
      	  <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">V. Osterhaus</div>
         <div data-label="Misdienaars">Adriana, <br>Destiny, <br>Khaled en <br>Savyo</div>
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
@@ -504,7 +504,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row green" data-date="2026-11-15">
         <div>Zondag 15 november <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">K. Orfaly</div>
         <div data-label="Misdienaars">Yfke, <br>Asaira, <br>Reinilde en <br>Melanie</div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
@@ -515,7 +515,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row gold" data-date="2026-11-22">
         <div>Zondag 22 november <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Christus, <br>Koning van het heelal</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">L. Ekelmans</div>
         <div data-label="Misdienaars">Arthur, <br>Adriana, <br>Savyo en <br>Marcos</div>
         <div data-label="Kosters">A. v d Diepstraten</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -526,7 +526,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row purple" data-date="2026-11-29">
         <div>Zondag 29 november <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eerste zondag <br>van de advent</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars">Yfke, <br>Asaira, <br>Reinilde en <br>Chisom</div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
@@ -555,7 +555,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row purple" data-date="2026-12-06">
         <div>Zondag 6 december <span class='desktop-break'></span>11:00</div>
       	<div data-label="Bijzonderheden">Tweede zondag <br>van de advent</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">H. Gruiters</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
@@ -566,7 +566,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row rose" data-date="2026-12-13">
         <div>Zondag 13 december <span class='desktop-break'></span>11:00</div>
      	  <div data-label="Bijzonderheden">Derde zondag <br>van de advent</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">V. Osterhaus</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Rose</div>
@@ -577,7 +577,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row purple" data-date="2026-12-20">
         <div>Zondag 20 december <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Vierde zondag <br>van de advent</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">H. Klaver</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
@@ -588,7 +588,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row gold" data-date="2026-12-24">
         <div>Donderdag 24 december <span class='desktop-break'></span>22:00</div>
     	  <div data-label="Bijzonderheden">Kerstnachtmis</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">K. Wirken /<br> J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -599,7 +599,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row gold" data-date="2026-12-25">
         <div>Vrijdag 25 december <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Kerstmis</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">K. Orfaly</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -610,7 +610,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row gold" data-date="2026-12-27">
         <div>Zondag 27 december <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Heilige familie</div>
-        <div data-label="Lectoren"></div>
+        <div data-label="Lectoren">L. Ekelmans</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
