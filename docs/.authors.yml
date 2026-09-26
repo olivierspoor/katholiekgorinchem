@@ -97,3 +97,10 @@ authors:
     avatar: /assets/authors/intermezzo.png
     # slug: url           # Author profile slug
     url: https://www.rkkoorintermezzo.com/
+
+  tutti:
+    name: Tutti
+    description: Tutti is een katholiek jongerenkoor uit Gorinchem van 14 leden tussen de 14 en 35 jaar oud.
+    avatar: /assets/authors/tutti.png
+    # slug: url           # Author profile slug
+    url: https://www.jongerenkoortutti.nl/
