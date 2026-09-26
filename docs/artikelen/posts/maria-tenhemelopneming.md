@@ -15,7 +15,7 @@ hide:
 
 Op 15 augustus vieren we het hoogfeest van de **Tenhemelopneming van Maria**. Maar wat weten we eigenlijk over haar? En wat betekent haar Tenhemelopneming voor ons?
 
-De heilige Maagd Maria is de grootste heilige die wij vieren. Zij is immers de moeder van God, omdat wij in haar Zoon Gods Zoon herkennen.
+De heilige Maagd Maria is de grootste heilige die wij vieren. Zij is immers de moeder van God, omdat wij in haar Zoon Gods Zoon herkennen.<!-- more -->
 
 ## Maria in het evangelie
 De eerste keer dat wij haar met name ontmoeten, is in het evangelie volgens Lucas. Daar wordt zij aangesproken door de engel Gabriël met de woorden die wij sindsdien blijven herhalen: ***“Wees gegroet, Maria.”*** De engel verrast haar met de aankondiging dat zij moeder zal worden door de Heilige Geest. Maria geeft haar fiat, zij zegt ja op wat God van haar vraagt: *“Mij geschiede naar uw woord.”* 

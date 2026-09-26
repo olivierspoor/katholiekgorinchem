@@ -13,7 +13,7 @@ hide:
 # Kennismaken met het Parochiebestuur
 
 
-<p>Het doel en de taak van een parochiebestuur zijn vastgelegd in het "Algemeen Reglement voor het bestuur van een parochie van de Rooms-katholieke Kerk in Nederland". Zij bestuurt de parochie voor zover het betreft het parochiaal vermogen en de zorg voor een doelmatige aanwending daarvan ten bate van de parochie, met inachtneming van het kerkelijk recht en de bisschoppelijke voorschriften.</p>
+<p>Het doel en de taak van een parochiebestuur zijn vastgelegd in het "Algemeen Reglement voor het bestuur van een parochie van de Rooms-katholieke Kerk in Nederland". Zij bestuurt de parochie voor zover het betreft het parochiaal vermogen en de zorg voor een doelmatige aanwending daarvan ten bate van de parochie, met inachtneming van het kerkelijk recht en de bisschoppelijke voorschriften.</p><!-- more -->
 
 <p>Tot de taak van het parochiebestuur behoren:</p>
 <ol type="a">
