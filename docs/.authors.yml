@@ -104,3 +104,10 @@ authors:
     avatar: /assets/authors/tutti.png
     # slug: url           # Author profile slug
     url: https://www.jongerenkoortutti.nl/
+
+  cuneyt:
+    name: Cuneyt
+    description: Parochielid
+    avatar: /assets/authors/cuneyt.jpg
+    # slug: url           # Author profile slug
+    # url: url            # Author website URL

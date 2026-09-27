@@ -23,8 +23,15 @@ Dit betekent dat wij in liefde verbonden zijn met de Heer en met hen die ons zij
 Heel bijzonder laat Maria dit zien in haar leven en in haar voorspraak. Zij staat dicht bij haar Zoon en ook dicht bij ons als de moeder aan wie Christus ons heeft toevertrouwd onder het kruis: ‘Zie daar uw moeder’.
 
 Maar deze verbondenheid betekent tevens iets wezenlijks voor ons, die hier op aarde leven. Wij mogen elkaar dragen, zoals we ook samenkomen in onze kerken om ons geloof te vieren, elkaar te bemoedigen en elkaar nabij te zijn. De Moeder van Barmhartigheid verwijst naar haar Zoon, die voor ons geleden heeft en ons uitnodigt tot medeleven. Op Allerzielen weten we ons met elkaar verbonden in ons verdriet en in onze hoop.
-
-![Kruisafname](/assets/artikelen/kruisafname.png){ align=left width="240" } **Een beeld dat spreekt**    
+<style>
+@media (max-width: 768px) {
+  .kruisafname {
+    width: auto;
+    max-width: 100%;
+  }
+}
+</style>
+![Kruisafname](/assets/artikelen/kruisafname.png){ class="kruisafname" align=left width="240" } **Een beeld dat spreekt**    
 In Vianen staat sinds kort een prachtig beeld van de Kruisafname. Het is gebeeldhouwd door Omer Gielliet (1925-2017), een katholiek priester en beeldend kunstenaar uit Zeeuws-Vlaanderen. Hij werkte vooral met oude boomstammen, wrakhout, hout van sluisdeuren en oude spoorbielzen. Daarbij probeerde hij de 1natuurlijke vorm van het hout zoveel mogelijk te behouden, alsof het hout zelf iets wil vertellen.
 
 Dat is ook wat dit beeld doet. We zien de gestorven Christus, met zijn rechterarm nog aan het kruis en de doornenkroon op zijn hoofd. Maria omarmt en ondersteunt het lichaam van haar Zoon. Het is een beeld van verdriet en machteloosheid, maar tegelijk van liefde die blijft.
