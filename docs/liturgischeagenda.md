@@ -124,6 +124,17 @@ hide:
       </div>
     </div>
 
+    <div class="event-item" style="background-color: #ffe5e8; border-left: 4px solid #B11226;">
+      <div class="date">
+        <div class="day" style="color: #B11226;">28</div>
+        <div class="month" style="color: #B11226;">okt</div>
+      </div>
+      <div class="details">
+        <div class="title">Jongvolwassenengroep</div>
+          <div class="meta">Woensdag • 19:00 • <span class='mobile-break'></span>pastoor Meijer</div>
+      </div>
+    </div>
+
     </div>
   </section>
 
