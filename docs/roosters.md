@@ -506,7 +506,7 @@ document.addEventListener("DOMContentLoaded", function () {
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">K. Orfaly</div>
         <div data-label="Misdienaars">Yfke, <br>Asaira, <br>Reinilde en <br>Melanie</div>
-        <div data-label="Kosters">I. Scarpa</div>       
+        <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
         <div data-label="Koffie & Thee">-</div>
@@ -528,7 +528,7 @@ document.addEventListener("DOMContentLoaded", function () {
     	  <div data-label="Bijzonderheden">Eerste zondag <br>van de advent</div>
         <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars">Yfke, <br>Asaira, <br>Reinilde en <br>Chisom</div>
-        <div data-label="Kosters">K. Wirken</div>       
+        <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
         <div data-label="Koor">-</div>
         <div data-label="Koffie & Thee">-</div>
