@@ -47,7 +47,14 @@ authors:
     description: Parochielid
     avatar: /assets/authors/gerlinde.jpg
     # slug: url
-    # url: url    
+    # url: url 
+
+  Paula:
+    name: Paula
+    description: Parochielid
+    avatar: /assets/authors/paula.png
+    # slug: url
+    # url: url      
 
   bestuur:
     name: Parochiebestuur
