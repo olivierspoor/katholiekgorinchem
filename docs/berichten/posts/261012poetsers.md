@@ -18,7 +18,7 @@ Zou je die ochtend mee willen helpen? Elke hulp is welkom, oud of jong, en met v
 
 **Samen zorgen voor een schone kerk**
 
-Bijna twaalf jaar geleden ben ik gestopt met werken. Ik ging op zoek naar vrijwilligerswerk en kwam al snel terecht bij het schoonmaakgroepje, **de poetsers**: ik ben gewoon op een maandagochtend binnengelopen. We komen ongeveer **eens per maand** samen, met zo’n zes à zeven mensen, om de kerk netjes en gastvrij te houden. Het is mooi om je op zo'n praktische manier in te zetten. Dat Gods huis schoon blijft, is namelijk niet vanzelfsprekend. Er komt een hoop bij kijken.
+Bijna twaalf jaar geleden ben ik gestopt met werken. Ik ging op zoek naar vrijwilligerswerk en kwam al snel terecht bij het schoonmaakgroepje, **de poetsers**: ik ben gewoon op een maandagochtend binnengelopen. We komen ongeveer **eens per maand** samen, om de kerk netjes en gastvrij te houden. Niet iedereen kan altijd, meestal zijn we met zo’n vijf à zes mensen. Het is mooi om je op zo'n praktische manier in te zetten. Dat Gods huis schoon blijft, is namelijk niet vanzelfsprekend. Er komt een hoop bij kijken.
 
 We stofzuigen de vloeren, stoffen de banken af en halen het kaarsvet weg dat bij het branden van de kaarsen op de standaards terechtkomt. In de zomer nemen we ook de dweil erbij, en natuurlijk wordt er een hoop gepoetst, hoek voor hoek. Het is dankbaar werk en geeft me veel voldoening. Als je na afloop de kerk binnenloopt en alles glimt en ruikt weer schoon, weet je waarvoor je het doet.
 
