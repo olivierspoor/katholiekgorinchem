@@ -105,7 +105,7 @@ hide:
         </div>
     </div>
 
-    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
         <div class="date">
           <div class="day">9</div>
           <div class="month">nov</div>
