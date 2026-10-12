@@ -1,6 +1,6 @@
 ---
 draft: false 
-date: 2026-01-01
+date: 2026-10-12
 slug: de-poetsers
 categories:
   - Overig
