@@ -22,6 +22,6 @@ Ondanks de zomerse warmte verliep de processie in een fijne en gemoedelijke sfee
 De jaarlijkse processie van het Heylighe Hout geeft op een bijzondere wijze uitdrukking aan het katholieke geloof in het hart van de stad.
 
 
-![Processie](../assets/berichten/processie_1.jpg){ style="width:auto; max-height:225px;" } 
-![Processie](../assets/berichten/processie_2.jpg){ style="width:auto; max-height:225px;" }
+![Processie](https://katholiekgorinchem.nl/assets/berichten/processie_1.jpg){ style="width:auto; max-height:225px;" } 
+![Processie](https://katholiekgorinchem.nl/assets/berichten/processie_2.jpg){ style="width:auto; max-height:225px;" }
 

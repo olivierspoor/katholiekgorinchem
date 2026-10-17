@@ -37,3 +37,4 @@ Hij herinnert aan een kerk die de katholieke gemeenschap van Gorinchem een nieuw
 ![De gedenkplaat voor de legging van de eerste steen](https://katholiekgorinchem.nl/assets/berichten/hoeksteen.png){ style="width:auto; max-height:225px;" } 
 ![Een oude foto van de Martinuskerk](https://katholiekgorinchem.nl/assets/berichten/vintage.png){ style="width:auto; max-height:225px;" }
 ![Inzegening van de Martinuskerk door monseigneur Schaaper](https://katholiekgorinchem.nl/assets/berichten/schaaper.png){ style="width:auto; max-height:225px;" }
+![Schets van de Martinuskerk](https://katholiekgorinchem.nl/assets/berichten/schets.png){ style="width:auto; max-height:225px;" }
