@@ -1,7 +1,7 @@
 ---
 draft: false 
 date: 2026-10-17
-slug: grafmonument-pr-de-jong
+slug: pastorie-verkocht
 categories:
   - Overig
 authors:
