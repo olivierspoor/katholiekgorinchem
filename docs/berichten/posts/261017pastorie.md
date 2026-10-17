@@ -15,6 +15,8 @@ hide:
 Afgelopen week is de pastorie aan de Cornélie van Oosterzeestraat 11 overgedragen aan de nieuwe eigenaren.
 Na het overlijden van pastoor de Jong stond deze woning leeg.
 
-Hierom heeft het parochiebestuur aan het bisdom Rotterdam gevraagd de woning te mogen verkopen. Dit is goedgekeurd door het bisdom wat er uiteindelijk dus in heeft geresulteerd dat verkoop heeft plaatsgevonden. 
+Hierom heeft het parochiebestuur aan het bisdom Rotterdam gevraagd de woning te mogen verkopen. Dit is goedgekeurd door het bisdom wat er uiteindelijk dus in heeft geresulteerd dat de verkoop heeft plaatsgevonden. 
 
 Wij wensen de kopers veel geluk met hun nieuwe huis.
+
+Het parochiebestuur.
