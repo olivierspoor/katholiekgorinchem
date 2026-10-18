@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             '2026-04-05': { text: "Eerstvolgende mis: Paaszondag: <span class='mobile-break'></span>Eucharistieviering om 10:00", hour: 11 },
             '2026-04-15': { text: "Geen doordeweekse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
             '2026-04-17': { text: "Geen doordeweekse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
-            '2026-04-24': { text: "Vrijdag geen dagmis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-04-24': { text: "Vrijdag 24 april geen dagmis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
             '2026-05-02': { text: "Eerstvolgende mis: <span class='mobile-break'></span>Zaterdag: om 10:00 rozenkransgebed met aansluitend een mis.", hour: 11 },
             '2026-05-08': { text: "Eerstvolgende mis: <span class='mobile-break'></span>vrijdag om 10:00 <span class='mobile-break'></span>+ aanbidding", hour: 11 },
             '2026-05-13': { text: "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00 & <span class='mobile-break'></span>Donderdag: <span class='mobile-break'></span>Hemelvaart om 11:00", hour: 12 },
@@ -48,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
             '2026-09-20': { text: "Eerstvolgende mis: Zondag: <span class='mobile-break'></span>Lustrumviering R.K. Koor Intermezzo om 11:00", hour: 12 },
             '2026-10-03': { text: "Eerstvolgende mis: <span class='mobile-break'></span>Zaterdag: om 10:00 rozenkransgebed met aansluitend een mis.", hour: 11 },
             '2026-10-16': { text: "Eerstvolgende mis: <span class='mobile-break'></span>Uitvaartmis Dhr. Takken <span class='mobile-break'></span>Vrijdag: om 10:00", hour: 11 },
+            '2026-10-23': { text: "Vrijdag 23 oktober geen dagelijkse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
         };
 
         let foundMass = "";
