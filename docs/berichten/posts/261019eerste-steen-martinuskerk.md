@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2026-01-01
+date: 2026-10-19
 pin: false
 slug: eerste-steen-martinuskerk
 categories:
@@ -13,7 +13,7 @@ hide:
 
 # Zestig jaar geleden werd de eerste steen gelegd van de Martinuskerk
 
-Zestig jaar geleden, op **22 oktober 1966**, legde monseigneur Schaaper de eerste steen voor de nieuwe Sint-Martinuskerk aan de Wijnkoperstraat in Gorinchem. Daarmee begon de bouw van onze nieuwe kerk. Om dit te gedenken werd er door de Gorinchemse Steenhouwerij Vas de Groot en Zn. een speciale steen in de gevel gemetseld. Op deze steen staat **“DE HOEKSTEEN IS CHRISTUS 22 OKTOBER 1966”**. Zowel Matteüs 21:42 als Psalm 118:22-23 spreken over de steen die de bouwers afkeurden en die toch de hoeksteen is geworden. Voor de parochie was het een belijdenis: **Christus is het fundament** van onze kerk. Een jaar later, in **1967**, was de bouw klaar en werd de kerk in gebruik genomen.
+Zestig jaar geleden, op **22 oktober 1966**, legde vicaris-generaal mgr. A.C. Schaaper de eerste steen voor de nieuwe Sint-Martinuskerk aan de Wijnkoperstraat in Gorinchem. Daarmee begon de bouw van onze nieuwe kerk. Om dit te gedenken werd er door de Gorinchemse Steenhouwerij Vas de Groot en Zn. een speciale steen in de gevel gemetseld. Op deze steen staat **“DE HOEKSTEEN IS CHRISTUS 22 OKTOBER 1966”**. Zowel Matteüs 21:42 als Psalm 118:22-23 spreken over de steen die de bouwers afkeurden en die toch de hoeksteen is geworden. Voor de parochie was het een belijdenis: **Christus is het fundament** van onze kerk. Een jaar later, in **1967**, was de bouw klaar en werd de kerk in gebruik genomen.
 
 ## Een kerk met een eigen gezicht
 
@@ -26,7 +26,7 @@ Het grootste deel van de klokken werd in 1687 gegoten door **Melchior de Haze**,
 
 Het nieuwe stadhuis kreeg geen toren. Daarom verhuisde het carillon naar de Grote Toren, het hoogste bouwwerk van de stad. Daar bleven de klokken hangen totdat ze in 1965 werden vervangen.
 
-Vervolgens bood het college van burgemeester en wethouders de oude klokken in bruikleen aan het kerkbestuur van de Sint-Martinusparochie aan. Onder voorzitterschap van pastoor C.J.J. Lindenhoff kwam een overeenkomst tot stand waardoor de historische klokken een nieuwe bestemming kregen. Ze werden geplaatst in de open toren van de nieuwe Martinuskerk aan de Wijnkoperstraat.
+Vervolgens bood het college van burgemeester en wethouders de oude klokken in bruikleen aan het kerkbestuur van de Sint-Martinusparochie aan. Onder voorzitterschap van pastoor C.J.J. Lindenhoff kwam een overeenkomst tot stand waardoor de historische klokken een nieuwe bestemming kregen. Ze werden geplaatst in de open toren van de nieuwe Martinuskerk aan de Wijnkoperstraat. Het carillon uit 1687 is dus tot op vandaag nog steeds eigendom van de gemeente waardoor de klokkentoren nu zowel een Rijks- als een gemeentemonument is. 
 
 ## Een blijvende herinnering
 
