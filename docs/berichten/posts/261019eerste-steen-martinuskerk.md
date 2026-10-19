@@ -26,13 +26,13 @@ Het grootste deel van de klokken werd in 1687 gegoten door **Melchior de Haze**,
 
 Het nieuwe stadhuis kreeg geen toren. Daarom verhuisde het carillon naar de Grote Toren, het hoogste bouwwerk van de stad. Daar bleven de klokken hangen totdat ze in 1965 werden vervangen.
 
-Vervolgens bood het college van burgemeester en wethouders de oude klokken in bruikleen aan het kerkbestuur van de Sint-Martinusparochie aan. Onder voorzitterschap van pastoor C.J.J. Lindenhoff kwam een overeenkomst tot stand waardoor de historische klokken een nieuwe bestemming kregen. Ze werden geplaatst in de open toren van de nieuwe Martinuskerk aan de Wijnkoperstraat. Het carillon uit 1687 is dus tot op vandaag nog steeds eigendom van de gemeente waardoor de klokkentoren nu zowel een Rijks- als een gemeentemonument is. 
+Vervolgens bood het college van burgemeester en wethouders de oude klokken in bruikleen aan het kerkbestuur van de Sint-Martinusparochie aan. Onder voorzitterschap van **pastoor C.J.J. Lindenhoff** kwam een overeenkomst tot stand waardoor de historische klokken een nieuwe bestemming kregen. Ze werden geplaatst in de open toren van de nieuwe Martinuskerk aan de Wijnkoperstraat. Het carillon uit 1687 is dus tot op vandaag nog steeds eigendom van de gemeente waardoor de klokkentoren nu zowel een Rijks- als een gemeentemonument is. 
 
 ## Een blijvende herinnering
 
 Zestig jaar na de eerste steenlegging komen parochianen nog altijd graag naar de Martinuskerk. De gedenksteen van 22 oktober 1966 markeert meer dan het begin van een bouwproject.
 
-Hij herinnert aan een kerk die de katholieke gemeenschap van Gorinchem een nieuw thuis gaf, een plek waar we mogen samenkomen om ons geloof te belijden. Wat de bouwers in 1966 in de eerste steen zetten, geldt voor ons nog altijd: **Christus is de hoeksteen**.
+Hij herinnert aan een kerk die de katholieke gemeenschap van Gorinchem een nieuw thuis gaf, een plek waar we mogen samenkomen om ons geloof te belijden. Wat de bouwers in 1966 in de eerste steen zetten, geldt voor ons nog altijd: **De hoeksteen is Christus**.
 
 ![De gedenkplaat voor de legging van de eerste steen](https://katholiekgorinchem.nl/assets/berichten/hoeksteen.png){ style="width:auto; max-height:225px;" } 
 ![Een oude foto van de Martinuskerk](https://katholiekgorinchem.nl/assets/berichten/vintage.png){ style="width:auto; max-height:225px;" }
