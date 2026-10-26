@@ -72,6 +72,8 @@ hide:
         <h3>Schoonmaakploeg</h3>
         <div class="activity-time">Zie bord in parochiezaal</div>
         <p>We zorgen ervoor dat de kerk en de parochiezalen schoon en opgeruimd blijven. Hulp is altijd welkom.</p>
+        <p><a href="https://katholiekgorinchem.nl/berichten/de-poetsers">Lees hier meer over de schoonmaakgroep.</a></p>
+
       </div>
     </div>
 

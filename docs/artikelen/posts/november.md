@@ -1,6 +1,6 @@
 ---
 draft: false 
-date: 2026-09-26
+date: 2026-10-26
 slug: november
 categories:
   - Meditaties
