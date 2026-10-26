@@ -1,18 +1,15 @@
 // WhatsApp-kanaal pop-up (schuift van rechts in, 30 dagen onthouden)
 (function () {
-  var KEY = "wa_popup_gesloten";
+  var COOKIE = "wa_popup_gesloten";
   var DAYS = 30;
   var DELAY = 3000; // ms voordat de pop-up verschijnt
 
-  try {
-    var until = parseInt(localStorage.getItem(KEY), 10);
-    if (until && Date.now() < until) return; // nog binnen de 30 dagen
-  } catch (e) {}
+  if (document.cookie.indexOf(COOKIE + "=") !== -1) return;
 
   function rememberChoice() {
-    try {
-      localStorage.setItem(KEY, String(Date.now() + DAYS * 86400000));
-    } catch (e) {}
+    document.cookie =
+      COOKIE + "=1; max-age=" + DAYS * 86400 + "; path=/; SameSite=Lax" +
+      (location.protocol === "https:" ? "; Secure" : "");
   }
 
   function build() {
