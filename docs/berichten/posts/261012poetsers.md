@@ -10,13 +10,7 @@ hide:
   - toc
 ---
 
-# Grote poetsactie op 26 oktober
-
-Op **maandag 26 oktober** willen we een **eenmalige grote poetsactie** houden. We doen elke keer ons best om de kerk schoon te maken, maar we komen niet altijd overal aan toe. Met een aantal extra handen kunnen we die ochtend eens dingen aanpakken waar we normaal niet aan toekomen.
-
-Zou je die ochtend mee willen helpen? Elke hulp is welkom, oud of jong, en met veel mensen is het werk snel gedaan. **Aanmelden hoeft niet**: kom gewoon maandag 26 oktober langs, we beginnen om **09.30 uur**.
-
-**Samen zorgen voor een schone kerk**
+# Samen zorgen voor een schone kerk
 
 Bijna twaalf jaar geleden ben ik gestopt met werken. Ik ging op zoek naar vrijwilligerswerk en kwam al snel terecht bij het schoonmaakgroepje, **de poetsers**: ik ben gewoon op een maandagochtend binnengelopen. We komen ongeveer **eens per maand** samen, om de kerk netjes en gastvrij te houden. Niet iedereen kan altijd, meestal zijn we met zo’n vijf à zes mensen. Het is mooi om je op zo'n praktische manier in te zetten. Dat Gods huis schoon blijft, is namelijk niet vanzelfsprekend. Er komt een hoop bij kijken.
 

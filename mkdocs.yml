@@ -51,7 +51,7 @@ extra_css:
 extra_javascript:
   - javascripts/custom.js
   - javascripts/flag-link.js
-
+  - javascripts/popup.js
 
 markdown_extensions:
   - pymdownx.caret

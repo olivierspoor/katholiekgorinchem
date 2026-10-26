@@ -7,7 +7,9 @@
 4. Rooster
 5. Contact
 6. Activiteiten
-7. Overige CSS
+7. popup
+8. FAQ
+10. Overige CSS
 
 ============================================================================ */
 
@@ -704,7 +706,76 @@ nav {
   }
 }
 
-/* 8. FAQ
+/* 8. popup
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* WhatsApp-kanaal pop-up */
+.wa-popup {
+  position: fixed;
+  right: 0;
+  bottom: 1.5rem;
+  z-index: 5;
+  width: min(320px, calc(100vw - 1rem));
+  padding: 1rem 1.2rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  border-left: 4px solid #25d366;
+  border-radius: 0.4rem 0 0 0.4rem;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+  transform: translateX(110%);
+  transition: transform 0.5s ease;
+}
+.wa-popup.is-visible {
+  transform: translateX(0);
+}
+.wa-popup h3 {
+  margin: 0 1.5rem 0.4rem 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.wa-popup h3 svg {
+  color: #25d366;
+}
+.wa-popup p {
+  margin: 0 0 0.8rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+.wa-popup__btn {
+  display: inline-block;
+  padding: 0.4rem 1.2rem;
+  background: #25d366;
+  color: #fff !important;
+  border-radius: 0.2rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+.wa-popup__btn:hover {
+  background: #1ebe5a;
+}
+.wa-popup__close {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.5rem;
+  padding: 0.2rem 0.4rem;
+  background: none;
+  border: 0;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: inherit;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.wa-popup__close:hover {
+  opacity: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .wa-popup { transition: none; }
+}
+
+/* 9. FAQ
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .faq-container {
@@ -801,7 +872,7 @@ nav {
   }
 }
 
-/* 9. Overige CSS
+/* 10. Overige CSS
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 .md-nav--primary .md-nav__title .md-nav__icon::after {
