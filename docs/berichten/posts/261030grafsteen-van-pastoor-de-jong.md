@@ -2,7 +2,7 @@
 draft: false
 date: 2026-10-30
 pin: false
-slug: eerste-steen-martinuskerk
+slug: grafsteen-vanpastoor-de-jong
 categories:
   - Overige
 authors:
