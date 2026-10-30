@@ -118,3 +118,10 @@ authors:
     avatar: /assets/authors/cuneyt.jpg
     # slug: url           # Author profile slug
     # url: url            # Author website URL
+
+  minke:
+    name: Minke
+    description: Parochielid
+    avatar: /assets/authors/minke.png
+    # slug: url           # Author profile slug
+    # url: url            # Author website URL
