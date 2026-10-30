@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2020-10-19
+date: 2026-10-30
 pin: false
 slug: eerste-steen-martinuskerk
 categories:
@@ -47,5 +47,6 @@ Ik ben dankbaar dat ik aan deze steen mocht meewerken. **Help mee om er een mooi
 
 
 ![Inzegening van de Martinuskerk door monseigneur Schaaper](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor2.jpeg){ style="width:auto; max-height:250px;" }
-![De gedenkplaat voor de legging van de eerste steen](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor4.jpg){ style="width:auto; max-height:250px;" } 
+![De gedenkplaat voor de legging van de eerste steen](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor4.jpeg){ style="width:auto; max-height:250px;" } 
+![De gedenkplaat voor de legging van de eerste steen](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor5.jpeg){ style="width:auto; max-height:250px;" } 
 
