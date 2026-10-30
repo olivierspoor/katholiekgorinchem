@@ -29,6 +29,9 @@ Mijn hoofd deed het in die tijd niet zo goed: razende gedachten en steeds een ge
 
 Dat ik gevraagd werd om mee te werken aan de grafsteen van **pastoor De Jong**, raakt me diep. Bij de graven van priesters komen voor mij veel dingen samen. **Zij hebben hun leven gegeven voor de Kerk**, en ik mag meewerken aan de rustplaats van hun lichaam. Ik word zelf getroost en gesterkt door stenen waarin het geloof zichtbaar is. Dan voelt de dood niet als een einde, maar wordt er een Hoop uitgesproken die groter is dan leven en dood. In een maatschappij waarin alles maakbaar en te regelen lijkt, houdt ons leven op een gegeven moment toch op. Dan rest ons niets anders dan alles in Zijn handen te leggen, in het volle vertrouwen dat er leven is na de dood.
 
+![De gedenkplaat voor de legging van de eerste steen](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor1.jpeg){ style="width:auto; max-height:250px;" } 
+![Een oude foto van de Martinuskerk](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor3.jpeg){ style="width:auto; max-height:250px;" }
+
 ## Een bijzonder ontwerp
 
 Over het ontwerp hebben we samen met enkele bestuursleden gesproken. Het bestuur koos voor een ontwerp waarin verschillende aspecten van ons geloof terugkomen. Bovenaan staat het **Chi-Rho-teken**, het Christusmonogram dat vaak bij priesters wordt gebruikt: wanneer zij de Mis voorgaan, treden zij op namens Christus, **in persona Christi**. Bij zijn geboorte- en sterfdatum staan de Alfa en de Omega, zodat zijn hele leven omvat wordt door Christus als begin en einde. Onderaan staan de kelk en de hostie, als teken van het Misoffer dat hij zo vaak heeft opgedragen in de parochies waar hij werkte. Dat raakte me bijzonder, omdat bij zijn uitvaart en daarna in de gemeenschapsruimte een foto van pastoor De Jong stond waarop hij juist de hostie en de kelk omhoog houdt.
@@ -42,8 +45,7 @@ Ik vind het heerlijk om in het steen te mogen hakken. In landen als Duitsland is
 Ik ben dankbaar dat ik aan deze steen mocht meewerken. **Help mee om er een mooie plek van te houden door niets óp de steen te zetten of de steen zelf schoon te maken. Grafkaarsen die omvallen geven onmogelijke vlekken, net als roest uit vaasjes of voorwerpen. Mocht u toch iets achter willen laten bij het graf, doe dit dan vóór of naast de steen, maar niet er bovenop. We willen graag dat deze steen zo lang mogelijk een mooie plek blijft** En als u vragen heeft: spreek me gerust eens aan na een Mis!
 
 
-![De gedenkplaat voor de legging van de eerste steen](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor1.jpeg){ style="width:auto; max-height:225px;" } 
-![Een oude foto van de Martinuskerk](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor2.jpeg){ style="width:auto; max-height:225px;" }
-![Inzegening van de Martinuskerk door monseigneur Schaaper](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor3.jpeg){ style="width:auto; max-height:225px;" }
-![De gedenkplaat voor de legging van de eerste steen](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor4.jpg){ style="width:auto; max-height:225px;" } 
+
+![Inzegening van de Martinuskerk door monseigneur Schaaper](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor2.jpeg){ style="width:auto; max-height:250px;" }
+![De gedenkplaat voor de legging van de eerste steen](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor4.jpg){ style="width:auto; max-height:250px;" } 
 
