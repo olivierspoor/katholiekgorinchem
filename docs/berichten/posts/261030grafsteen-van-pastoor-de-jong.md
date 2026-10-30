@@ -15,7 +15,7 @@ hide:
 
 **We zijn blij dat in de week voor Allerzielen de grafsteen van pastoor De Jong is geplaatst. We vragen u vriendelijk om er een mooie plek van te houden door niets óp de steen te zetten of de steen zelf schoon te maken. Grafkaarsen die omvallen geven onmogelijke vlekken, net als roest uit vaasjes of voorwerpen. Mocht u toch iets achter willen laten bij het graf, doe dit dan vóór of naast de steen, maar niet er bovenop. We willen graag dat deze steen zo lang mogelijk een mooie plek blijft.** 
 
-**De familie Aletoe is door het parochiebestuur gevraagd om het graf schoon te houden. Ziet u toch dat de steen vuil is of vlekken heeft? Maak hem dan alstublieft niet zelf schoon maar geef het door aan de familie Aletoe of het parochiebestuur, het gebruik van schoonmaakmiddel kan de steen namelijk beschadigen. Zo blijft de steen zo lang mogelijk mooi.**
+**De familie Alatoe is door het parochiebestuur gevraagd om het graf schoon te houden. Ziet u toch dat de steen vuil is of vlekken heeft? Maak hem dan alstublieft niet zelf schoon maar geef het door aan Anton of Maureen Alatoe of het parochiebestuur, het gebruik van schoonmaakmiddel kan de steen namelijk beschadigen. Zo blijft de steen zo lang mogelijk mooi.**
 
 ## Gemaakt met hart en handen 
 
