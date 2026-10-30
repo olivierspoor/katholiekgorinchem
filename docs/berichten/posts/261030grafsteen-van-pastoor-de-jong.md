@@ -13,9 +13,9 @@ hide:
 
 # De grafsteen van pastoor De Jong is geplaatst
 
-**Op 29 oktober is de grafsteen van pastoor De Jong geplaatst. We vragen u vriendelijk om geen kaarsen, bloemen of andere voorwerpen óp de steen zelf te zetten. Wilt u iets achterlaten bij het graf, plaats het dan vóór of naast de steen. Omvallende grafkaarsen en roest van vaasjes of voorwerpen geven vlekken die vaak niet meer te verwijderen zijn.**
+**We zijn blij dat in de week voor Allerzielen de grafsteen van pastoor De Jong geplaatst. We vragen u vriendelijk om er een mooie plek van te houden door niets óp de steen te zetten of de steen zelf schoon te maken. Grafkaarsen die omvallen geven onmogelijke vlekken, net als roest uit vaasjes of voorwerpen. Mocht u toch iets achter willen laten bij het graf, doe dit dan vóór of naast de steen, maar niet er bovenop. We willen graag dat deze steen zo lang mogelijk een mooie plek blijft** 
 
-**De grafvoorziening zorgt ervoor dat de steen schoon blijft. Ziet u toch dat de steen vuil is of vlekken heeft? Maak hem dan alstublieft niet zelf schoon, maar geef het door aan de grafvoorziening. Zo blijft de steen zo lang mogelijk mooi.**
+**De familie Aletoe is door het parochiebestr gevraagd om het graf schoon te houden. Ziet u toch dat de steen vuil is of vlekken heeft? Maak hem dan alstublieft niet zelf schoon maar geef het door aan de familie Aletoe of het parochiebestuur, het gebruik van schoonmaakmiddel kan de steen namelijk beschadigen. Zo blijft de steen zo lang mogelijk mooi.**
 
 ## Gemaakt met hart en handen 
 
@@ -42,9 +42,7 @@ Persoonlijk houd ik erg van Belgisch hardsteen. Je ziet nog hóé de steen in mi
 
 Ik vind het heerlijk om in het steen te mogen hakken. In landen als Duitsland is er nog een sterke traditie van handgehakte letters, maar in Nederland wordt vaak eerst naar de kosten gekeken. Bovendien heb je een steenhouwerij nodig met hakkers in dienst, en dat is geen vanzelfsprekendheid meer. Het is een ambacht waar zorg uit spreekt, een beetje zoals een handgeschreven brief op mooi briefpapier tegenover een appje. Het is ook zwaar en tijdrovend werk; hakkers kunnen niet urenlang achter elkaar doorgaan. Daarom ben ik blij dat ik het inmiddels zelf heb geleerd. Zo kon ik mijn collega aflossen en werkten we tegelijk aan deze steen. Ik ben blij met élke aanvraag voor handgehakte letters, en **het is extra bijzonder om mee te werken aan een steen voor iemand wiens geloof ook na zijn dood mag worden uitgedragen**.
 
-Ik ben dankbaar dat ik aan deze steen mocht meewerken. **Help mee om er een mooie plek van te houden door niets óp de steen te zetten of de steen zelf schoon te maken. Grafkaarsen die omvallen geven onmogelijke vlekken, net als roest uit vaasjes of voorwerpen. Mocht u toch iets achter willen laten bij het graf, doe dit dan vóór of naast de steen, maar niet er bovenop. We willen graag dat deze steen zo lang mogelijk een mooie plek blijft** En als u vragen heeft: spreek me gerust eens aan na een Mis!
-
-
+Ik ben dankbaar dat ik aan deze steen mocht meewerken. **Help mee om er een mooie plek van te houden door niets óp de steen te zetten of de steen zelf schoon te maken. Mocht u toch iets achter willen laten bij het graf, doe dit dan vóór of naast de steen, maar niet er bovenop. Omvallende grafkaarsen en roest van vaasjes of andere voorwerpen geven vlekken die vaak niet meer te verwijderen zijn. We willen graag dat deze steen zo lang mogelijk een mooie plek blijft** En als u vragen heeft: spreek me gerust eens aan na een Mis!
 
 ![Inzegening van de Martinuskerk door monseigneur Schaaper](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor2.jpeg){ style="width:auto; max-height:250px;" }
 ![De gedenkplaat voor de legging van de eerste steen](https://katholiekgorinchem.nl/assets/berichten/grafsteenPastoor4.jpeg){ style="width:auto; max-height:250px;" } 
