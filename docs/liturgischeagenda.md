@@ -116,6 +116,17 @@ hide:
         </div>
     </div>
 
+    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+        <div class="date">
+        <div class="day">23</div>
+        <div class="month">nov</div>
+        </div>
+        <div class="details">
+          <div class="title">Bijbelcursus</div>
+          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>mw. Van den Akker-Savelsbergh</div>
+        </div>
+    </div>
+
     </div>
   </section>
 
@@ -146,6 +157,17 @@ hide:
       </div>
     </div>
 
+    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
+      <div class="date">
+        <div class="day">25</div>
+        <div class="month">nov</div>
+      </div>
+      <div class="details">
+        <div class="title">Jongvolwassenengroep</div>
+          <div class="meta">Woensdag • 19:00 • <span class='mobile-break'></span>pastoor Meijer</div>
+      </div>
+    </div>
+
     </div>
   </section>
 
@@ -169,6 +191,17 @@ hide:
       <div class="date">
         <div class="day">7</div>
         <div class="month">nov</div>
+      </div>
+      <div class="details">
+        <div class="title">Rozenkransgebedsgroep</div>
+        <div class="meta">Zaterdag • 10:00</div>
+      </div>
+    </div> 
+
+    <div class="event-item" style="background-color: #efeaf3; border-left: 4px solid #5A2A82;">
+      <div class="date">
+        <div class="day">5</div>
+        <div class="month">dec</div>
       </div>
       <div class="details">
         <div class="title">Rozenkransgebedsgroep</div>
