@@ -494,7 +494,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 8 november <span class='desktop-break'></span>11:00</div>
      	  <div data-label="Bijzonderheden">Eucharistieviering</div>
         <div data-label="Lectoren">V. Osterhaus</div>
-        <div data-label="Misdienaars">Adriana, <br>Destiny, <br>Khaled en <br>Savyo</div>
+        <div data-label="Misdienaars">Adriana, <br>Yfke, <br>Khaled en <br>Savyo</div>
         <div data-label="Kosters">J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">Tutti</div>
