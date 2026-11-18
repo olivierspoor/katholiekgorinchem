@@ -504,9 +504,9 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row green" data-date="2026-11-15">
         <div>Zondag 15 november <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eucharistieviering</div>
-        <div data-label="Lectoren">K. Orfaly</div>
+        <div data-label="Lectoren">K. Wirken</div>
         <div data-label="Misdienaars">Yfke, <br>Asaira, <br>Reinilde en <br>Melanie</div>
-        <div data-label="Kosters">K. Wirken</div>       
+        <div data-label="Kosters">A. v d Diepstraten</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
         <div data-label="Koor">-</div>
         <div data-label="Koffie & Thee">-</div>
@@ -517,7 +517,7 @@ document.addEventListener("DOMContentLoaded", function () {
     	  <div data-label="Bijzonderheden">Christus, <br>Koning van het heelal</div>
         <div data-label="Lectoren">L. Ekelmans</div>
         <div data-label="Misdienaars">Arthur, <br>Adriana, <br>Savyo en <br>Marcos</div>
-        <div data-label="Kosters">A. v d Diepstraten</div>       
+        <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">Intermezzo</div>
         <div data-label="Koffie & Thee">Teresa en Gerlinde</div>
@@ -525,7 +525,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       <div class="schedule-row purple" data-date="2026-11-29">
         <div>Zondag 29 november <span class='desktop-break'></span>11:00</div>
-    	  <div data-label="Bijzonderheden">Eerste zondag <br>van de advent</div>
+    	  <div data-label="Bijzonderheden">Eerste zondag <br>van de advent. <br>Met aansluitend kerstmarkt</div>
         <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars">Yfke, <br>Asaira, <br>Reinilde en <br>Chisom</div>
         <div data-label="Kosters">I. Scarpa</div>       
@@ -587,7 +587,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       <div class="schedule-row gold" data-date="2026-12-24">
         <div>Donderdag 24 december <span class='desktop-break'></span>22:00</div>
-    	  <div data-label="Bijzonderheden">Kerstnachtmis</div>
+    	  <div data-label="Bijzonderheden">Kerstnachtmis<br>o.l.v. Pastoor Lam</div>
         <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">K. Wirken /<br> J. van Oord</div>       
@@ -598,7 +598,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       <div class="schedule-row gold" data-date="2026-12-25">
         <div>Vrijdag 25 december <span class='desktop-break'></span>11:00</div>
-    	  <div data-label="Bijzonderheden">Kerstmis</div>
+    	  <div data-label="Bijzonderheden">Kerstmis<br>o.l.v. Bisschop Van den Hende</div>
         <div data-label="Lectoren">K. Orfaly</div>
         <div data-label="Misdienaars"></div>
         <div data-label="Kosters">E. van Es</div>       

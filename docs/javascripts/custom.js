@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
             '2026-05-08': { text: "Eerstvolgende mis: <span class='mobile-break'></span>vrijdag om 10:00 <span class='mobile-break'></span>+ aanbidding", hour: 11 },
             '2026-05-13': { text: "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00 & <span class='mobile-break'></span>Donderdag: <span class='mobile-break'></span>Hemelvaart om 11:00", hour: 12 },
             '2026-05-14': { text: "Eerstvolgende mis: Donderdag: <span class='mobile-break'></span>Hemelvaart om 11:00", hour: 12 },
-            '2026-05-24': { text: "Eerstvolgende mis: Pinksterzondag om 11:00 <span class='mobile-break'></span> met aansluitend een lunch", hour: 12 },
+            '2026-05-24': { text: "Eerstvolgende mis: Pinksterzondag om 11:00 <span class='mobile-break'></span>met aansluitend een lunch", hour: 12 },
             '2026-06-26': { text: "Vrijdag geen doordeweekse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
             '2026-07-01': { text: "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00. <span class='mobile-break'></span>Aanbidding woensdag 8 juli", hour: 11 },
             '2026-07-08': { text: "Eerstvolgende mis: <span class='mobile-break'></span>woensdag om 10:00 <span class='mobile-break'></span>+ aanbidding", hour: 11 },
@@ -49,6 +49,9 @@ document.addEventListener('DOMContentLoaded', function() {
             '2026-10-03': { text: "Eerstvolgende mis: <span class='mobile-break'></span>Zaterdag: om 10:00 rozenkransgebed met aansluitend een mis.", hour: 11 },
             '2026-10-16': { text: "Eerstvolgende mis: <span class='mobile-break'></span>Uitvaartmis Dhr. Takken <span class='mobile-break'></span>Vrijdag: om 10:00", hour: 11 },
             '2026-10-23': { text: "Vrijdag 23 oktober geen dagelijkse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
+            '2026-11-29': { text: "Eerstvolgende mis: Eerste zondag van de advent om 11:00<span class='mobile-break'></span> met aansluitend kerstmarkt", hour: 12 },
+            '2026-12-24': { text: "Kerstavond om 22:00 <span class='mobile-break'></span>o.l.v. Pastoor Lam & <span class='mobile-break'></span>1e Kerstdag om 11:00 <span class='mobile-break'></span>o.l.v. bisschop Van den Hende", hour: 23 },
+            '2026-12-25': { text: "1e Kerstdag: om 11:00 <span class='mobile-break'></span>o.l.v. bisschop Van den Hende", hour: 12 },
         };
 
         let foundMass = "";

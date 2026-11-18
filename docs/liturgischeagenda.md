@@ -50,27 +50,37 @@ hide:
     <h2><i class="fa-solid fa-cross"></i> Feesten en gedachtenissen</h2>
 
     <div class="event-list">
-
-      <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
-        <div class="date">
-          <div class="day">1</div>
-          <div class="month">nov</div>
-        </div>
-        <div class="details">
-          <div class="title">Allerheiligen</div>
-          <div class="meta">zondag • 11:00</div>
-        </div>
-      </div>
-
-      
+   
       <div class="event-item" style="background-color: #f7f3ff; border-left: 4px solid #5A2A82;">
         <div class="date">
           <div class="day">29</div>
           <div class="month">nov</div>
         </div>
         <div class="details">
-          <div class="title">Eerste zondag van de advent</div>
+          <div class="title">Eerste zondag van de advent • Aansluitend kerstmarkt</div>
           <div class="meta">zondag • 11:00</div>
+        </div>
+      </div>
+
+      <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
+        <div class="date">
+          <div class="day">24</div>
+          <div class="month">dec</div>
+        </div>
+        <div class="details">
+          <div class="title">Kerstavond o.l.v. pastoor Lam</div>
+          <div class="meta">donderdag • 22:00</div>
+        </div>
+      </div>
+
+      <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
+        <div class="date">
+          <div class="day">25</div>
+          <div class="month">dec</div>
+        </div>
+        <div class="details">
+          <div class="title">1e Kerstdag o.l.v. bisschop Van den Hende</div>
+          <div class="meta">vrijdag • 11:00</div>
         </div>
       </div>
 
