@@ -515,7 +515,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row gold" data-date="2026-11-22">
         <div>Zondag 22 november <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Christus, <br>Koning van het heelal</div>
-        <div data-label="Lectoren">L. Ekelmans</div>
+        <div data-label="Lectoren">A. Bakker</div>
         <div data-label="Misdienaars">Arthur, <br>Adriana, <br>Savyo en <br>Marcos</div>
         <div data-label="Kosters">K. Wirken</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
@@ -526,7 +526,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="schedule-row purple" data-date="2026-11-29">
         <div>Zondag 29 november <span class='desktop-break'></span>11:00</div>
     	  <div data-label="Bijzonderheden">Eerste zondag <br>van de advent. <br>Met aansluitend kerstmarkt</div>
-        <div data-label="Lectoren">A. Bakker</div>
+        <div data-label="Lectoren">L. Ekelmans</div>
         <div data-label="Misdienaars">Yfke, <br>Asaira, <br>Reinilde en <br>Chisom</div>
         <div data-label="Kosters">I. Scarpa</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
