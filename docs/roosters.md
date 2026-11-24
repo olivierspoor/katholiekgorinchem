@@ -262,9 +262,6 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
 
     </div>
-  </div>
-
-
 
 </div>
   <div class="schedule-month" data-date="2026-08-01">
@@ -556,7 +553,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Zondag 6 december <span class='desktop-break'></span>11:00</div>
       	<div data-label="Bijzonderheden">Tweede zondag <br>van de advent</div>
         <div data-label="Lectoren">H. Gruiters</div>
-        <div data-label="Misdienaars">Arthur, <br>Yfke, <br>Niels en <br> Melanie</div>
+        <div data-label="Misdienaars">Arthur, <br>Yfke, <br>Niels en <br>Melanie</div>
         <div data-label="Kosters">E. van Es</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
         <div data-label="Koor">-</div>
@@ -589,7 +586,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div>Donderdag 24 december <span class='desktop-break'></span>22:00</div>
     	  <div data-label="Bijzonderheden">Kerstnachtmis<br>o.l.v. Pastoor Lam</div>
         <div data-label="Lectoren">A. Bakker</div>
-        <div data-label="Misdienaars">Arthur, <br> Adriana en <br>Savyo</div>
+        <div data-label="Misdienaars">Arthur, <br>Adriana en <br>Savyo</div>
         <div data-label="Kosters">K. Wirken /<br> J. van Oord</div>       
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">Intermezzo</div>
@@ -616,6 +613,151 @@ document.addEventListener("DOMContentLoaded", function () {
         <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
         <div data-label="Koor">-</div>
         <div data-label="Koffie & Thee">Corien en Fadia</div>
+      </div>
+
+    </div>
+  </div>
+  <div class="schedule-month" data-date="2027-01-01">
+    <h2 class="month-title">Januari 2027</h2>
+
+    <div class="schedule-table">
+
+      <div class="schedule-row schedule-head">
+        <div>Datum</div>
+        <div>Bijzonderheden</div>
+        <div>Lectoren</div>
+        <div>Misdienaars</div>
+        <div>Kosters</div>
+        <div>Koor</div>
+        <div>Koffie & Thee</div>
+      </div>
+
+      <div class="schedule-row gold" data-date="2027-01-03">
+        <div>Zondag 3 januari <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Openbaring des Heren</div>
+        <div data-label="Lectoren"></div>
+        <div data-label="Misdienaars">Yfke, <br>Asaira, <br>Melanie en <br>Marcos</div>
+        <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee">-</div>
+      </div>
+
+      <div class="schedule-row gold" data-date="2027-01-10">
+        <div>Zondag 10 januari <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Doop van de Heer</div>
+        <div data-label="Lectoren"></div>
+        <div data-label="Misdienaars">Yfke, <br>Adriana, <br>Niels en <br>Savyo</div>
+        <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Wit</div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row green" data-date="2027-01-17">
+        <div>Zondag 17 januari <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren"></div>
+        <div data-label="Misdienaars">Arthur, <br>Adriana, <br>Melanie en <br>Marcos</div>
+        <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee">-</div>
+      </div>
+
+      <div class="schedule-row green" data-date="2027-01-24">
+        <div>Zondag 24 januari <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren"></div>
+        <div data-label="Misdienaars">Yfke, <br>Asaira, <br>Niels en <br>Savyo</div>
+        <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row green" data-date="2027-01-31">
+        <div>Zondag 31 januari <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren"></div>
+        <div data-label="Misdienaars">Arthur, <br>Adriana, <br>Melanie en <br>Marcos</div>
+        <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee">-</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="schedule-month" data-date="2027-02-01">
+    <h2 class="month-title">Februari 2027</h2>
+
+    <div class="schedule-table">
+
+      <div class="schedule-row schedule-head">
+        <div>Datum</div>
+        <div>Bijzonderheden</div>
+        <div>Lectoren</div>
+        <div>Misdienaars</div>
+        <div>Kosters</div>
+        <div>Koor</div>
+        <div>Koffie & Thee</div>
+      </div>
+
+      <div class="schedule-row green" data-date="2027-02-07">
+        <div>Zondag 7 februari <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eucharistieviering</div>
+        <div data-label="Lectoren"></div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Groen</div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee">-</div>
+      </div>
+
+      <div class="schedule-row purple" data-date="2027-02-10">
+        <div>Woensdag 10 februari <span class='desktop-break'></span>19:00</div>
+        <div data-label="Bijzonderheden">Aswoensdag</div>
+        <div data-label="Lectoren"></div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee">-</div>
+      </div>
+
+      <div class="schedule-row purple" data-date="2027-02-14">
+        <div>Zondag 14 februari <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Eerste zondag <br>van de veertigdagentijd</div>
+        <div data-label="Lectoren"></div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee"></div>
+      </div>
+
+      <div class="schedule-row purple" data-date="2027-02-21">
+        <div>Zondag 21 februari <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Tweede zondag <br>van de veertigdagentijd</div>
+        <div data-label="Lectoren"></div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee">-</div>
+      </div>
+
+      <div class="schedule-row purple" data-date="2027-02-28">
+        <div>Zondag 28 februari <span class='desktop-break'></span>11:00</div>
+        <div data-label="Bijzonderheden">Derde zondag <br>van de veertigdagentijd</div>
+        <div data-label="Lectoren"></div>
+        <div data-label="Misdienaars"></div>
+        <div data-label="Kosters"></div>
+        <div data-label="Liturgische kleur" class="mobile-label">Paars</div>
+        <div data-label="Koor"></div>
+        <div data-label="Koffie & Thee"></div>
       </div>
 
     </div>
