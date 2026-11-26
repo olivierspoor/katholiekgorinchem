@@ -14,7 +14,7 @@ hide:
 
 Een schip begint niet zomaar aan zijn eerste reis. Dat merkte ik toen ik op een maandagochtend werd gevraagd om een nieuw schip te zegenen. Een Italiaanse reder had een schip laten bouwen in Gorinchem, bij scheepsbouwer Damen. De opdrachtgever wilde graag dat het schip, **de Martello**, voordat zij in gebruik werd genomen, **de zegen van God zou ontvangen.**
 
-Zo stapte ik een voor mij totaal onbekende wereld binnen: die van de grote scheepsbouw. Een indrukwekkende wereld van staal, techniek en enorme schepen. *<!-- more -->*
+Zo stapte ik een voor mij totaal onbekende wereld binnen: die van de grote scheepsbouw. Een indrukwekkende wereld van staal, techniek en enorme schepen. <!-- more -->
 
 Het was slecht weer, maar volgens een oud bijgeloof mocht er absoluut geen paraplu aan boord komen! Wat mij vooral raakte, was **het geloof en het vertrouwen waarmee men Gods zegen over het schip vroeg.**
 
