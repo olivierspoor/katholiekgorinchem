@@ -50,8 +50,10 @@ document.addEventListener('DOMContentLoaded', function() {
             '2026-10-16': { text: "Eerstvolgende mis: <span class='mobile-break'></span>Uitvaartmis Dhr. Takken <span class='mobile-break'></span>Vrijdag: om 10:00", hour: 11 },
             '2026-10-23': { text: "Vrijdag 23 oktober geen dagelijkse mis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
             '2026-11-29': { text: "Eerstvolgende mis: Eerste zondag van de advent om 11:00<span class='mobile-break'></span> met aansluitend kerstmarkt", hour: 12 },
-            '2026-12-24': { text: "Kerstavond om 22:00 <span class='mobile-break'></span>o.l.v. Pastoor Lam & <span class='mobile-break'></span>1e Kerstdag om 11:00 <span class='mobile-break'></span>o.l.v. bisschop Van den Hende", hour: 23 },
-            '2026-12-25': { text: "1e Kerstdag: om 11:00 <span class='mobile-break'></span>o.l.v. bisschop Van den Hende", hour: 12 },
+            '2026-12-24': { text: "Kerstavond om 22:00 <span class='mobile-break'></span>o.l.v. Pastor Lam & <span class='mobile-break'></span>1e Kerstdag om 11:00 <span class='mobile-break'></span>o.l.v. bisschop Van den Hende", hour: 23 },
+            '2026-12-25': { text: "1e Kerstdag: om 11:00 <span class='mobile-break'></span>o.l.v. Bisschop Van den Hende", hour: 12 },
+            '2026-12-31': { text: "Eerstvolgende mis: Oudjaarsdag <span class='mobile-break'></span>vrijdag 31 december om 10:00", hour: 11 },
+            '2027-01-01': { text: "Vrijdag 1 januari geen dagmis. <span class='mobile-break'></span>Eerstvolgende mis: <span class='mobile-break'></span>Zondag: om 11:00", hour: 11 },
         };
 
         let foundMass = "";

@@ -68,7 +68,7 @@ hide:
           <div class="month">dec</div>
         </div>
         <div class="details">
-          <div class="title">Kerstavond o.l.v. pastoor Lam</div>
+          <div class="title">Kerstavond o.l.v. pastor Lam</div>
           <div class="meta">donderdag • 22:00</div>
         </div>
       </div>
@@ -84,6 +84,17 @@ hide:
         </div>
       </div>
 
+      <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
+        <div class="date">
+          <div class="day">31</div>
+          <div class="month">dec</div>
+        </div>
+        <div class="details">
+          <div class="title">Oudjaarsdag</div>
+          <div class="meta">donderdag • 10:00</div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -92,28 +103,6 @@ hide:
     <h2><i class="fa-solid fa-book-bible"></i> Bijbelcursus en catechese</h2>
 
     <div class="event-list">
-
-    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
-        <div class="date">
-          <div class="day">5</div>
-          <div class="month">okt</div>
-        </div>
-        <div class="details">
-          <div class="title">Docat</div>
-          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>pastoor Meijer</div>
-        </div>
-    </div>
-
-    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
-        <div class="date">
-        <div class="day">26</div>
-        <div class="month">okt</div>
-        </div>
-        <div class="details">
-          <div class="title">Bijbelcursus</div>
-          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>mw. Van den Akker-Savelsbergh</div>
-        </div>
-    </div>
 
     <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
         <div class="date">
@@ -148,6 +137,17 @@ hide:
         </div>
     </div>
 
+    <div class="event-item" style="background-color: #f7f3ff; border-left: 4px solid #5A2A82;">
+        <div class="date">
+        <div class="day">21</div>
+        <div class="month">dec</div>
+        </div>
+        <div class="details">
+          <div class="title">Bijbelcursus</div>
+          <div class="meta">Maandag • 19:30 • <span class='mobile-break'></span>mw. Van den Akker-Savelsbergh</div>
+        </div>
+    </div>
+
     </div>
   </section>
 
@@ -156,32 +156,21 @@ hide:
 
     <div class="event-list">
 
-    <div class="event-item" style="background-color: #fffef2; border-left: 4px solid #dcc600;">
-      <div class="date">
-        <div class="day">30</div>
-        <div class="month">sept</div>
-      </div>
-      <div class="details">
-        <div class="title">Jongvolwassenengroep</div>
-          <div class="meta">Woensdag • 19:00 • <span class='mobile-break'></span>pastoor Meijer</div>
-      </div>
-    </div>
-
-    <div class="event-item" style="background-color: #ffe5e8; border-left: 4px solid #B11226;">
-      <div class="date">
-        <div class="day" style="color: #B11226;">28</div>
-        <div class="month" style="color: #B11226;">okt</div>
-      </div>
-      <div class="details">
-        <div class="title">Jongvolwassenengroep</div>
-          <div class="meta">Woensdag • 19:00 • <span class='mobile-break'></span>pastoor Meijer</div>
-      </div>
-    </div>
-
     <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
       <div class="date">
         <div class="day">25</div>
         <div class="month">nov</div>
+      </div>
+      <div class="details">
+        <div class="title">Jongvolwassenengroep</div>
+          <div class="meta">Woensdag • 19:00 • <span class='mobile-break'></span>pastoor Meijer</div>
+      </div>
+    </div>
+
+    <div class="event-item" style="background-color: #f7f3ff; border-left: 4px solid #5A2A82;">
+      <div class="date">
+        <div class="day">16</div>
+        <div class="month">dec</div>
       </div>
       <div class="details">
         <div class="title">Jongvolwassenengroep</div>
@@ -196,17 +185,6 @@ hide:
     <h2><i class="fa-solid fa-hands-praying"></i> Rozenkransgebedsgroep</h2>
 
     <div class="event-list">
-
-    <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
-      <div class="date">
-        <div class="day">3</div>
-        <div class="month">okt</div>
-      </div>
-      <div class="details">
-        <div class="title">Rozenkransgebedsgroep</div>
-        <div class="meta">Zaterdag • 10:00</div>
-      </div>
-    </div> 
 
     <div class="event-item" style="background-color: #eaf2eb; border-left: 4px solid #2e7d32;">
       <div class="date">
